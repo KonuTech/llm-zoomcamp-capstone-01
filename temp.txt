@@ -82,3 +82,19 @@ pipenv shell
 pipenv install jupyter --dev
 pipenv run pip list
 jupyter notebook --allow-root
+
+
+ls -al ~/.ssh
+ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_rsa
+cat ~/.ssh/id_rsa.pub
+# https://github.com/settings/keys
+
+ssh -T git@github.com
+git remote -v
+git remote add upstream git@github.com:KonuTech/llm-zoomcamp-capstone-01
+git remote set-url origin git@github.com:KonuTech/llm-zoomcamp-capstone-01
+git fetch upstream
+git checkout main
+

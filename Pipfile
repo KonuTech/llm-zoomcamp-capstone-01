@@ -4,9 +4,17 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
+pandas = "*"
+scikit-learn = "*"
+flask = "*"
+psycopg2-binary = "*"
+python-dotenv = "*"
+gunicorn = "*"
+openai = "*"
 
 [dev-packages]
 jupyter = "*"
+tqdm = "*"
 
 [requires]
 python_version = "3.10"
