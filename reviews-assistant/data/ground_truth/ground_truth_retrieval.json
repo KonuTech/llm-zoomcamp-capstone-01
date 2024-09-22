@@ -1,42 +1,182 @@
 [
     {
-        "appid": "1086940",
-        "question": "What kind of content does Baldur's Gate 3 have that I should be aware of as a father?"
+        "appid": "315210",
+        "question": "Is 'Suicide Squad: Kill the Justice League' suitable for my child given its negative controls and gameplay issues?"
     },
     {
-        "appid": "1086940",
-        "question": "Is this game suitable for children, or does it contain elements that are not appropriate for younger audiences?"
+        "appid": "315210",
+        "question": "Can I trust the reviews about this game given the mention of needing a refund?"
     },
     {
-        "appid": "1086940",
-        "question": "How does Baldur's Gate 3 portray its characters, and does it include any themes related to DEI ideology?"
+        "appid": "315210",
+        "question": "What age rating does this game have, and does it align with what I want my child to play?"
     },
     {
-        "appid": "1086940",
-        "question": "Can you explain why this game received high immersion ratings, and is that beneficial for young kids?"
+        "appid": "315210",
+        "question": "Are there any themes in this game that promote agenda-driven narratives that I should be aware of?"
     },
     {
-        "appid": "1086940",
-        "question": "Are there any potential negative messages or influences in Baldur's Gate 3 that I should consider before allowing my child to play?"
+        "appid": "315210",
+        "question": "How does this game compare to other titles like 'Gotham Knights' and 'Marvel's Avengers' in terms of gameplay and suitability for children?"
+    },
+    {
+        "appid": "2208920",
+        "question": "What are the common issues players have experienced in Assassin's Creed Valhalla?"
+    },
+    {
+        "appid": "2208920",
+        "question": "Is Assassin's Creed Valhalla suitable for my young child given its gaming mechanics?"
+    },
+    {
+        "appid": "2208920",
+        "question": "How does the game handle bugs and technical problems after its release?"
+    },
+    {
+        "appid": "2208920",
+        "question": "Are there any adult themes or content in Assassin's Creed Valhalla that might not be appropriate for children?"
+    },
+    {
+        "appid": "2208920",
+        "question": "Has the game's developer been responsive to fixing the issues reported by players?"
     },
     {
         "appid": "2322010",
-        "question": "Is God of War: Ragnarok suitable for young children, especially regarding its narrative and themes?"
+        "question": "Is God of War: Ragnarok suitable for young children due to its themes and content?"
     },
     {
         "appid": "2322010",
-        "question": "What are the main gameplay features of God of War: Ragnarok that might appeal to a father playing with his child?"
+        "question": "Are there any strong instances of DEI ideology in God of War: Ragnarok that I should be aware of?"
     },
     {
         "appid": "2322010",
-        "question": "Are there any elements in God of War: Ragnarok that reflect DEI ideology, and how might that impact the game's messaging?"
+        "question": "How does the relationship between Kratos and Atreus in God of War: Ragnarok address themes of responsibility and training?"
     },
     {
         "appid": "2322010",
-        "question": "How does the game's narrative incorporate Norse mythology, and is this content appropriate for my child?"
+        "question": "Can I expect any educational value for my child while playing God of War: Ragnarok?"
     },
     {
         "appid": "2322010",
-        "question": "What kind of violent content or mature themes should I be aware of before allowing my child to play God of War: Ragnarok?"
+        "question": "What are the main gameplay mechanics in God of War: Ragnarok, and do they encourage positive behavior in children?"
+    },
+    {
+        "appid": "2443720",
+        "question": "Is the game Concord appropriate for my child given its unplayable nature?"
+    },
+    {
+        "appid": "2443720",
+        "question": "What does it mean that Concord is confirmed dead, and how does that affect gameplay?"
+    },
+    {
+        "appid": "2443720",
+        "question": "How can I be sure that Concord doesn't contain any DEI ideology?"
+    },
+    {
+        "appid": "2443720",
+        "question": "Should I be concerned about the player count and server issues mentioned in the reviews for my child's gaming experience?"
+    },
+    {
+        "appid": "2443720",
+        "question": "Is there any long-term value in purchasing a game like Concord that has been described as having a low player count?"
+    },
+    {
+        "appid": "1817070",
+        "question": "Is Marvel’s Spider-Man Remastered suitable for children, or does it contain inappropriate content?"
+    },
+    {
+        "appid": "1817070",
+        "question": "What are the themes presented in Marvel’s Spider-Man Remastered? Are there any ideological messages related to diversity and inclusion?"
+    },
+    {
+        "appid": "1817070",
+        "question": "How challenging is the game in terms of combat and movement? Can it be frustrating for younger players?"
+    },
+    {
+        "appid": "1817070",
+        "question": "Does the game promote teamwork or cooperative play, or is it primarily a single-player experience?"
+    },
+    {
+        "appid": "1817070",
+        "question": "Are there any elements in the story that address social issues or political themes I should be aware of as a father?"
+    },
+    {
+        "appid": "1086940",
+        "question": "Is Baldur's Gate 3 suitable for my child considering it's a turn-based game with complex themes?"
+    },
+    {
+        "appid": "1086940",
+        "question": "What age rating does Baldur's Gate 3 have, and does it contain any content related to DEI ideologies?"
+    },
+    {
+        "appid": "1086940",
+        "question": "Are there any parental controls available for Baldur's Gate 3 that can help me manage my child's gameplay experience?"
+    },
+    {
+        "appid": "1086940",
+        "question": "How does Baldur's Gate 3 handle storytelling, and are there any moral lessons included that I should be aware of?"
+    },
+    {
+        "appid": "1086940",
+        "question": "Can you provide insights into the community's perception of Baldur's Gate 3 in terms of its adherence to traditional gaming values?"
+    },
+    {
+        "appid": "1832040",
+        "question": "What is the gameplay style of Flintlock: The Siege of Dawn, and is it suitable for young children?"
+    },
+    {
+        "appid": "1832040",
+        "question": "Does Flintlock: The Siege of Dawn contain any themes or messages related to DEI ideology that I should be aware of before allowing my child to play?"
+    },
+    {
+        "appid": "1832040",
+        "question": "Are there any parental controls or settings in Flintlock: The Siege of Dawn that can help me manage what my child is exposed to while playing?"
+    },
+    {
+        "appid": "1832040",
+        "question": "Can you provide information on the age rating of Flintlock: The Siege of Dawn to ensure it aligns with my child's maturity level?"
+    },
+    {
+        "appid": "1832040",
+        "question": "What types of reviews or player feedback exist about Flintlock: The Siege of Dawn that specifically address content suitability for children?"
+    },
+    {
+        "appid": "1496790",
+        "question": "Is Gotham Knights appropriate for my young child, or does it contain any problematic themes?"
+    },
+    {
+        "appid": "1496790",
+        "question": "What types of gameplay mechanics are involved in Gotham Knights, and do they encourage positive play experiences for children?"
+    },
+    {
+        "appid": "1496790",
+        "question": "Does the game include any multiplayer or co-op features that I should be aware of for my child's safety?"
+    },
+    {
+        "appid": "1496790",
+        "question": "Are there any potential moral or ethical concerns within the storyline of Gotham Knights that I should consider as a parent?"
+    },
+    {
+        "appid": "1496790",
+        "question": "How does the level gating in Gotham Knights affect the gaming experience for children, and is it frustrating for younger players?"
+    },
+    {
+        "appid": "1680880",
+        "question": "Is Forspoken suitable for children, considering the themes mentioned in the review?"
+    },
+    {
+        "appid": "1680880",
+        "question": "What issues did the reviewer mention about the game's graphics that might affect my child's experience?"
+    },
+    {
+        "appid": "1680880",
+        "question": "Does the review indicate any problems with gameplay performance that could frustrate a young player?"
+    },
+    {
+        "appid": "1680880",
+        "question": "Are there any elements in Forspoken that parents should be aware of regarding political or social agendas?"
+    },
+    {
+        "appid": "1680880",
+        "question": "How might the game's writing and character representation impact its suitability for my child?"
     }
 ]
