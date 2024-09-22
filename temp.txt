@@ -1,0 +1,84 @@
+# Ubuntu-22.04 (WSL)
+apt-get update
+apt install python3-pip
+sudo apt update
+sudo apt install direnv
+direnv allow
+eval "$(direnv hook bash)"
+source ~/.bashrc
+sudo apt update
+sudo apt install libpq-dev
+
+
+apt install python3.10-venv
+python3 -m venv .venv
+source .venv/bin/activate
+pip list
+
+pip install pipenv
+pipenv install --dev
+pip list
+
+docker-compose up postgres
+
+
+# new WSL terminal
+source .venv/bin/activate
+pipenv shell
+
+cd fitness_assistant
+export POSTGRES_HOST=localhost
+echo $POSTGRES_HOST
+python fitness_assistant/db_prep.py
+pipenv run pgcli -h localhost -U your_username -d course_assistant -W
+your_password
+\d conversations;
+q  # to quit
+select * from conversations;
+q  # to quit
+select * from feedback;
+
+docker ps
+docker logs 8879d300a2c3
+[2024-09-22 08:13:47 +0000] [7] [INFO] Starting gunicorn 23.0.0
+[2024-09-22 08:13:47 +0000] [7] [INFO] Listening at: http://0.0.0.0:5000 (7)
+[2024-09-22 08:13:47 +0000] [7] [INFO] Using worker: sync
+[2024-09-22 08:13:47 +0000] [8] [INFO] Booting worker with pid: 8
+
+
+# user API KEYs: https://platform.openai.com/settings/profile?tab=api-keys
+# https://github.com/openai/openai-python/discussions/742
+
+# needs to run docker compose after adding OPENAI_API_KEY variable
+source .venv/bin/activate
+pipenv shell
+echo $OPENAI_API_KEY
+direnv allow
+eval "$(direnv hook bash)"
+echo $OPENAI_API_KEY
+export POSTGRES_HOST=localhost
+echo $POSTGRES_HOST
+python fitness_assistant/db_prep.py
+docker-compose up -d
+pipenv run python cli.py
+What I can do instead of a pull up?
+
+
+docker-compose down -v && docker volume prune -f
+
+python fitness_assistant/db_prep.py
+docker-compose up postgres
+
+docker-compose down
+docker-compose up
+
+jupyter notebook --allow-root
+
+
+###
+source .venv/bin/activate
+pip install pipenv
+pipenv shell
+pipenv install jupyter --dev
+pipenv run pip list
+jupyter notebook --allow-root
