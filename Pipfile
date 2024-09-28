@@ -11,6 +11,7 @@ psycopg2-binary = "*"
 python-dotenv = "*"
 gunicorn = "*"
 openai = "*"
+sentence-transformers = "*"
 
 [dev-packages]
 jupyter = "*"

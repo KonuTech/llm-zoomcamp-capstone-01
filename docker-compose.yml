@@ -1,0 +1,31 @@
+version: '3.8'
+
+services:
+  elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:8.9.0
+    container_name: elasticsearch
+    ports:
+      - "9200:9200"
+      - "9300:9300"
+    environment:
+      - discovery.type=single-node
+      - xpack.security.enabled=false
+    deploy:
+      resources:
+        limits:
+          memory: 4G
+    restart: unless-stopped
+
+  jupyter:
+    build:
+      context: .  # Specifies the directory where Dockerfile is located
+      dockerfile: Dockerfile  # Specifies the Dockerfile to use
+    container_name: jupyter_notebook
+    ports:
+      - "8888:8888"  # Jupyter runs on port 8888
+    volumes:
+      - ./notebooks:/home/jovyan/notebooks
+      - ./reviews-assistant:/home/jovyan/reviews-assistant
+    environment:
+      - OPENAI_API_KEY=${OPENAI_API_KEY}  # Load environment variables from .env file
+    restart: unless-stopped

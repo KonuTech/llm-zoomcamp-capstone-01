@@ -1,182 +1,422 @@
 [
     {
-        "appid": "315210",
-        "question": "Is 'Suicide Squad: Kill the Justice League' suitable for my child given its negative controls and gameplay issues?"
-    },
-    {
-        "appid": "315210",
-        "question": "Can I trust the reviews about this game given the mention of needing a refund?"
-    },
-    {
-        "appid": "315210",
-        "question": "What age rating does this game have, and does it align with what I want my child to play?"
-    },
-    {
-        "appid": "315210",
-        "question": "Are there any themes in this game that promote agenda-driven narratives that I should be aware of?"
-    },
-    {
-        "appid": "315210",
-        "question": "How does this game compare to other titles like 'Gotham Knights' and 'Marvel's Avengers' in terms of gameplay and suitability for children?"
+        "appid": "2208920",
+        "question": "What is the overall content rating of Assassin's Creed Valhalla?"
     },
     {
         "appid": "2208920",
-        "question": "What are the common issues players have experienced in Assassin's Creed Valhalla?"
+        "question": "Are there any references to violence or graphic imagery in the game?"
     },
     {
         "appid": "2208920",
-        "question": "Is Assassin's Creed Valhalla suitable for my young child given its gaming mechanics?"
+        "question": "Does the game feature any explicit language or profanity?"
     },
     {
         "appid": "2208920",
-        "question": "How does the game handle bugs and technical problems after its release?"
+        "question": "Is there any content related to drugs or substance abuse in Assassin's Creed Valhalla?"
     },
     {
         "appid": "2208920",
-        "question": "Are there any adult themes or content in Assassin's Creed Valhalla that might not be appropriate for children?"
+        "question": "Are there any gambling mechanics included in this game?"
     },
     {
-        "appid": "2208920",
-        "question": "Has the game's developer been responsive to fixing the issues reported by players?"
+        "appid": "2698940",
+        "question": "Is The Crew Motorfest appropriate for children in terms of harmful content?"
     },
     {
-        "appid": "2322010",
-        "question": "Is God of War: Ragnarok suitable for young children due to its themes and content?"
+        "appid": "2698940",
+        "question": "Does The Crew Motorfest feature any violent or graphic depictions that could be concerning?"
     },
     {
-        "appid": "2322010",
-        "question": "Are there any strong instances of DEI ideology in God of War: Ragnarok that I should be aware of?"
+        "appid": "2698940",
+        "question": "Are there any themes of substance abuse present in The Crew Motorfest?"
     },
     {
-        "appid": "2322010",
-        "question": "How does the relationship between Kratos and Atreus in God of War: Ragnarok address themes of responsibility and training?"
+        "appid": "2698940",
+        "question": "Does The Crew Motorfest include any offensive language or profanity?"
     },
     {
-        "appid": "2322010",
-        "question": "Can I expect any educational value for my child while playing God of War: Ragnarok?"
-    },
-    {
-        "appid": "2322010",
-        "question": "What are the main gameplay mechanics in God of War: Ragnarok, and do they encourage positive behavior in children?"
+        "appid": "2698940",
+        "question": "Are there any in-game gambling mechanics in The Crew Motorfest that parents should be aware of?"
     },
     {
         "appid": "2443720",
-        "question": "Is the game Concord appropriate for my child given its unplayable nature?"
+        "question": "What are the main concerns from the user regarding the game's connection to Sony's PSN and EULA?"
     },
     {
         "appid": "2443720",
-        "question": "What does it mean that Concord is confirmed dead, and how does that affect gameplay?"
+        "question": "Does the review mention any specific concerns related to data security or hacking associated with Sony?"
     },
     {
         "appid": "2443720",
-        "question": "How can I be sure that Concord doesn't contain any DEI ideology?"
+        "question": "Is there any content in the game that may be considered harmful to children, such as violence or substance abuse?"
     },
     {
         "appid": "2443720",
-        "question": "Should I be concerned about the player count and server issues mentioned in the reviews for my child's gaming experience?"
+        "question": "What alternative game does the reviewer suggest instead of Concord?"
     },
     {
         "appid": "2443720",
-        "question": "Is there any long-term value in purchasing a game like Concord that has been described as having a low player count?"
+        "question": "Does the review indicate any issues with compliance to user agreements or arbitration processes?"
     },
     {
-        "appid": "1817070",
-        "question": "Is Marvel’s Spider-Man Remastered suitable for children, or does it contain inappropriate content?"
+        "appid": "2239550",
+        "question": "Is Watch Dogs: Legion primarily focused on technology rather than gameplay?"
     },
     {
-        "appid": "1817070",
-        "question": "What are the themes presented in Marvel’s Spider-Man Remastered? Are there any ideological messages related to diversity and inclusion?"
+        "appid": "2239550",
+        "question": "What aspects of Watch Dogs: Legion make it feel more like a demo than a full game?"
     },
     {
-        "appid": "1817070",
-        "question": "How challenging is the game in terms of combat and movement? Can it be frustrating for younger players?"
+        "appid": "2239550",
+        "question": "Does Watch Dogs: Legion contain any content that would be considered harmful for children?"
     },
     {
-        "appid": "1817070",
-        "question": "Does the game promote teamwork or cooperative play, or is it primarily a single-player experience?"
+        "appid": "2239550",
+        "question": "Are there any reviews that indicate the presence of excessive violence or strong language in Watch Dogs: Legion?"
     },
     {
-        "appid": "1817070",
-        "question": "Are there any elements in the story that address social issues or political themes I should be aware of as a father?"
-    },
-    {
-        "appid": "1086940",
-        "question": "Is Baldur's Gate 3 suitable for my child considering it's a turn-based game with complex themes?"
-    },
-    {
-        "appid": "1086940",
-        "question": "What age rating does Baldur's Gate 3 have, and does it contain any content related to DEI ideologies?"
-    },
-    {
-        "appid": "1086940",
-        "question": "Are there any parental controls available for Baldur's Gate 3 that can help me manage my child's gameplay experience?"
-    },
-    {
-        "appid": "1086940",
-        "question": "How does Baldur's Gate 3 handle storytelling, and are there any moral lessons included that I should be aware of?"
-    },
-    {
-        "appid": "1086940",
-        "question": "Can you provide insights into the community's perception of Baldur's Gate 3 in terms of its adherence to traditional gaming values?"
-    },
-    {
-        "appid": "1832040",
-        "question": "What is the gameplay style of Flintlock: The Siege of Dawn, and is it suitable for young children?"
-    },
-    {
-        "appid": "1832040",
-        "question": "Does Flintlock: The Siege of Dawn contain any themes or messages related to DEI ideology that I should be aware of before allowing my child to play?"
-    },
-    {
-        "appid": "1832040",
-        "question": "Are there any parental controls or settings in Flintlock: The Siege of Dawn that can help me manage what my child is exposed to while playing?"
-    },
-    {
-        "appid": "1832040",
-        "question": "Can you provide information on the age rating of Flintlock: The Siege of Dawn to ensure it aligns with my child's maturity level?"
-    },
-    {
-        "appid": "1832040",
-        "question": "What types of reviews or player feedback exist about Flintlock: The Siege of Dawn that specifically address content suitability for children?"
-    },
-    {
-        "appid": "1496790",
-        "question": "Is Gotham Knights appropriate for my young child, or does it contain any problematic themes?"
-    },
-    {
-        "appid": "1496790",
-        "question": "What types of gameplay mechanics are involved in Gotham Knights, and do they encourage positive play experiences for children?"
-    },
-    {
-        "appid": "1496790",
-        "question": "Does the game include any multiplayer or co-op features that I should be aware of for my child's safety?"
-    },
-    {
-        "appid": "1496790",
-        "question": "Are there any potential moral or ethical concerns within the storyline of Gotham Knights that I should consider as a parent?"
-    },
-    {
-        "appid": "1496790",
-        "question": "How does the level gating in Gotham Knights affect the gaming experience for children, and is it frustrating for younger players?"
+        "appid": "2239550",
+        "question": "Is Watch Dogs: Legion suitable for children, given the user's concerns about harmful content?"
     },
     {
         "appid": "1680880",
-        "question": "Is Forspoken suitable for children, considering the themes mentioned in the review?"
+        "question": "Does the game Forspoken contain any excessive or graphic depictions of violence that could be harmful to children?"
     },
     {
         "appid": "1680880",
-        "question": "What issues did the reviewer mention about the game's graphics that might affect my child's experience?"
+        "question": "Are there any explicit or suggestive sexual themes or imagery in Forspoken that I should be concerned about?"
     },
     {
         "appid": "1680880",
-        "question": "Does the review indicate any problems with gameplay performance that could frustrate a young player?"
+        "question": "What kind of language is used in Forspoken? Is there strong language or profanity present?"
     },
     {
         "appid": "1680880",
-        "question": "Are there any elements in Forspoken that parents should be aware of regarding political or social agendas?"
+        "question": "Does Forspoken include any content related to drugs, alcohol, or smoking that may be inappropriate for kids?"
     },
     {
         "appid": "1680880",
-        "question": "How might the game's writing and character representation impact its suitability for my child?"
+        "question": "Are there any gambling mechanics or features that encourage excessive play in Forspoken?"
+    },
+    {
+        "appid": "304390",
+        "question": "What are the community dynamics like in the game FOR HONOR, and do they promote healthy competition?"
+    },
+    {
+        "appid": "304390",
+        "question": "Is there evidence of excessive violence or dishonor in the gameplay of FOR HONOR?"
+    },
+    {
+        "appid": "304390",
+        "question": "How has the game's creator, Ubisoft, been perceived in terms of caring about the game's integrity?"
+    },
+    {
+        "appid": "304390",
+        "question": "Are there any concerning elements in FOR HONOR that might suggest a focus on profit over player experience?"
+    },
+    {
+        "appid": "304390",
+        "question": "Does FOR HONOR offer any features that could lead to addiction or encourage excessive gameplay?"
+    },
+    {
+        "appid": "582160",
+        "question": "What type of content can I expect in Assassin's Creed Origin that might concern me as a father?"
+    },
+    {
+        "appid": "582160",
+        "question": "Does Assassin's Creed Origin contain any graphic depictions of violence or gore that I should be aware of?"
+    },
+    {
+        "appid": "582160",
+        "question": "Are there any explicit sexual themes or suggestive content in Assassin's Creed Origin that could be inappropriate for my children?"
+    },
+    {
+        "appid": "582160",
+        "question": "Is there a significant amount of profanity or offensive language used throughout Assassin's Creed Origin?"
+    },
+    {
+        "appid": "582160",
+        "question": "Does Assassin's Creed Origin incorporate any gambling mechanics or in-game purchases that could lead to addictive behavior?"
+    },
+    {
+        "appid": "2369390",
+        "question": "Is Far Cry 6 appropriate for my children, considering themes of violence?"
+    },
+    {
+        "appid": "2369390",
+        "question": "What types of harmful content should I be concerned about in Far Cry 6?"
+    },
+    {
+        "appid": "2369390",
+        "question": "Are there any explicit or suggestive themes present in Far Cry 6?"
+    },
+    {
+        "appid": "2369390",
+        "question": "Does Far Cry 6 contain any strong language or profanity that I should be aware of?"
+    },
+    {
+        "appid": "2369390",
+        "question": "Does Far Cry 6 have any game mechanics that could encourage excessive play or addiction?"
+    },
+    {
+        "appid": "552520",
+        "question": "Is Far Cry 5 considered safe for children regarding violent content?"
+    },
+    {
+        "appid": "552520",
+        "question": "Are there any graphic depictions of injury or blood in Far Cry 5?"
+    },
+    {
+        "appid": "552520",
+        "question": "Does Far Cry 5 include any explicit or suggestive sexual themes that I should be aware of?"
+    },
+    {
+        "appid": "552520",
+        "question": "Is there any use of strong language or offensive words in the game that might be inappropriate for kids?"
+    },
+    {
+        "appid": "552520",
+        "question": "Are there any mechanics in Far Cry 5 that encourage excessive play or addiction, such as microtransactions?"
+    },
+    {
+        "appid": "2322010",
+        "question": "What issues did the user experience when trying to play God of War: Ragnarok?"
+    },
+    {
+        "appid": "2322010",
+        "question": "Does the game require a PSN account to play according to the review?"
+    },
+    {
+        "appid": "2322010",
+        "question": "Is there any indication of harmful content related to violence or gore in the review?"
+    },
+    {
+        "appid": "2322010",
+        "question": "What steps did the user take to resolve their issues with the game?"
+    },
+    {
+        "appid": "2322010",
+        "question": "Are there any mentions of addictive features or gambling mechanics in the review?"
+    },
+    {
+        "appid": "1817070",
+        "question": "Does Marvel’s Spider-Man Remastered contain any excessive violence or graphic depictions of injury?"
+    },
+    {
+        "appid": "1817070",
+        "question": "Is there any explicit sexual content or suggestive themes in Marvel’s Spider-Man Remastered?"
+    },
+    {
+        "appid": "1817070",
+        "question": "Are there instances of strong language or profanity in this game?"
+    },
+    {
+        "appid": "1817070",
+        "question": "Does Marvel’s Spider-Man Remastered include any gambling mechanics or loot boxes?"
+    },
+    {
+        "appid": "1817070",
+        "question": "Is the game generally suitable for children, considering a conservative father’s perspective on content?"
+    },
+    {
+        "appid": "794540",
+        "question": "What type of story does Neo Cab offer, and is it considered engaging or appropriate for children?"
+    },
+    {
+        "appid": "794540",
+        "question": "Are the characters in Neo Cab well-developed, or do they lack depth and quality?"
+    },
+    {
+        "appid": "794540",
+        "question": "How would you describe the visuals and graphics of Neo Cab, and could they be considered appealing or suitable for young players?"
+    },
+    {
+        "appid": "794540",
+        "question": "Is the gameplay in Neo Cab fast-paced and exciting, or does it suffer from slow and boring mechanics that might disengage players?"
+    },
+    {
+        "appid": "794540",
+        "question": "Does Neo Cab contain any content that could be deemed harmful or inappropriate for kids, such as violence, language, or other objectionable themes?"
+    },
+    {
+        "appid": "315210",
+        "question": "Is there excessive violence in Suicide Squad: Kill the Justice League?"
+    },
+    {
+        "appid": "315210",
+        "question": "Does the game feature graphic depictions of gore or blood?"
+    },
+    {
+        "appid": "315210",
+        "question": "Are there any explicit sexual themes or content in the game?"
+    },
+    {
+        "appid": "315210",
+        "question": "Is there a lot of strong language or profanity used in this game?"
+    },
+    {
+        "appid": "315210",
+        "question": "Does the game have microtransactions or elements that could encourage excessive play?"
+    },
+    {
+        "appid": "812140",
+        "question": "Is Assassin's Creed Odyssey appropriate for children, considering its storyline and quests?"
+    },
+    {
+        "appid": "812140",
+        "question": "Does the game contain excessive violence or graphic depictions?"
+    },
+    {
+        "appid": "812140",
+        "question": "Are there any elements of sexual content or suggestive themes in the game?"
+    },
+    {
+        "appid": "812140",
+        "question": "What types of language are used in Assassin's Creed Odyssey, and could it be considered offensive?"
+    },
+    {
+        "appid": "812140",
+        "question": "Do the game's mechanics encourage excessive play or contain any gambling-like features?"
+    },
+    {
+        "appid": "243470",
+        "question": "What age rating is assigned to Watch_Dogs, and does it have content warnings for violence or gore?"
+    },
+    {
+        "appid": "243470",
+        "question": "Are there any reports of sexual content or profanity in Watch_Dogs that might be inappropriate for children?"
+    },
+    {
+        "appid": "243470",
+        "question": "Does Watch_Dogs incorporate any form of gambling mechanics that could influence my child's gaming experience?"
+    },
+    {
+        "appid": "243470",
+        "question": "Can you provide information on whether Watch_Dogs contains any themes related to discrimination or offensive content?"
+    },
+    {
+        "appid": "243470",
+        "question": "Is there any indication that Watch_Dogs promotes addictive gameplay through microtransactions or time-gated rewards?"
+    },
+    {
+        "appid": "721180",
+        "question": "Is Dustborn free from excessive violence and graphic depictions that could be harmful for children?"
+    },
+    {
+        "appid": "721180",
+        "question": "Does the game contain any instances of gore or blood that might be disturbing for young players?"
+    },
+    {
+        "appid": "721180",
+        "question": "Are there any sexual themes or suggestive content present in Dustborn that I should be aware of?"
+    },
+    {
+        "appid": "721180",
+        "question": "Does this game include strong language or profanity that could be considered inappropriate for a younger audience?"
+    },
+    {
+        "appid": "721180",
+        "question": "Can you confirm if Dustborn has any gambling mechanics or content that mimics gambling, such as loot boxes?"
+    },
+    {
+        "appid": "1832040",
+        "question": "Does Flintlock: The Siege of Dawn contain any graphic violence or gore that could be harmful to children?"
+    },
+    {
+        "appid": "1832040",
+        "question": "Are there any sexual themes or suggestive imagery present in Flintlock: The Siege of Dawn?"
+    },
+    {
+        "appid": "1832040",
+        "question": "What level of profanity is featured in Flintlock: The Siege of Dawn, and is it appropriate for kids?"
+    },
+    {
+        "appid": "1832040",
+        "question": "Does Flintlock: The Siege of Dawn include any references to substance abuse that I should be aware of?"
+    },
+    {
+        "appid": "1832040",
+        "question": "Are there any mechanics in Flintlock: The Siege of Dawn that might encourage addictive gaming behavior in children?"
+    },
+    {
+        "appid": "1086940",
+        "question": "Does Baldur's Gate 3 contain any violent or graphic depictions of violence that could concern me as a father?"
+    },
+    {
+        "appid": "1086940",
+        "question": "Are there any explicit or suggestive sexual themes or imagery present in Baldur's Gate 3?"
+    },
+    {
+        "appid": "1086940",
+        "question": "Does the game feature any strong language or profanity that may not be suitable for my children?"
+    },
+    {
+        "appid": "1086940",
+        "question": "Can you tell me if there are any elements in Baldur's Gate 3 related to substance abuse or depictions of drugs and alcohol?"
+    },
+    {
+        "appid": "1086940",
+        "question": "Is there any in-game content that may encourage gambling behavior or has mechanics similar to gambling?"
+    },
+    {
+        "appid": "447040",
+        "question": "What type of game is Watch_Dogs 2 and is it suitable for my children?"
+    },
+    {
+        "appid": "447040",
+        "question": "Are there any violent or graphic scenes in Watch_Dogs 2 that I should be aware of?"
+    },
+    {
+        "appid": "447040",
+        "question": "Does Watch_Dogs 2 contain any explicit language or suggestive themes?"
+    },
+    {
+        "appid": "447040",
+        "question": "What kind of challenges or missions are in Watch_Dogs 2 that might be difficult for younger players?"
+    },
+    {
+        "appid": "447040",
+        "question": "Are there mechanisms in Watch_Dogs 2 that could lead to excessive play or addiction?"
+    },
+    {
+        "appid": "1496790",
+        "question": "Is there a lot of violence or graphic depictions of injury in Gotham Knights that might be concerning for my children?"
+    },
+    {
+        "appid": "1496790",
+        "question": "Does Gotham Knights contain any explicit or suggestive sexual themes that I should be aware of?"
+    },
+    {
+        "appid": "1496790",
+        "question": "Are there instances of strong language or offensive words in the game that could be inappropriate for kids?"
+    },
+    {
+        "appid": "1496790",
+        "question": "Does the gameplay include any elements that resemble gambling or encourage addiction, like loot boxes or microtransactions?"
+    },
+    {
+        "appid": "1496790",
+        "question": "Is there any content in Gotham Knights that promotes discrimination or offensive ideologies that I should be cautious about?"
+    },
+    {
+        "appid": "1545560",
+        "question": "Is Shadow Gambit: The Cursed Crew suitable for children considering its design flaws?"
+    },
+    {
+        "appid": "1545560",
+        "question": "Does the review mention any violent or graphic content in Shadow Gambit: The Cursed Crew?"
+    },
+    {
+        "appid": "1545560",
+        "question": "Are there specific aspects of the game that might be concerning for children?"
+    },
+    {
+        "appid": "1545560",
+        "question": "What does the reviewer suggest instead of Shadow Gambit: The Cursed Crew?"
+    },
+    {
+        "appid": "1545560",
+        "question": "Is there any indication that Shadow Gambit: The Cursed Crew has addictive features that could affect children?"
     }
 ]

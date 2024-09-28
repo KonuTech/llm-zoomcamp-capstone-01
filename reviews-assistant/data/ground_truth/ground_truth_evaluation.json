@@ -1,0 +1,1682 @@
+[
+    {
+        "index": 0,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answer does not address the question about the types of violent content present in Marvel's Spider-Man Remastered. Instead, it focuses entirely on the game's positive aspects, such as graphics, story, and gameplay, without mentioning any concerns about violent content.\"\n}",
+        "appid": "1817070",
+        "question": "What kind of violent content is present in Marvel's Spider-Man Remastered that I should be concerned about?",
+        "relevance": "NON_RELEVANT",
+        "explanation": "The generated answer fails to address the specific inquiry regarding the types of violent content in Marvel's Spider-Man Remastered. Instead, it emphasizes the game's positive features, which does not fulfill the request for information on potentially concerning violent elements."
+    },
+    {
+        "index": 1,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answers provide detailed reviews of gameplay and mechanics but do not address the specific question about the presence of graphic depictions of gore or blood in the gameplay of Marvel's Spider-Man Remastered.\"\n}",
+        "appid": "1817070",
+        "question": "Are there any graphic depictions of gore or blood in the gameplay of Marvel's Spider-Man Remastered?",
+        "relevance": "RELEVANT",
+        "explanation": "The generated answer correctly identifies that the provided reviews do not mention graphic depictions of gore or blood, directly addressing the specific question about the game's content regarding violence."
+    },
+    {
+        "index": 2,
+        "answer": "{\n  \"relevance\": \"PARTLY_RELEVANT\",\n  \"explanation\": \"The generated answers do not directly address the question about sexual content or suggestive themes. However, some reviews imply that the game is not suitable for children, focusing more on the game's difficulty, community behavior, and frustration rather than explicit content. While sexual content is not explicitly mentioned, the overall sentiment indicates it may not be appropriate for a younger audience.\"\n}",
+        "appid": "1817070",
+        "question": "Does the game contain any sexual content or suggestive themes that could be inappropriate for children?",
+        "relevance": "PARTLY_RELEVANT",
+        "explanation": "The generated answer touches on the appropriateness of the game for children but fails to specifically address the presence of sexual content or suggestive themes. While it mentions that some reviews imply the game may not be suitable, it does not provide clear information regarding explicit sexual content, which is the main focus of the question."
+    },
+    {
+        "index": 3,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answers provide a variety of reviews about the gameplay, graphics, story, and overall experience of 'Marvel's Spider-Man Remastered.' However, none of the reviews address or mention the presence of profanity or offensive language in the game, which is the specific focus of the question.\"\n}",
+        "appid": "1817070",
+        "question": "Is there any use of profanity or offensive language found in Marvel's Spider-Man Remastered?",
+        "relevance": "NON_RELEVANT",
+        "explanation": "The generated answer does not contain any information regarding the presence of profanity or offensive language in 'Marvel's Spider-Man Remastered.' It focuses solely on gameplay, graphics, and story, which are unrelated to the specific question asked."
+    },
+    {
+        "index": 4,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answers primarily discuss gameplay mechanics, graphics, and personal experiences with the game 'Flintlock: The Siege of Dawn,' but none of the reviews address or mention substance abuse, drugs, or alcohol, which is the focus of the question.\"\n}",
+        "appid": "1817070",
+        "question": "Are there depictions of substance abuse, like drugs or alcohol, within the story or gameplay?",
+        "relevance": "NON_RELEVANT",
+        "explanation": "The generated answer does not address the question about depictions of substance abuse, drugs, or alcohol in the story or gameplay. It focuses on gameplay mechanics and personal experiences, entirely omitting the specific topic of substance use, which is the central concern of the question."
+    },
+    {
+        "index": 5,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answers consist of reviews of the game 'Flintlock: The Siege of Dawn' and 'God of War: Ragnarok', but none of them directly address the question regarding elements of discrimination or problematic social themes in the game. The reviews focus on gameplay mechanics, graphics, and personal experiences, without mentioning any social themes or discrimination issues.\"\n}",
+        "appid": "1817070",
+        "question": "Does the game feature any elements of discrimination or problematic social themes that I should be aware of?",
+        "relevance": "NON_RELEVANT",
+        "explanation": "The generated answer does not address the question about discrimination or problematic social themes in the game at all. Instead, it focuses on unrelated aspects such as gameplay mechanics and graphical quality, which are not relevant to the concerns raised in the question."
+    },
+    {
+        "index": 6,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answers focus solely on the overall gameplay experience, graphics, story, and mechanics of 'Marvel’s Spider-Man Remastered', without addressing the presence or impact of gambling or loot box mechanics in the game. There is no indication or discussion regarding any potentially misleading aspects related to gambling or loot boxes, making the responses irrelevant to the question asked.\"\n}",
+        "appid": "1817070",
+        "question": "Is there any gambling or loot box mechanics present in Marvel's Spider-Man Remastered that may be misleading?",
+        "relevance": "NON_RELEVANT",
+        "explanation": "The generated answer fails to address the specific inquiry about gambling or loot box mechanics in 'Marvel's Spider-Man Remastered'. It focuses instead on the overall gameplay and story elements, which do not answer the question concerning misleading practices related to gambling or loot boxes."
+    },
+    {
+        "index": 7,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answers focus exclusively on praising the gameplay, visuals, and overall experience of 'Marvel’s Spider-Man Remastered' without addressing the presence of horror elements or disturbing imagery that could frighten children. None of the reviews mention any such content, making them irrelevant to the question.\"\n}",
+        "appid": "1817070",
+        "question": "Does Marvel's Spider-Man Remastered contain horror elements or disturbing imagery that could frighten children?",
+        "relevance": "RELEVANT",
+        "explanation": "The generated answer accurately assesses that there are no horror elements or disturbing imagery in 'Marvel’s Spider-Man Remastered' that could frighten children. It directly addresses the question, confirming the absence of such content based on reviews."
+    },
+    {
+        "index": 8,
+        "answer": "{\n  \"relevance\": \"PARTLY_RELEVANT\",\n  \"explanation\": \"The generated answers discuss various aspects of the game 'The Crew Motorfest,' including gameplay, graphics, and vehicle mechanics. However, they do not directly address the presence of mechanisms that encourage excessive play or addiction, such as microtransactions. While some reviews mention that most vehicles can be obtained using in-game currency and that there are fewer microtransactions compared to similar games, the overall focus is not on addiction or excessive play, making the relevance partly relevant.\"\n}",
+        "appid": "1817070",
+        "question": "Are there any mechanisms in the game that encourage excessive play or addiction, such as microtransactions?",
+        "relevance": "PARTLY_RELEVANT",
+        "explanation": "The generated answer provides some insight into mechanisms within the game related to microtransactions, noting that most vehicles can be obtained through in-game currency and that there are fewer microtransactions compared to similar games. However, it doesn't specifically address whether these mechanisms encourage excessive play or addiction, which is the main focus of the question. Therefore, while it touches on relevant aspects, it does not directly answer the question, resulting in a classification of partly relevant."
+    },
+    {
+        "index": 9,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answers focus entirely on the gameplay, graphics, and storytelling aspects of Marvel's Spider-Man Remastered, without addressing the question regarding DEI (Diversity, Equity, and Inclusion) ideology. There is no mention or analysis of how such ideologies may influence the gaming experience or the content within the game.\"\n}",
+        "appid": "1817070",
+        "question": "Does Marvel's Spider-Man Remastered promote DEI ideology in a way that could potentially affect the gaming experience?",
+        "relevance": "NON_RELEVANT",
+        "explanation": "The generated answer fails to address the specific question about the influence of DEI ideology on the gaming experience of Marvel's Spider-Man Remastered. Instead, it discusses unrelated aspects such as gameplay, graphics, and storytelling, which do not touch upon DEI themes or their potential impact."
+    },
+    {
+        "index": 10,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answers are reviews discussing various aspects of gameplay, graphics, and personal experiences with 'Assassin's Creed Odyssey', but they do not address the suitability of the game for children or consider its content in that context.\"\n}",
+        "appid": "812140",
+        "question": "Is Assassin's Creed Odyssey suitable for children, considering its content?",
+        "relevance": "NON_RELEVANT",
+        "explanation": "The generated answer focuses on gameplay and personal experiences with 'Assassin's Creed Odyssey' rather than addressing whether the game's content is appropriate for children. It does not provide any information or assessment regarding its suitability for a younger audience."
+    },
+    {
+        "index": 11,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answers focus on technical issues, gameplay experiences, and account requirements, but do not address the question regarding excessive violence or graphic depictions. None of the reviews mention violence levels or graphic content, making them irrelevant to the question.\"\n}",
+        "appid": "812140",
+        "question": "Does this game feature excessive violence or graphic depictions that I should be aware of?",
+        "relevance": "NON_RELEVANT",
+        "explanation": "The generated answer does not provide any information related to excessive violence or graphic depictions in the game. It discusses technical issues and gameplay aspects, which are unrelated to the specific concern about violence, thus making it irrelevant to the question."
+    },
+    {
+        "index": 12,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answers do not mention instances of gore and blood in 'Assassin's Creed Odyssey'. Instead, they focus on gameplay, graphics, and story, without addressing the specific content related to violence or gore.\"\n}",
+        "appid": "812140",
+        "question": "Are there any instances of gore and blood depicted in Assassin's Creed Odyssey?",
+        "relevance": "NON_RELEVANT",
+        "explanation": "The generated answer fails to address the specific question about instances of gore and blood in 'Assassin's Creed Odyssey', instead discussing unrelated aspects such as gameplay, graphics, and story."
+    },
+    {
+        "index": 13,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answer provides multiple reviews for the game 'God of War: Ragnarok' but fails to address the specific question regarding the kind of sexual content present in the game. Instead, it discusses various opinions related to gameplay, graphics, and PSN account requirements, making it unrelated to the asked question.\"\n}",
+        "appid": "812140",
+        "question": "What kind of sexual content, if any, is present in this game?",
+        "relevance": "NON_RELEVANT",
+        "explanation": "The generated answer completely misses the focus of the question, which is about the type of sexual content in the game. Instead, it provides unrelated information about gameplay and other features, failing to address the query directly."
+    },
+    {
+        "index": 14,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answers do not address the question regarding the presence of profanity or offensive language in the game 'FOR HONOR'. The reviews focus on gameplay mechanics, player experiences, and technical issues without mentioning any specific instances of inappropriate language.\"\n}",
+        "appid": "812140",
+        "question": "Does the game contain profanity or offensive language that might be inappropriate for my child?",
+        "relevance": "NON_RELEVANT",
+        "explanation": "The generated answer does not provide any information about the presence of profanity or offensive language in the game; it instead discusses gameplay and technical aspects. Therefore, it fails to address the specific concern of whether the game is appropriate for a child."
+    },
+    {
+        "index": 15,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answers provide reviews of the game 'Flintlock: The Siege of Dawn', focusing on gameplay mechanics, graphics, and overall experiences. However, none of the reviews mention themes of substance abuse, such as drugs or alcohol, which is the primary concern of the question.\"\n}",
+        "appid": "812140",
+        "question": "Are there themes of substance abuse, like drugs or alcohol, included in the gameplay?",
+        "relevance": "NON_RELEVANT",
+        "explanation": "The generated answer does not address the question regarding themes of substance abuse in the gameplay. It focuses instead on other aspects of the game, such as mechanics and graphics, completely bypassing the inquiry about drugs or alcohol, which makes it irrelevant to the question asked."
+    },
+    {
+        "index": 16,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answers focus on gameplay, graphics, story, and personal opinions about 'Assassin's Creed Odyssey' without addressing the presence of any discriminatory content or messages. None of the reviews provide insights or specific examples regarding discrimination, making all the responses irrelevant to the question asked.\"\n}",
+        "appid": "812140",
+        "question": "Does Assassin's Creed Odyssey include any discriminatory content or messages?",
+        "relevance": "NON_RELEVANT",
+        "explanation": "The generated answer does not address the specific query regarding discriminatory content or messages in 'Assassin's Creed Odyssey'. Instead, it focuses on unrelated aspects of the game such as gameplay and graphics, which do not contribute to understanding whether discriminatory elements are present, thus rendering the response irrelevant."
+    },
+    {
+        "index": 17,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answer provides reviews of the game 'Flintlock: The Siege of Dawn' but does not address the specific question about gambling mechanics, such as loot boxes. None of the reviews mention any gambling features related to the game, making the answer irrelevant to the query.\"\n}",
+        "appid": "812140",
+        "question": "Is there any form of gambling mechanics in the game, such as loot boxes?",
+        "relevance": "NON_RELEVANT",
+        "explanation": "The generated answer does not address the question about gambling mechanics or loot boxes in the game. It focuses on game reviews without providing any information relevant to the presence or absence of gambling features, making it completely irrelevant to the query."
+    },
+    {
+        "index": 18,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answer provides various reviews of the game 'Flintlock: The Siege of Dawn' but does not address the question regarding the level of horror or disturbing imagery in the title. The reviews focus on gameplay mechanics, graphics, and general impressions rather than horror elements.\"\n}",
+        "appid": "812140",
+        "question": "What is the level of horror or disturbing imagery present in this title?",
+        "relevance": "NON_RELEVANT",
+        "explanation": "The generated answer does not address the question about the level of horror or disturbing imagery in the title. Instead, it discusses gameplay mechanics and graphics, which are unrelated to the specific inquiry regarding horror elements."
+    },
+    {
+        "index": 19,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answers do not address the specific question regarding features that may encourage excessive or addictive gaming behavior in Assassin's Creed Odyssey. Instead, they provide a variety of reviews that focus on the game's graphics, gameplay mechanics, and story elements, none of which directly relate to addiction or excessive gaming.\"\n}",
+        "appid": "812140",
+        "question": "Are there any features in Assassin's Creed Odyssey that could encourage excessive or addictive gaming behavior?",
+        "relevance": "NON_RELEVANT",
+        "explanation": "The generated answer does not address the specific concern of features in Assassin's Creed Odyssey that could lead to excessive or addictive gaming behavior. It focuses on general aspects of the game like graphics and story elements, which do not relate to the question about addiction."
+    },
+    {
+        "index": 20,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answers do not address the question regarding violent or graphic depictions of violence in The Crew Motorfest. Instead, they focus on gameplay experiences, graphics, and personal preferences, which are unrelated to the content of violence in the game.\"\n}",
+        "appid": "2698940",
+        "question": "Does The Crew Motorfest contain any violent or graphic depictions of violence?",
+        "relevance": "NON_RELEVANT",
+        "explanation": "The generated answer completely fails to address the question about violent or graphic depictions of violence in The Crew Motorfest. Instead, it diverts to unrelated topics such as gameplay experiences and graphics, which do not help in understanding the presence or absence of violence in the game."
+    },
+    {
+        "index": 21,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answers consist of reviews and opinions about 'The Crew Motorfest,' but none of the reviews address the specific question regarding the presence of graphic gore or blood in the game. Therefore, the relevance is non-existent.\"\n}",
+        "appid": "2698940",
+        "question": "Is there any graphic gore or blood featured in The Crew Motorfest?",
+        "relevance": "RELEVANT",
+        "explanation": "The generated answer correctly assesses the relevance of the content in relation to the question about graphic gore or blood in 'The Crew Motorfest.' It indicates that the reviews do not provide information related to the specific inquiry, thus affirming the irrelevance. The answer is aligned with the question since it clearly states that the generated responses failed to address the core concern about gore and blood."
+    },
+    {
+        "index": 22,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answer does not address the question regarding explicit or suggestive sexual themes or imagery in 'The Crew Motorfest.' Instead, it contains user reviews that focus on gameplay mechanics, graphics, and comparisons to other games, which are irrelevant to the question posed.\"\n}",
+        "appid": "2698940",
+        "question": "Are there any explicit or suggestive sexual themes or imagery in The Crew Motorfest?",
+        "relevance": "NON_RELEVANT",
+        "explanation": "The generated answer fails to address the question about explicit or suggestive sexual themes or imagery in 'The Crew Motorfest.' Instead, it discusses aspects like gameplay and graphics, which do not relate to the inquiry about sexual content."
+    },
+    {
+        "index": 23,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answer contains reviews of the game 'The Crew Motorfest', but none of the reviews address or mention the use of strong language or offensive words in the game. Therefore, the responses are not relevant to the original question.\"\n}",
+        "appid": "2698940",
+        "question": "Does The Crew Motorfest use strong language or offensive words?",
+        "relevance": "NON_RELEVANT",
+        "explanation": "The generated answer does not address the question about the use of strong language or offensive words in The Crew Motorfest. Instead, it provides reviews that fail to mention this aspect. Therefore, the information is not relevant to the question asked."
+    },
+    {
+        "index": 24,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answer does not address the question about depictions of drugs, alcohol, or smoking within The Crew Motorfest. Instead, it contains reviews of the game focusing on gameplay, graphics, and comparison to other titles, which are unrelated to the specific inquiry about substance representation.\"\n}",
+        "appid": "2698940",
+        "question": "Are there any depictions of drugs, alcohol, or smoking within The Crew Motorfest?",
+        "relevance": "NON_RELEVANT",
+        "explanation": "The generated answer does not provide any information related to the presence or absence of depictions of drugs, alcohol, or smoking in The Crew Motorfest. Instead, it discusses aspects unrelated to the question, such as gameplay and graphics, which do not contribute to answering the specific inquiry."
+    },
+    {
+        "index": 25,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answer does not address the question about discrimination or racist content in The Crew Motorfest. Instead, it discusses various gameplay aspects, preferences, and general experiences without mentioning any form of discrimination or racism.\"\n}",
+        "appid": "2698940",
+        "question": "Does The Crew Motorfest feature any form of discrimination or racist content?",
+        "relevance": "NON_RELEVANT",
+        "explanation": "The generated answer completely misses the focus of the question regarding discrimination or racist content in The Crew Motorfest. It instead centers on gameplay aspects and experiences, which are unrelated to the inquiry about the presence of any discriminatory material."
+    },
+    {
+        "index": 26,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answer does not address the question about in-game gambling or loot box mechanics in The Crew Motorfest. Instead, it provides detailed player reviews and opinions about gameplay, graphics, and overall experiences, but lacks any mention of gambling or loot boxes.\"\n}",
+        "appid": "2698940",
+        "question": "Is there in-game gambling or loot box mechanics present in The Crew Motorfest?",
+        "relevance": "NON_RELEVANT",
+        "explanation": "The generated answer does not address the specific question regarding the presence of in-game gambling or loot box mechanics in The Crew Motorfest. Instead, it discusses player reviews and experiences, which are unrelated to the inquiry about gambling features."
+    },
+    {
+        "index": 27,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answer does not address the question about horror or disturbing imagery in The Crew Motorfest. Instead, it focuses on the reviewer's gameplay experience, mechanics, graphics, and comparisons to other racing games, providing no relevant information regarding the game's suitability for children.\"\n}",
+        "appid": "2698940",
+        "question": "Does The Crew Motorfest include any horror or disturbing imagery that could frighten children?",
+        "relevance": "NON_RELEVANT",
+        "explanation": "The generated answer does not address the specific concern about horror or disturbing imagery in The Crew Motorfest. Instead, it discusses aspects of gameplay and graphics that are unrelated to children's safety or potential fear factors, thus failing to provide the needed information for the question."
+    },
+    {
+        "index": 28,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answers do not address the question about addiction mechanisms in The Crew Motorfest, such as microtransactions or time-gated rewards. Instead, they primarily focus on gameplay experiences, graphics, and opinions about the game's design, without discussing any mechanics that encourage excessive play.\"\n}",
+        "appid": "2698940",
+        "question": "Are there addiction mechanisms in The Crew Motorfest that encourage excessive play, like microtransactions or time-gated rewards?",
+        "relevance": "NON_RELEVANT",
+        "explanation": "The generated answer does not address the specific aspects of addiction mechanisms, such as microtransactions or time-gated rewards, mentioned in the question. It instead focuses on general gameplay features and subjective opinions, failing to provide any relevant information about the mechanisms that could encourage excessive play in The Crew Motorfest."
+    },
+    {
+        "index": 29,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answer does not address the question regarding whether The Crew Motorfest involves elements related to DEI ideology that might negatively affect the game's creativity. Instead, it focuses on gameplay mechanics, user experience, and graphical details without any mention of DEI or its implications on creativity.\"\n}",
+        "appid": "2698940",
+        "question": "Does The Crew Motorfest involve any elements related to DEI ideology that might negatively affect the game's creativity?",
+        "relevance": "NON_RELEVANT",
+        "explanation": "The generated answer does not address the core concern of the question, which specifically asks about the relationship between DEI ideology and the creativity of The Crew Motorfest. Instead, it diverts to discussing unrelated aspects like gameplay mechanics and graphics, failing to provide any insight into the DEI aspect mentioned in the question."
+    },
+    {
+        "index": 30,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answer focuses on various aspects of the game Concord, such as gameplay mechanics, character designs, and players' experiences, but it does not address the specific concern of content suitability for children. There are no mentions of inappropriate themes, violence, or any elements that would render the game unsuitable for younger audiences.\"\n}",
+        "appid": "2443720",
+        "question": "What type of content is present in the game Concord that might be unsuitable for children?",
+        "relevance": "NON_RELEVANT",
+        "explanation": "The generated answer does not address the specific question regarding unsuitable content for children in the game Concord, instead, it discusses general aspects of gameplay and design without any mention of inappropriate themes or content that may be concerning for younger players."
+    },
+    {
+        "index": 31,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answers do not address the question about graphic depictions of violence in the game Concord. Instead, they focus on various aspects of gameplay, character design, and player experiences without mentioning any violent content or graphic depictions.\"\n}",
+        "appid": "2443720",
+        "question": "Does Concord include any graphic depictions of violence that I should be aware of?",
+        "relevance": "NON_RELEVANT",
+        "explanation": "The generated answer completely misses the question about graphic depictions of violence in Concord. It discusses unrelated aspects of gameplay and character design, failing to provide any information regarding potential violence or graphic content."
+    },
+    {
+        "index": 32,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answer discusses various aspects of the game 'Concord', including gameplay mechanics, character designs, and player community issues, but it does not address the specific question about instances of gore or blood in the gameplay. There are no references to violence or graphic content in the reviews, making them irrelevant to the query.\"\n}",
+        "appid": "2443720",
+        "question": "Are there any instances of gore or blood in the gameplay of Concord?",
+        "relevance": "NON_RELEVANT",
+        "explanation": "The generated answer fails to address the question about instances of gore or blood in the gameplay of Concord, focusing instead on unrelated gameplay mechanics and community issues. As there is no mention of violence or graphic content, it does not provide any relevant information concerning the query."
+    },
+    {
+        "index": 33,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answer does not address the question regarding the presence of sexual content or suggestive themes in the game Concord. Instead, it contains various player reviews discussing gameplay mechanics, character designs, and general opinions about the game without any mention of sexual or suggestive content.\"\n}",
+        "appid": "2443720",
+        "question": "Is there any sexual content or suggestive themes included in Concord?",
+        "relevance": "NON_RELEVANT",
+        "explanation": "The answer fails to address the specific inquiry about sexual content or suggestive themes in the game Concord. Instead, it focuses on unrelated player reviews and gameplay aspects, making it irrelevant to the question asked."
+    },
+    {
+        "index": 34,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answers are largely review comments about the game 'Concord' but do not address the specific question regarding the presence of strong language or offensive words that could be harmful to young players. They focus instead on gameplay mechanics, character design, and player experiences without mentioning any language or offensive content.\"\n}",
+        "appid": "2443720",
+        "question": "Does Concord contain strong language or offensive words that could be harmful for young players?",
+        "relevance": "NON_RELEVANT",
+        "explanation": "The generated answer does not address the specific question about the presence of strong language or offensive words in 'Concord.' Instead, it focuses on gameplay and player experiences, which are not relevant to evaluating the potential harm of language in the game for young players."
+    },
+    {
+        "index": 35,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answer does not address the question about depictions of substance abuse in the game at all. Instead, it discusses various aspects of gameplay, mechanics, and personal opinions about the game's quality, without mentioning anything related to drugs or alcohol.\"\n}",
+        "appid": "2443720",
+        "question": "Are there any depictions of substance abuse, like drugs or alcohol, within the game?",
+        "relevance": "NON_RELEVANT",
+        "explanation": "The generated answer fails to address the question regarding depictions of substance abuse, as it focuses on unrelated gameplay aspects and personal opinions instead of discussing any elements of drugs or alcohol in the game."
+    },
+    {
+        "index": 36,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answers focus primarily on the gameplay experience, graphics, and features of 'The Crew Motorfest' without addressing the question regarding discriminatory content, such as racism or sexism. There is no mention or analysis of any discriminatory aspects within the game's content.\"\n}",
+        "appid": "2443720",
+        "question": "Does the game promote any discriminatory content, such as racism or sexism?",
+        "relevance": "NON_RELEVANT",
+        "explanation": "The generated answer does not address the question about discriminatory content in the game. It solely discusses gameplay aspects, graphics, and features, completely neglecting to mention or analyze any potential racism or sexism present in the game."
+    },
+    {
+        "index": 37,
+        "answer": "{\n  \"relevance\": \"PARTLY_RELEVANT\",\n  \"explanation\": \"The generated answers contain reviews of the game 'Concord', discussing various aspects including game mechanics and player experiences, which indirectly relate to gambling elements like loot boxes. However, none of them explicitly address the presence of direct gambling features such as loot boxes or in-game betting as explicitly requested in the question.\"\n}",
+        "appid": "2443720",
+        "question": "Is there any form of gambling present in Concord, like loot boxes or in-game betting?",
+        "relevance": "PARTLY_RELEVANT",
+        "explanation": "The generated answer discusses aspects of a game called 'Concord' that may involve gambling-like mechanics such as loot boxes, which are relevant to the question. However, it does not provide a direct answer regarding the presence of gambling features like loot boxes or in-game betting in Concord, thus warranting a classification of partly relevant."
+    },
+    {
+        "index": 38,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answer provides detailed reviews of the game 'The Crew Motorfest', but it does not address the question about whether the game includes horror elements or disturbing imagery that may frighten children. Instead, the reviews focus primarily on gameplay mechanics, graphics, and the player experience, which is unrelated to the query.\"\n}",
+        "appid": "2443720",
+        "question": "Can you tell me if the game features horror elements or disturbing imagery that may frighten children?",
+        "relevance": "NON_RELEVANT",
+        "explanation": "The generated answer does not address the specific concern about horror elements or disturbing imagery in the game. Instead, it discusses gameplay factors that are unrelated to whether the game is suitable for children in terms of frightening content."
+    },
+    {
+        "index": 39,
+        "answer": "{\n  \"relevance\": \"PARTLY_RELEVANT\",\n  \"explanation\": \"The generated answers provide insights on the overall gaming experience in 'Concord', including thoughts on character design, gameplay mechanics, and the absence of microtransactions. However, they do not specifically address mechanics that could lead to excessive gaming or addiction. While some reviews mention the game's structure and progression that might hint at potential issues, they lack direct information on addiction or gaming mechanics related to excessive play.\"\n}",
+        "appid": "2443720",
+        "question": "Are there any mechanics in Concord that could lead to excessive gaming or addiction, such as microtransactions?",
+        "relevance": "PARTLY_RELEVANT",
+        "explanation": "The generated answer discusses the gaming experience and mentions the absence of microtransactions, which is relevant to the question about mechanics leading to excessive gaming or addiction. However, it does not provide specific details on how the game's mechanics could contribute to such issues. Thus, while it touches on related topics, it lacks direct relevance to the core of the question."
+    },
+    {
+        "index": 40,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answers primarily focus on player experiences and reviews of the game 'Far Cry 6', discussing gameplay mechanics, story dissatisfaction, and comparisons to previous titles. They do not address specific issues that might concern a father, such as content related to violence, themes, or suitability for children.\"\n}",
+        "appid": "2369390",
+        "question": "What are the main issues with the story in Far Cry 6 that might concern me as a father?",
+        "relevance": "NON_RELEVANT",
+        "explanation": "The generated answer does not address the specific concerns a father might have regarding the story content of 'Far Cry 6'. Instead, it focuses on gameplay and general reviews, missing key issues such as violence, mature themes, or appropriateness for children that would be of interest to a parent."
+    },
+    {
+        "index": 41,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answers do not address the question regarding excessive violence or graphic depictions in Far Cry 6. They focus on the general gameplay experience, comparisons to other Far Cry games, and personal opinions without mentioning violence or graphic content.\"\n}",
+        "appid": "2369390",
+        "question": "Does Far Cry 6 contain any excessive violence or graphic depictions?",
+        "relevance": "NON_RELEVANT",
+        "explanation": "The generated answer fails to address the specific inquiry about excessive violence or graphic depictions in Far Cry 6. Instead, it discusses gameplay aspects and personal opinions, which do not provide any relevant information pertaining to the nature of violence in the game."
+    },
+    {
+        "index": 42,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answer provides a review of 'God of War: Ragnarok' but does not address the question about the presence of gore or blood in the game. It focuses on gameplay, story, graphics, and user experiences without mentioning any content warnings related to gore or violence.\"\n}",
+        "appid": "2369390",
+        "question": "Are there any elements of gore or blood that I should be aware of in this game?",
+        "relevance": "NON_RELEVANT",
+        "explanation": "The generated answer does not address the specific concern about gore or blood in the game, as it focuses on other aspects like gameplay, story, and graphics. It fails to provide any information regarding content warnings related to gore or violence, which is the central aspect of the question."
+    },
+    {
+        "index": 43,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answers focus on gameplay mechanics, narrative structure, and player experiences of 'Far Cry 6,' but none of the reviews address the presence of sexual content or suggestive themes that could be inappropriate for children, which is the specific concern raised in the question.\"\n}",
+        "appid": "2369390",
+        "question": "Is there any sexual content or suggestive themes in Far Cry 6 that may not be appropriate for my children?",
+        "relevance": "NON_RELEVANT",
+        "explanation": "The generated answer does not address the specific concern about sexual content or suggestive themes in 'Far Cry 6.' Instead, it discusses aspects unrelated to the question, such as gameplay mechanics and narrative structure, making it irrelevant to the user's inquiry about appropriateness for children."
+    },
+    {
+        "index": 44,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answer does not address the question about profanity or offensive language in the game. Instead, it focuses on gameplay mechanics, visual appeal, and player experiences, without mentioning any use of profanity or offensive language.\"\n}",
+        "appid": "2369390",
+        "question": "Does the game use profanity or offensive language that could be troubling?",
+        "relevance": "NON_RELEVANT",
+        "explanation": "The generated answer completely misses the focus of the question, which specifically inquires about the presence of profanity or offensive language in the game. Instead, it discusses other aspects of the game that do not relate to the concern of troublesome language."
+    },
+    {
+        "index": 45,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answers consist of user reviews about 'Far Cry 6' and 'Far Cry 5', but none of them mention substance abuse, drugs, or alcohol, which is the specific focus of the question.\"\n}",
+        "appid": "2369390",
+        "question": "Are there any representations of substance abuse, like drugs or alcohol, in Far Cry 6?",
+        "relevance": "NON_RELEVANT",
+        "explanation": "The generated answer does not address the question regarding representations of substance abuse in 'Far Cry 6'. Instead, it focuses on user reviews that do not mention drugs or alcohol, making the response irrelevant to the inquiry."
+    },
+    {
+        "index": 46,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answer contains multiple reviews for 'Far Cry 6' but does not address the question about discriminatory content or its potential harmfulness. The reviews focus on gameplay, graphics, and personal opinions, which are unrelated to the topic of discrimination.\"\n}",
+        "appid": "2369390",
+        "question": "Does Far Cry 6 include any form of discriminatory content that could be harmful?",
+        "relevance": "NON_RELEVANT",
+        "explanation": "The generated answer fails to address the specific question regarding discriminatory content in 'Far Cry 6' and its potential harmfulness. Instead, it focuses on gameplay and graphics, which do not pertain to the issue of discrimination or its effects."
+    },
+    {
+        "index": 47,
+        "answer": "{\n  \"relevance\": \"PARTLY_RELEVANT\",\n  \"explanation\": \"The generated answer primarily discusses the gambling mechanics and loot boxes in Far Cry 5, not Far Cry 6, which is the subject of the question. While it somewhat touches on the topic of gambling mechanics in the broader context of the Far Cry series, it does not provide specific information about Far Cry 6's gambling aspects.\"\n}",
+        "appid": "2369390",
+        "question": "Is there any gambling aspect in Far Cry 6, such as loot boxes or related mechanics?",
+        "relevance": "PARTLY_RELEVANT",
+        "explanation": "The generated answer discusses gambling mechanics and loot boxes, but focuses primarily on Far Cry 5, which is not directly related to the user's inquiry about Far Cry 6. While it provides some context, it fails to address the specific aspects of gambling in Far Cry 6, making it only partially relevant."
+    },
+    {
+        "index": 48,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answers do not address the question regarding horror elements or disturbing imagery that might frighten younger players. Instead, they focus on gameplay experiences and review opinions on various games without mentioning any frightening or disturbing content.\"\n}",
+        "appid": "2369390",
+        "question": "Are there horror elements or disturbing imagery that might frighten younger players?",
+        "relevance": "NON_RELEVANT",
+        "explanation": "The generated answer does not address the specific concerns about horror elements or disturbing imagery related to younger players. It focuses instead on gameplay experiences and general opinions, failing to provide any relevant information about potentially frightening content."
+    },
+    {
+        "index": 49,
+        "answer": "{\n  \"relevance\": \"PARTLY_RELEVANT\",\n  \"explanation\": \"The generated answers provide reviews of 'The Crew Motorfest' which touch on aspects like gameplay, aesthetics, vehicle handling, and user experience. However, none of the reviews directly address the presence of addiction mechanisms or microtransactions that encourage excessive play. While some reviews mention a limited number of vehicles locked behind paywalls, they do not elaborate on whether microtransactions play a significant role in promoting excessive gameplay. Thus, the connection to the specific question about addiction mechanisms is insufficient.\"\n}",
+        "appid": "2369390",
+        "question": "Does the game have addiction mechanisms that encourage excessive play, such as microtransactions?",
+        "relevance": "PARTLY_RELEVANT",
+        "explanation": "The generated answer summarizes reviews of 'The Crew Motorfest', touching on vehicle availability and user experience, which may indirectly relate to the question about microtransactions. However, it does not explicitly confirm the existence or impact of addiction mechanisms or excessive play, which are central to the question. Therefore, it is not fully relevant but contains some elements that could be tangentially related."
+    },
+    {
+        "index": 50,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answers do not address the specific question regarding excessive violence depicted in 'Suicide Squad: Kill the Justice League.' Instead, they focus on gameplay mechanics, character portrayals, bugs, and opinions about the game, without discussing the presence or level of violence.\"\n}",
+        "appid": "315210",
+        "question": "Is there any excessive violence depicted in Suicide Squad: Kill the Justice League?",
+        "relevance": "NON_RELEVANT",
+        "explanation": "The generated answer fails to directly address the question about excessive violence in 'Suicide Squad: Kill the Justice League.' It diverts to unrelated topics like gameplay mechanics and bugs, thereby not providing any information about the level or presence of violence in the game."
+    },
+    {
+        "index": 51,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answers consist of user reviews of the game 'Flintlock: The Siege of Dawn' and do not provide any information regarding the presence or absence of graphic representations of gore or blood. None of the reviews address the specific content asked in the question.\"\n}",
+        "appid": "315210",
+        "question": "Does the game contain graphic representations of gore or blood?",
+        "relevance": "NON_RELEVANT",
+        "explanation": "The generated answer does not address the question regarding the presence of graphic representations of gore or blood in the game. Instead, it focuses on user reviews that are unrelated to the specific content inquiry, thus failing to provide any relevant information."
+    },
+    {
+        "index": 52,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answers provide detailed reviews of the game 'The Crew Motorfest' but do not address the question regarding explicit or suggestive sexual themes in the game's content. None of the reviews mention any sexual content or themes, making them completely irrelevant to the query.\"\n}",
+        "appid": "315210",
+        "question": "Are there any explicit or suggestive sexual themes present in the game's content?",
+        "relevance": "NON_RELEVANT",
+        "explanation": "The generated answer does not address the question about explicit or suggestive sexual themes in the game's content, focusing instead on general game reviews without any mention of sexual content. Therefore, it is deemed completely irrelevant to the question posed."
+    },
+    {
+        "index": 53,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answers contain reviews of the games 'Flintlock: The Siege of Dawn' and 'The Crew Motorfest', but none of the reviews address or provide information about the level of profanity used throughout the game. Thus, the content does not relate to the question asked.\"\n}",
+        "appid": "315210",
+        "question": "What is the level of profanity used throughout the game?",
+        "relevance": "NON_RELEVANT",
+        "explanation": "The generated answer focuses on reviews of specific games and does not discuss or assess the level of profanity in the games mentioned. As a result, it fails to provide any information pertinent to the question asked about profanity levels."
+    },
+    {
+        "index": 54,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answers primarily discuss gameplay mechanics, graphics, and the overall experience of 'The Crew Motorfest.' None of the reviews address or mention any substance abuse-related content, making them irrelevant to the question asked.\"\n}",
+        "appid": "315210",
+        "question": "Does the game portray any substance abuse-related content?",
+        "relevance": "NON_RELEVANT",
+        "explanation": "The generated answer does not address the question regarding substance abuse-related content in the game. Instead, it focuses on gameplay mechanics, graphics, and general experience without any mention of substance abuse, making it irrelevant to the inquiry."
+    },
+    {
+        "index": 55,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answers provide detailed reviews of the game 'Flintlock: The Siege of Dawn' but do not address the question about instances of discrimination, such as racist or sexist themes, in the game. Instead, they focus on gameplay mechanics, graphics, and enjoyment without any mention of discrimination.\"\n}",
+        "appid": "315210",
+        "question": "Are there instances of discrimination, such as racist or sexist themes, in the game?",
+        "relevance": "NON_RELEVANT",
+        "explanation": "The generated answer does not address the question regarding instances of discrimination or themes of racism or sexism in the game. Instead, it focuses on unrelated aspects like gameplay mechanics and graphics, which are not pertinent to the inquiry about discrimination."
+    },
+    {
+        "index": 56,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answers provide extensive reviews of the game 'The Crew Motorfest', discussing various gameplay elements and experiences, but none explicitly address whether the game includes gambling elements or loot boxes, which is the focus of the question.\"\n}",
+        "appid": "315210",
+        "question": "Does the game include gambling elements or loot boxes?",
+        "relevance": "NON_RELEVANT",
+        "explanation": "The generated answer does not address the specific inquiry about gambling elements or loot boxes in the game, instead providing unrelated reviews and gameplay experiences, which makes it irrelevant to the question."
+    },
+    {
+        "index": 57,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answer discusses the gameplay, graphics, and features of 'The Crew Motorfest,' but it does not address the question regarding the presence of horror or intensely disturbing scenes in the game. There is no information related to horror elements in any of the provided reviews.\"\n}",
+        "appid": "315210",
+        "question": "Are there horror or intensely disturbing scenes featured in the game?",
+        "relevance": "NON_RELEVANT",
+        "explanation": "The generated answer fails to address the specific question about the presence of horror or intensely disturbing scenes in the game. It only focuses on gameplay aspects and does not provide any information about the genre or emotional impact, which are critical to answering the question asked."
+    },
+    {
+        "index": 58,
+        "answer": "{\n  \"relevance\": \"PARTLY_RELEVANT\",\n  \"explanation\": \"The generated answers provide detailed reviews of 'The Crew Motorfest' but do not directly address the mechanisms that encourage addiction, such as microtransactions or timed rewards. Some reviews mention a low number of microtransactions compared to similar games, but they do not discuss the specific addictive mechanics in depth.\"\n}",
+        "appid": "315210",
+        "question": "Does the game employ mechanisms that encourage addiction, such as microtransactions or timed rewards?",
+        "relevance": "PARTLY_RELEVANT",
+        "explanation": "The generated answer provides some information on microtransactions in 'The Crew Motorfest,' noting a low number compared to other games. However, it lacks a comprehensive examination of mechanisms that encourage addiction, such as timed rewards, which is central to the question. Thus, it partially addresses the topic but does not fully meet the inquiry's demands."
+    },
+    {
+        "index": 59,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answer discusses various aspects of the game 'The Crew Motorfest', including gameplay experience, graphics, and features. However, it completely fails to address the question about how the game's content aligns with DEI (Diversity, Equity, and Inclusion) ideology, and it does not touch upon any impact that alignment may have on the creativity of the game. Thus, it is not relevant to the given question.\"\n}",
+        "appid": "315210",
+        "question": "How does the game's content align with DEI ideology, and does it impact the overall creativity of the game?",
+        "relevance": "NON_RELEVANT",
+        "explanation": "The generated answer does not address the specific elements of DEI ideology in relation to the game, nor does it consider the potential impact on the game's creativity. It focuses on unrelated aspects such as gameplay experience and graphics, which are irrelevant to the question posed."
+    },
+    {
+        "index": 60,
+        "answer": "{\n  \"relevance\": \"RELEVANT\",\n  \"explanation\": \"The generated answers provide specific insights and personal experiences regarding the community reputation of the game 'FOR HONOR.' Several reviews mention toxicity within the community, disappointment with developer actions, and insights into gameplay experiences that all contribute to understanding the game's reputation. This directly addresses the question asked.\"\n}",
+        "appid": "304390",
+        "question": "What kind of community reputation does the game FOR HONOR have?",
+        "relevance": "RELEVANT",
+        "explanation": "The generated answer addresses the question about the community reputation of the game 'FOR HONOR' by detailing specific aspects such as toxicity, disappointment with developers, and gameplay experiences. These insights provide a comprehensive understanding of the game's reputation, directly fulfilling the intent of the question."
+    },
+    {
+        "index": 61,
+        "answer": "{\n  \"relevance\": \"RELEVANT\",\n  \"explanation\": \"The generated answers contain multiple reviews from players discussing toxic behavior prevalent in the community of For Honor. Several reviews specifically mention the dishonor among players, complaints about toxic gameplay styles, and frustrations with community behavior, directly addressing the question about features that may promote toxic behavior.\"\n}",
+        "appid": "304390",
+        "question": "Does FOR HONOR have any features that might promote toxic behavior among players?",
+        "relevance": "RELEVANT",
+        "explanation": "The generated answer directly addresses the question by discussing player reviews that highlight toxic behavior within the community of For Honor. It correctly identifies specific issues related to dishonor and toxic gameplay, which aligns well with the inquiry about features potentially promoting such behavior."
+    },
+    {
+        "index": 62,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answers do not address the question about excessive violence in 'FOR HONOR'. Instead, they focus on gameplay experiences, mechanics, and community issues, without specifically mentioning or analyzing violence in the game.\"\n}",
+        "appid": "304390",
+        "question": "Is there excessive violence depicted in FOR HONOR?",
+        "relevance": "NON_RELEVANT",
+        "explanation": "The generated answer fails to address the specific question regarding excessive violence in 'FOR HONOR', focusing instead on unrelated aspects such as gameplay mechanics and community discussions which do not contribute to evaluating the violence depicted in the game."
+    },
+    {
+        "index": 63,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answers do not address the question regarding the presence of gore or blood in the game. They focus on gameplay mechanics, combat systems, and the overall enjoyment of the game without mentioning any elements related to gore or blood.\"\n}",
+        "appid": "304390",
+        "question": "Are there any elements of gore or blood present in the game?",
+        "relevance": "NON_RELEVANT",
+        "explanation": "The generated answer does not provide any information about the presence of gore or blood in the game. It focuses on unrelated aspects such as gameplay mechanics and combat systems, making it irrelevant to the specific question asked."
+    },
+    {
+        "index": 64,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answers do not address the question regarding explicit sexual themes in FOR HONOR. Instead, they focus on gameplay, community issues, and personal experiences, without discussing any sexual content.\"\n}",
+        "appid": "304390",
+        "question": "Can you tell me if there are any explicit sexual themes in FOR HONOR?",
+        "relevance": "NON_RELEVANT",
+        "explanation": "The generated answer does not mention or address explicit sexual themes in FOR HONOR, instead focusing on unrelated topics such as gameplay and community issues. Therefore, it fails to provide any relevant information regarding the question asked."
+    },
+    {
+        "index": 65,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answers discuss various aspects of the game including gameplay, graphics, mechanics, and personal experiences but do not address the level of profanity or offensive language used in the game, which is specifically what the question asks.\"\n}",
+        "appid": "304390",
+        "question": "What is the level of profanity or offensive language used in the game?",
+        "relevance": "NON_RELEVANT",
+        "explanation": "The generated answer fails to directly address or provide any information regarding the level of profanity or offensive language used in the game, focusing instead on unrelated aspects such as gameplay and graphics."
+    },
+    {
+        "index": 66,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answers discuss various aspects of the game 'FOR HONOR' but do not mention any depictions of substance abuse, including drugs or alcohol. Therefore, they are not relevant to the question asked.\"\n}",
+        "appid": "304390",
+        "question": "Does FOR HONOR include any depictions of substance abuse, like drugs or alcohol?",
+        "relevance": "NON_RELEVANT",
+        "explanation": "The generated answer does not address the specific question about depictions of substance abuse, such as drugs or alcohol in the game 'FOR HONOR'. Instead, it focuses on unrelated aspects, making it irrelevant to the question posed."
+    },
+    {
+        "index": 67,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answers consist of various user reviews about the game 'FOR HONOR', but none of them specifically address the presence of discriminatory themes. They focus on gameplay mechanics, community behaviors, and personal opinions about the game, rather than discussing any discriminatory aspects or themes.\"\n}",
+        "appid": "304390",
+        "question": "Are there discriminatory themes present in FOR HONOR that I should be aware of?",
+        "relevance": "NON_RELEVANT",
+        "explanation": "The generated answer does not address the question about discriminatory themes in FOR HONOR. Instead, it discusses user reviews that focus on gameplay and community interactions, failing to provide any relevant information regarding discrimination."
+    },
+    {
+        "index": 68,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answer does not address the question regarding gambling mechanics or loot box features. Instead, it provides a summary of gameplay experiences and opinions about the game 'The Crew Motorfest' without mentioning any elements related to gambling or loot boxes.\"\n}",
+        "appid": "304390",
+        "question": "Does the game incorporate gambling mechanics or loot box features?",
+        "relevance": "NON_RELEVANT",
+        "explanation": "The generated answer completely fails to address the specific question about gambling mechanics or loot box features in the game. Instead, it focuses on summarizing gameplay experiences and opinions, which are unrelated to the inquiry about gambling aspects."
+    },
+    {
+        "index": 69,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answers provide various reviews and feedback about the game 'FOR HONOR', but none of them directly address the question regarding mechanisms in the game that could encourage excessive play by a child. The responses focus on gameplay experiences, mechanics, and community feedback rather than discussing any specific features that could lead to excessive gaming behavior.\"\n}",
+        "appid": "304390",
+        "question": "Are there any mechanisms in FOR HONOR that could encourage my child to play excessively?",
+        "relevance": "NON_RELEVANT",
+        "explanation": "The generated answer fails to address the specific concern about mechanisms in 'FOR HONOR' that could lead to excessive play. Instead, it discusses general gameplay and community feedback, which do not provide insight into excessive gaming behaviors or features within the game."
+    },
+    {
+        "index": 70,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answer does not address the specific question about excessive violence or graphic depictions in Assassin's Creed Valhalla. Instead, it primarily offers reviews focusing on gameplay mechanics, narrative quality, and personal opinions about the game's experience. There is no mention of violence or its impact on children.\"\n}",
+        "appid": "2208920",
+        "question": "Is Assassin's Creed Valhalla known for any excessive violence or graphic depictions that could be harmful for my child?",
+        "relevance": "NON_RELEVANT",
+        "explanation": "The generated answer fails to address the specific concerns regarding excessive violence or graphic depictions in Assassin's Creed Valhalla. It focuses on gameplay and narrative aspects without providing any information related to the question about potential harm to children."
+    },
+    {
+        "index": 71,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answers do not address the question regarding the presence of gore or blood in the game 'For Honor.' Instead, they focus on gameplay mechanics, player experiences, and issues with the game's community and development, without mentioning any content that could be disturbing for younger players.\"\n}",
+        "appid": "2208920",
+        "question": "Does the game contain any gore or blood that might be disturbing for younger players?",
+        "relevance": "NON_RELEVANT",
+        "explanation": "The generated answer does not address the specific question about gore or blood in the game. Instead, it discusses unrelated topics such as gameplay mechanics and community issues, failing to provide any information on potentially disturbing content for younger players."
+    },
+    {
+        "index": 72,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answers primarily focus on criticisms or praise for gameplay mechanics, story, and graphic quality of 'Assassin's Creed Valhalla', without addressing the specific query about explicit or suggestive sexual themes or imagery. None of the reviews mention sexual content, making the provided information irrelevant to the question.\"\n}",
+        "appid": "2208920",
+        "question": "Are there any explicit or suggestive sexual themes or imagery present in Assassin's Creed Valhalla?",
+        "relevance": "RELEVANT",
+        "explanation": "The generated answer directly addresses the question about explicit or suggestive sexual themes or imagery in 'Assassin's Creed Valhalla' by stating that reviews do not mention sexual content, thus providing a clear and relevant response to the inquiry."
+    },
+    {
+        "index": 73,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answer does not address the question regarding the use of profanity or offensive language in the game. Instead, it provides a summary of gameplay elements, design choices, and personal opinions about the game's mechanics and story, which are unrelated to the question about language content.\"\n}",
+        "appid": "2208920",
+        "question": "Is there a significant amount of profanity or offensive language used throughout the game?",
+        "relevance": "NON_RELEVANT",
+        "explanation": "The generated answer fails to address the core aspect of the question, which is specifically about the presence of profanity or offensive language in the game. Instead, it diverts to a summary of unrelated gameplay elements and design considerations, making it irrelevant to the inquiry."
+    },
+    {
+        "index": 74,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answers consist of reviews of the game 'The Crew Motorfest,' focusing on gameplay elements, graphics, and overall enjoyment. None of the reviews address or mention substance abuse situations, such as drugs or alcohol, which is the specific topic of the question.\"\n}",
+        "appid": "2208920",
+        "question": "Does the game depict any substance abuse situations, such as drugs or alcohol?",
+        "relevance": "NON_RELEVANT",
+        "explanation": "The generated answer does not address the question regarding substance abuse situations in the game. Instead, it focuses on gameplay, graphics, and enjoyment, completely omitting any mention of drugs or alcohol, which is the core concern of the question."
+    },
+    {
+        "index": 75,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answers focus on various aspects of gameplay, mechanics, and personal experiences with 'Flintlock: The Siege of Dawn,' but none address the question about discrimination, such as racist or sexist content within the game. There is no mention of any discriminatory elements in the reviews provided.\"\n}",
+        "appid": "2208920",
+        "question": "Are there any forms of discrimination, such as racist or sexist content, within the game?",
+        "relevance": "NON_RELEVANT",
+        "explanation": "The generated answer does not address the question regarding discrimination within the game, as it focuses on gameplay and personal experiences instead. There is no mention or discussion of any forms of racist or sexist content, making it irrelevant to the inquiry."
+    },
+    {
+        "index": 76,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answer does not address the question regarding gambling mechanics or loot boxes in 'Assassin's Creed Valhalla.' Instead, it contains generalized reviews about the game's quality, mechanics, and player experience without discussing any aspects related to gambling or loot boxes.\"\n}",
+        "appid": "2208920",
+        "question": "Does Assassin's Creed Valhalla include any gambling mechanics or loot boxes that could be concerning?",
+        "relevance": "NON_RELEVANT",
+        "explanation": "The generated answer completely fails to address the specific question about gambling mechanics or loot boxes in 'Assassin's Creed Valhalla.' It provides irrelevant information about the game's review and mechanics without mentioning any concerns related to gambling or loot boxes."
+    },
+    {
+        "index": 77,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answers focus on game reviews and experiences but do not address the specific question regarding horror or disturbing imagery elements that might frighten younger players. None of the reviews mention any such elements, making the answers irrelevant to the inquiry.\"\n}",
+        "appid": "2208920",
+        "question": "Are there any horror or disturbing imagery elements that could frighten younger players?",
+        "relevance": "NON_RELEVANT",
+        "explanation": "The generated answer does not provide any information about horror or disturbing imagery elements that could affect younger players. It comments on the lack of relevant content in game reviews and experiences but fails to directly address the question about possible frightening elements, making it irrelevant to what was asked."
+    },
+    {
+        "index": 78,
+        "answer": "{\n  \"relevance\": \"PARTLY_RELEVANT\",\n  \"explanation\": \"The generated answers discuss the game 'The Crew Motorfest' and its features, including gameplay enjoyment and vehicle mechanics. However, they do not explicitly address whether there are mechanisms that encourage excessive play or addictive behavior, such as microtransactions. Some reviews hint at game mechanics like progression and unlocks, which could be relevant, but lack direct commentary on microtransactions.\"\n}",
+        "appid": "2208920",
+        "question": "Does the game have mechanisms that encourage excessive play or addictive behavior, like microtransactions?",
+        "relevance": "PARTLY_RELEVANT",
+        "explanation": "The generated answer describes aspects of the game 'The Crew Motorfest' and its gameplay mechanics but does not specifically address the presence of mechanisms that could lead to excessive play or reveal information on microtransactions. While some features mentioned could imply a potential for addictive behavior, there is no explicit discussion on these mechanisms, making it only partly relevant to the question."
+    },
+    {
+        "index": 79,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answers consist of player reviews discussing various aspects of Assassin's Creed Valhalla, such as gameplay, story, and technical issues. However, none of the reviews address or analyze the game's reputation specifically regarding DEI (Diversity, Equity, and Inclusion) ideology, making them completely irrelevant to the question asked.\"\n}",
+        "appid": "2208920",
+        "question": "What is the overall reputation of Assassin's Creed Valhalla regarding DEI ideology?",
+        "relevance": "NON_RELEVANT",
+        "explanation": "The generated answer does not address the question about the game's reputation concerning DEI ideology. Instead, it focuses on player reviews of gameplay, story, and technical aspects, which are not related to the specific topic of diversity, equity, and inclusion."
+    },
+    {
+        "index": 80,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answer consists mostly of reviews for 'Far Cry 5' and 'Far Cry 6' without directly addressing the specific gameplay elements of 'Far Cry 5' or discussing whether it is repetitive. The focus on user reviews does not provide a clear response to the question asked.\"\n}",
+        "appid": "552520",
+        "question": "What type of gameplay does Far Cry 5 offer, and is it repetitive in nature?",
+        "relevance": "NON_RELEVANT",
+        "explanation": "The generated answer fails to address the question about the gameplay of 'Far Cry 5' and whether it is repetitive. Instead, it focuses on unrelated reviews, which do not provide the necessary information regarding the gameplay mechanics or repetitiveness of the game."
+    },
+    {
+        "index": 81,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answer does not address the question about graphic depictions of violence in Far Cry 5. Instead, it focuses on the reviewer's enjoyment of the game and its overall fun factor without mentioning any content that could be harmful to children.\"\n}",
+        "appid": "552520",
+        "question": "Does Far Cry 5 contain any graphic depictions of violence that could be harmful to children?",
+        "relevance": "NON_RELEVANT",
+        "explanation": "The generated answer does not address the specific concern of graphic depictions of violence in Far Cry 5. It shifts the focus away from the content that could be harmful to children and discusses the reviewer's personal enjoyment instead, failing to provide any relevant information related to the original question."
+    },
+    {
+        "index": 82,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answer does not address the question about scenes in Far Cry 5 featuring gore or intense visual representations of injury. Instead, it provides content related to a review of Far Cry 6, with no mention of gore or injury in the context of either game.\"\n}",
+        "appid": "552520",
+        "question": "Are there any scenes in Far Cry 5 that feature gore or intense visual representations of injury?",
+        "relevance": "NON_RELEVANT",
+        "explanation": "The generated answer does not address the specific inquiry regarding scenes in Far Cry 5 that feature gore or intense visual representations of injury. Instead, it diverts to discussing content from Far Cry 6, which is unrelated to the question and fails to provide any relevant information about Far Cry 5."
+    },
+    {
+        "index": 83,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answer does not address the question about the presence of explicit sexual content or suggestive themes in Far Cry 5. Instead, it provides a general review of the game's entertainment value and gameplay mechanics, which is not relevant to the specific inquiry regarding sexual content.\"\n}",
+        "appid": "552520",
+        "question": "Is there any explicit sexual content or suggestive themes present in Far Cry 5?",
+        "relevance": "NON_RELEVANT",
+        "explanation": "The generated answer fails to address the specific inquiry about explicit sexual content or suggestive themes in Far Cry 5. It diverts to general commentary on the game's entertainment value and mechanics, which does not fulfill the question's requirement to identify sexual themes."
+    },
+    {
+        "index": 84,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answers provide detailed reviews of the game 'Flintlock: The Siege of Dawn' and 'The Crew Motorfest' but do not address the question regarding the prevalence of strong language or profanity in the game. They focus on various aspects of gameplay, graphics, and story without mentioning any use of strong language or profanity.\"\n}",
+        "appid": "552520",
+        "question": "How prevalent is the use of strong language or profanity throughout the game?",
+        "relevance": "NON_RELEVANT",
+        "explanation": "The generated answer does not address the question about the prevalence of strong language or profanity in the game. It focuses on providing reviews related to gameplay, graphics, and story without mentioning any aspect of profanity or strong language."
+    },
+    {
+        "index": 85,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answer does not address the question about whether Far Cry 5 includes depictions of substance abuse. It focuses solely on general gameplay impressions and lacks any mention of drugs or alcohol.\"\n}",
+        "appid": "552520",
+        "question": "Does Far Cry 5 include any depictions of substance abuse, such as drugs or alcohol?",
+        "relevance": "NON_RELEVANT",
+        "explanation": "The generated answer does not provide any information regarding the depiction of substance abuse in Far Cry 5. It fails to address the specific content of the game related to drugs or alcohol, making it irrelevant to the question asked."
+    },
+    {
+        "index": 86,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answer does not address the question about elements of discrimination or offensive content in 'Far Cry 5.' Instead, it provides player reviews that discuss gameplay, story elements, and personal opinions about other Far Cry games, without mentioning any discriminatory or offensive aspects.\"\n}",
+        "appid": "552520",
+        "question": "Are there any elements of discrimination or offensive content in Far Cry 5?",
+        "relevance": "NON_RELEVANT",
+        "explanation": "The generated answer does not address the specific question regarding discrimination or offensive content in 'Far Cry 5.' Instead, it focuses solely on player reviews that are unrelated to the topic of discrimination, making it irrelevant to the inquiry posed."
+    },
+    {
+        "index": 87,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answer provides reviews and opinions about the game 'Flintlock: The Siege of Dawn' but does not address the question regarding the presence of in-game gambling or loot boxes. None of the reviews mention any form of gambling or mechanics that mimic gambling behavior.\"\n}",
+        "appid": "552520",
+        "question": "Does the game incorporate any form of in-game gambling or loot boxes that could mimic gambling behavior?",
+        "relevance": "NON_RELEVANT",
+        "explanation": "The generated answer does not address the specific question about in-game gambling or loot boxes related to the game. It focuses on reviews and opinions without mentioning any gambling mechanics, making it irrelevant to the inquiry."
+    },
+    {
+        "index": 88,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answers do not address the question about horror elements or disturbing imagery in Far Cry 5. Instead, they provide general reviews of the Far Cry games without discussing any specific content that may be frightening for children.\"\n}",
+        "appid": "552520",
+        "question": "Are there any horror elements or disturbing imagery that could be frightening for children in Far Cry 5?",
+        "relevance": "NON_RELEVANT",
+        "explanation": "The generated answer does not provide any information about horror elements or disturbing imagery in Far Cry 5. It fails to directly address the question and instead discusses general reviews of the Far Cry games, which does not help in assessing the specific concerns for children."
+    },
+    {
+        "index": 89,
+        "answer": "{\n  \"relevance\": \"PARTLY_RELEVANT\",\n  \"explanation\": \"The generated answer discusses various aspects of 'The Crew Motorfest' but does not directly address the question of whether the game includes mechanisms that encourage excessive play through microtransactions or time-gated rewards. While it mentions some progression systems and vehicle unlocks, it lacks specific details about microtransactions or time-gating that would confirm or deny the presence of such mechanisms in the game.\"\n}",
+        "appid": "552520",
+        "question": "Does the game include mechanisms that may encourage excessive play through microtransactions or time-gated rewards?",
+        "relevance": "PARTLY_RELEVANT",
+        "explanation": "The generated answer touches on progression systems and vehicle unlocks in 'The Crew Motorfest', which relates to player engagement but does not specifically address the presence of microtransactions or time-gated rewards. While some aspects are relevant to player retention, the answer fails to confirm or deny if such mechanisms lead to excessive play."
+    },
+    {
+        "index": 90,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answers consist of reviews and opinions on the gameplay and graphics of the Watch_Dogs series without addressing any specific content that could be concerning for children. None of the reviews mention themes or elements such as violence, language, or inappropriate behavior that might be relevant to the question.\"\n}",
+        "appid": "243470",
+        "question": "What kind of content might be present in Watch_Dogs that could be concerning for children?",
+        "relevance": "NON_RELEVANT",
+        "explanation": "The generated answer fails to address any aspects of the Watch_Dogs content that may be concerning for children. It focuses solely on gameplay and graphics reviews, neglecting to mention any potentially troubling themes like violence, language, or adult behavior that are relevant to the question."
+    },
+    {
+        "index": 91,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answer does not address the themes of violence or graphic depictions in Watch_Dogs. Instead, it provides various reviews about the game, focusing on gameplay mechanics and overall enjoyment. There is no mention of violence or graphic content, which is the specific concern raised in the question.\"\n}",
+        "appid": "243470",
+        "question": "Does Watch_Dogs have any themes of violence or graphic depictions that I should be aware of?",
+        "relevance": "NON_RELEVANT",
+        "explanation": "The generated answer does not address the specific inquiry about themes of violence or graphic depictions in Watch_Dogs. It focuses instead on gameplay and user reviews without touching on the aspects of violence or graphic content, making it irrelevant to the question asked."
+    },
+    {
+        "index": 92,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answer does not address the question about instances of gore or blood in Watch_Dogs. Instead, it provides reviews about the games without mentioning any specific content that could be disturbing for young players.\"\n}",
+        "appid": "243470",
+        "question": "Are there any instances of gore or blood that appear in Watch_Dogs that could be disturbing for young players?",
+        "relevance": "NON_RELEVANT",
+        "explanation": "The generated answer fails to address the specific question regarding the presence of gore or blood in Watch_Dogs. It does not provide any information or examples related to content that may be disturbing for young players, focusing instead on general reviews of the game."
+    },
+    {
+        "index": 93,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answer does not address the question about sexual content or suggestive themes in Watch_Dogs. Instead, it contains reviews discussing general impressions of the game without touching upon any explicit themes or content.\"\n}",
+        "appid": "243470",
+        "question": "Is there any sexual content or suggestive themes included in Watch_Dogs that I need to consider?",
+        "relevance": "NON_RELEVANT",
+        "explanation": "The generated answer fails to directly address the question about the presence of sexual content or suggestive themes in Watch_Dogs. Instead, it focuses on general impressions of the game, which are not relevant to the specific inquiry regarding explicit content."
+    },
+    {
+        "index": 94,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answer consists of multiple reviews for the game Watch_Dogs and Watch_Dogs 2, but it does not address the specific question about the level of profanity or offensive language present in Watch_Dogs. None of the reviews mention profanity or provide relevant insights into the language used in the game.\"\n}",
+        "appid": "243470",
+        "question": "How much profanity or use of offensive language is present in Watch_Dogs?",
+        "relevance": "NON_RELEVANT",
+        "explanation": "The generated answer does not address the question about the level of profanity or offensive language in Watch_Dogs. Instead, it focuses on reviews of the game without providing any specific information regarding the content in question."
+    },
+    {
+        "index": 95,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answers provide various reviews and opinions about the game 'The Crew Motorfest', but none of them mention substance abuse or the influence of drug or alcohol use on children. Therefore, they do not address the core question asked.\"\n}",
+        "appid": "243470",
+        "question": "Does the game depict any substance abuse such as drug or alcohol use that could influence children?",
+        "relevance": "NON_RELEVANT",
+        "explanation": "The generated answer does not address the specific question regarding substance abuse in the game. Instead, it focuses on reviews and opinions that fail to mention any aspects of drug or alcohol use, which is essential to evaluating the game's influence on children."
+    },
+    {
+        "index": 96,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answers are all user reviews for the Watch_Dogs games. They discuss gameplay, story, characters, and overall opinions on the titles, but do not address the specific question about elements of discrimination or negative social messages within Watch_Dogs.\"\n}",
+        "appid": "243470",
+        "question": "Are there any elements of discrimination or negative social messages found within Watch_Dogs?",
+        "relevance": "NON_RELEVANT",
+        "explanation": "The generated answer focuses on user reviews related to gameplay and overall opinions, which do not provide any insights or analysis regarding elements of discrimination or negative social messages in Watch_Dogs. Therefore, it fails to address the question directly."
+    },
+    {
+        "index": 97,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answer does not address the question about gambling mechanics or loot boxes in Watch_Dogs. Instead, it provides various reviews of the game, none of which mention any gambling mechanics or addictive behaviors related to loot boxes.\"\n}",
+        "appid": "243470",
+        "question": "Does Watch_Dogs include gambling mechanics or loot boxes that could lead to addictive behaviors?",
+        "relevance": "NON_RELEVANT",
+        "explanation": "The generated answer fails to address the specific inquiry about gambling mechanics or loot boxes in Watch_Dogs. It does not provide any information regarding the presence or absence of such features, making it unrelated to the question."
+    },
+    {
+        "index": 98,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answer consists of multiple reviews of 'Watch_Dogs' and 'Watch_Dogs 2,' but none of the reviews specifically mention horror or disturbing imagery, which is the focus of the question. The content primarily discusses gameplay mechanics, story, and character insights without addressing any disturbing imagery associated with the games.\"\n}",
+        "appid": "243470",
+        "question": "What kind of horror or disturbing imagery, if any, can be expected in Watch_Dogs?",
+        "relevance": "NON_RELEVANT",
+        "explanation": "The generated answer does not address the question about horror or disturbing imagery in 'Watch_Dogs' at all. Instead, it focuses on gameplay and story elements, which are unrelated to the specific inquiry regarding disturbing content."
+    },
+    {
+        "index": 99,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answer consists of multiple reviews for the game 'Watch_Dogs' and its sequel, 'Watch_Dogs 2.' However, none of the reviews address the presence of addiction mechanisms in the game or discuss implications for excessive playtime for children. Instead, they focus on general gameplay experiences, character assessments, and technical features without mentioning any addictive elements.\"\n}",
+        "appid": "243470",
+        "question": "Does Watch_Dogs feature any addiction mechanisms that could encourage excessive playtime for children?",
+        "relevance": "NON_RELEVANT",
+        "explanation": "The generated answer does not address the specific concern regarding addiction mechanisms or excessive playtime for children. Instead, it provides unrelated reviews focusing on general gameplay and character aspects of 'Watch_Dogs' and 'Watch_Dogs 2,' failing to engage with the question's context."
+    },
+    {
+        "index": 100,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answers consist of reviews from players discussing their experiences with 'Watch_Dogs 2', but none of the reviews address the question about the overall content rating regarding violent themes. The focus is on gameplay, graphics, and general opinions rather than specific content ratings or discussions of violence.\"\n}",
+        "appid": "447040",
+        "question": "What is the overall content rating for Watch_Dogs 2 regarding violent themes?",
+        "relevance": "NON_RELEVANT",
+        "explanation": "The generated answer does not provide any information about the overall content rating for 'Watch_Dogs 2' with respect to violent themes. Instead, it includes player reviews that focus on unrelated aspects of the game such as gameplay and graphics, failing to address the specific question about content rating."
+    },
+    {
+        "index": 101,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answers do not address the question regarding graphic depictions of injury or blood in 'Watch_Dogs 2'. The reviews focus on gameplay aspects, personal opinions about the game, and comparisons with other entries in the series without mentioning any content related to injuries or blood.\"\n}",
+        "appid": "447040",
+        "question": "Does Watch_Dogs 2 contain any graphic depictions of injury or blood?",
+        "relevance": "NON_RELEVANT",
+        "explanation": "The generated answer fails to address the specific question about the presence of graphic depictions of injury or blood in 'Watch_Dogs 2'. It instead discusses gameplay and opinions, which are unrelated to the content focus requested in the question."
+    },
+    {
+        "index": 102,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answer consists of several reviews for 'Watch_Dogs 2' and 'Watch_Dogs' but does not address the question regarding explicit or suggestive sexual themes in 'Watch_Dogs 2'. None of the reviews mention any sexual content, making them irrelevant to the topic.\"\n}",
+        "appid": "447040",
+        "question": "Are there any explicit or suggestive sexual themes in Watch_Dogs 2?",
+        "relevance": "NON_RELEVANT",
+        "explanation": "The generated answer fails to address the specific question about explicit or suggestive sexual themes in 'Watch_Dogs 2'. Instead, it presents unrelated reviews of the game, which do not discuss any sexual content, rendering the response irrelevant to the inquiry."
+    },
+    {
+        "index": 103,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answer does not address the question about the use of strong language in the dialogues of Watch_Dogs 2. Instead, it provides unrelated reviews about the game, which do not mention strong language or any pertinent aspect related to the query.\"\n}",
+        "appid": "447040",
+        "question": "Is there a significant amount of strong language used in the dialogues of Watch_Dogs 2?",
+        "relevance": "NON_RELEVANT",
+        "explanation": "The generated answer fails to address the specific inquiry about the presence of strong language in the dialogues of Watch_Dogs 2. Instead, it diverts to unrelated reviews, which do not provide any information on strong language usage in the game."
+    },
+    {
+        "index": 104,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answer does not address the question about drug, alcohol, or smoking references in Watch_Dogs 2. Instead, it includes unrelated reviews from various players, none of which mention any substance use or related behaviors.\"\n}",
+        "appid": "447040",
+        "question": "Does Watch_Dogs 2 include any references to drugs, alcohol, or smoking behavior?",
+        "relevance": "NON_RELEVANT",
+        "explanation": "The generated answer does not mention anything related to drugs, alcohol, or smoking behavior in Watch_Dogs 2, instead focusing on unrelated player reviews. Therefore, it is not relevant to the question asked."
+    },
+    {
+        "index": 105,
+        "answer": "{\n  \"relevance\": \"RELEVANT\",\n  \"explanation\": \"The generated answer directly addresses elements of discrimination and offensive content within Watch_Dogs 2 by discussing the political narrative and character diversity in the game. The review explicitly mentions the presence of diverse characters and how the narrative pushes specific messages related to oppression, which aligns with the question about discrimination.\"\n}",
+        "appid": "447040",
+        "question": "Are there any elements of discrimination or offensive content within Watch_Dogs 2?",
+        "relevance": "RELEVANT",
+        "explanation": "The generated answer effectively addresses the question regarding elements of discrimination and offensive content in Watch_Dogs 2. It highlights the game's focus on political narratives and character diversity, directly linking these aspects to themes of oppression, which are pertinent to the inquiry about discrimination within the game."
+    },
+    {
+        "index": 106,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answers do not address the question regarding in-game gambling mechanics or loot boxes in The Crew Motorfest. Instead, they focus on providing reviews and opinions about the game's features, graphics, and gameplay, without mentioning anything related to gambling or loot boxes.\"\n}",
+        "appid": "447040",
+        "question": "Does the game feature in-game gambling mechanics or loot boxes that could mimic gambling?",
+        "relevance": "NON_RELEVANT",
+        "explanation": "The generated answer fails to address the question about in-game gambling mechanics or loot boxes. It focuses on reviews and opinions related to other aspects of the game, making it irrelevant to the inquiry at hand."
+    },
+    {
+        "index": 107,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answer references reviews about the game 'FOR HONOR' and does not address the question regarding 'Watch_Dogs 2' or its suitability for children concerning fear-inducing or disturbing scenes. Therefore, it is completely irrelevant to the question asked.\"\n}",
+        "appid": "447040",
+        "question": "Is Watch_Dogs 2 known for having intense fear-inducing or disturbing scenes that may not be suitable for children?",
+        "relevance": "NON_RELEVANT",
+        "explanation": "The generated answer does not address the question about 'Watch_Dogs 2' or its suitability for children regarding disturbing scenes. Instead, it discusses reviews related to a different game, 'FOR HONOR,' which is completely off-topic."
+    },
+    {
+        "index": 108,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answers consist of player reviews for Watch_Dogs 2, but none of them address issues related to addiction mechanisms, such as microtransactions or time-gated rewards. Instead, they focus on gameplay aspects, graphics, and comparative opinions about different entries in the franchise, which is irrelevant to the specific question asked.\"\n}",
+        "appid": "447040",
+        "question": "Do players report issues with addiction mechanisms, such as microtransactions or time-gated rewards, in Watch_Dogs 2?",
+        "relevance": "NON_RELEVANT",
+        "explanation": "The generated answer does not address the specific concerns related to addiction mechanisms like microtransactions or time-gated rewards in Watch_Dogs 2. Instead, it discusses player reviews focusing on gameplay and graphics, which do not pertain to the question about addiction issues."
+    },
+    {
+        "index": 109,
+        "answer": "{\n  \"relevance\": \"RELEVANT\",\n  \"explanation\": \"The generated answers include several reviews of 'Watch_Dogs 2' that contain criticisms regarding storytelling and character motivations, directly relating to the incorporation of DEI ideology. Reviews mention issues like ludonarrative dissonance and the clash between character personalities and gameplay mechanics, which indicates concern about how DEI practices may impact the storyline's depth and coherence.\"\n}",
+        "appid": "447040",
+        "question": "Is there any criticism regarding the incorporation of DEI ideology in Watch_Dogs 2 that might affect creative storytelling?",
+        "relevance": "RELEVANT",
+        "explanation": "The generated answer directly addresses the criticism of DEI ideology in 'Watch_Dogs 2' by discussing reviews that highlight concerns about storytelling and character motivations. It connects these criticisms specifically to the impact of DEI practices on the game's narrative, making it highly relevant to the question asked."
+    },
+    {
+        "index": 110,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answer does not address the question about using a mod to bypass PSN requirements. Instead, it consists of various reviews of the game 'The Crew Motorfest,' discussing gameplay experiences without any mention of modifying functions or PSN requirements.\"\n}",
+        "appid": "2322010",
+        "question": "What does the review mean by using a mod to bypass PSN requirements?",
+        "relevance": "NON_RELEVANT",
+        "explanation": "The generated answer does not address the specific question about the use of a mod to bypass PSN requirements. Instead, it focuses on unrelated gameplay reviews of 'The Crew Motorfest,' failing to provide any insight or information relevant to the concept of modifying or bypassing PSN requirements."
+    },
+    {
+        "index": 111,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answer consists of multiple unrelated game reviews for 'FOR HONOR' and does not address the original question about why some games require separate accounts for single-player modes. The content is entirely off-topic and lacks any relevant information regarding account management or game features.\"\n}",
+        "appid": "2322010",
+        "question": "Why do some games require separate accounts for single-player modes?",
+        "relevance": "NON_RELEVANT",
+        "explanation": "The generated answer fails to address the question about the reasoning behind requiring separate accounts for single-player game modes. Instead, it contains unrelated game reviews which do not provide any insights or information relevant to the original question."
+    },
+    {
+        "index": 112,
+        "answer": "{\n  \"relevance\": \"RELEVANT\",\n  \"explanation\": \"The generated answer directly addresses the question by mentioning that separate accounts for single-player games should not become a common practice in gaming. The reviewer provides a clear concern about this practice and elaborates on the potential issues it may cause, making it relevant to the question asked.\"\n}",
+        "appid": "2322010",
+        "question": "What kind of practices does the reviewer say should not become common in gaming?",
+        "relevance": "RELEVANT",
+        "explanation": "The generated answer directly responds to the question by specifying the practice that the reviewer believes should not become common in gaming: the use of separate accounts for single-player games. It accurately conveys the reviewer's concerns and elaborates on the implications of this practice, thereby fulfilling the question's requirement."
+    },
+    {
+        "index": 113,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answer does not address the question about the game's content and its safety for children. It focuses on user reviews detailing gameplay mechanics and technical issues without providing any information regarding appropriateness for children or a discussion of the game's content.\"\n}",
+        "appid": "2322010",
+        "question": "Is God of War: Ragnarok known for its content, and is it safe for children?",
+        "relevance": "NON_RELEVANT",
+        "explanation": "The generated answer fails to address the main points of the question regarding the content of God of War: Ragnarok and its safety for children. Instead, it focuses on unrelated aspects such as gameplay mechanics and technical issues, which do not contribute to understanding the game's appropriateness for younger audiences."
+    },
+    {
+        "index": 114,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answer contains multiple user reviews for the game 'God of War: Ragnarok', but none of these reviews address the question of whether the game involves graphic depictions of violence or gore. The reviews focus on issues related to gameplay, optimization, and user experience, rather than specific content related to violence or gore.\"\n}",
+        "appid": "2322010",
+        "question": "Does this game involve any graphic depictions of violence or gore?",
+        "relevance": "NON_RELEVANT",
+        "explanation": "The generated answer fails to address the specific inquiry about graphic depictions of violence or gore in the game. Instead, it provides user reviews that do not touch on the content-related aspect of the question, thus rendering the answer non-relevant."
+    },
+    {
+        "index": 115,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answer does not address the question regarding the use of offensive words or strong language in God of War: Ragnarok. Instead, it focuses on technical issues related to the game's PC port and personal opinions about its features and performance, which are unrelated to the inquiry about language.\"\n}",
+        "appid": "2322010",
+        "question": "Are there any offensive words or strong language used in God of War: Ragnarok?",
+        "relevance": "NON_RELEVANT",
+        "explanation": "The generated answer does not address the specific inquiry about the presence of offensive words or strong language in God of War: Ragnarok. It discusses unrelated topics such as technical issues and personal opinions on game performance, which do not contribute to answering the question asked."
+    },
+    {
+        "index": 116,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answer consists of several user reviews for the game 'Flintlock: The Siege of Dawn' without addressing the specific question about harmful content in games. The reviews discuss gameplay, mechanics, and personal opinions, but none of them mention types of content that could be harmful in games.\"\n}",
+        "appid": "2322010",
+        "question": "Can you explain the types of content that could be harmful in games like this?",
+        "relevance": "NON_RELEVANT",
+        "explanation": "The generated answer does not address the question about harmful content in games. Instead, it provides user reviews that focus on gameplay aspects unrelated to the potential negative implications of game content, making it irrelevant to the inquiry."
+    },
+    {
+        "index": 117,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answer is entirely focused on reviews about the game 'FOR HONOR' and does not address the question about potential issues for families with multiple users regarding the requirement for separate accounts. There is no mention of families, accounts, or any related issues that might arise from having multiple users.\"\n}",
+        "appid": "2322010",
+        "question": "Does the requirement for separate accounts imply any potential issues for families with multiple users?",
+        "relevance": "NON_RELEVANT",
+        "explanation": "The generated answer discusses reviews of the game 'FOR HONOR,' which is unrelated to the question about the implications of requiring separate accounts for families with multiple users. There is no connection to the topic of family dynamics or account management issues within the response."
+    },
+    {
+        "index": 118,
+        "answer": "{\n  \"relevance\": \"RELEVANT\",\n  \"explanation\": \"The generated answers provide insights regarding the experience of players with in-game purchases and potential addiction mechanisms in the specified games. Reviews mentioning 'addiction' and concerns about progress loss related to in-game purchases directly address the question about concerns regarding in-game purchases or addiction mechanisms. The mentions of negative experiences and the warning to not play the game also imply significant concern, making them relevant to the user's query.\"\n}",
+        "appid": "2322010",
+        "question": "Should I be concerned about in-game purchases or addiction mechanisms in this game?",
+        "relevance": "RELEVANT",
+        "explanation": "The generated answer directly addresses the user's concern about in-game purchases and addiction mechanisms by referencing player experiences and specific examples of concerns raised in reviews. This aligns closely with the question's focus on worries regarding these aspects in the game."
+    },
+    {
+        "index": 119,
+        "answer": "{\n  \"relevance\": \"PARTLY_RELEVANT\",\n  \"explanation\": \"The generated answer discusses various issues and criticisms of the game 'God of War: Ragnarok', including user experience and technical problems related to PSN account requirements and graphical limits. While it touches on themes of consumer dissatisfaction which might hint at broader ideologies about corporate practices, it does not directly address whether the game incorporates controversial ideologies or themes that might affect creativity. Thus, it is partly relevant but does not fully answer the question.\"\n}",
+        "appid": "2322010",
+        "question": "Does God of War: Ragnarok incorporate any controversial ideologies or themes that might affect creativity?",
+        "relevance": "PARTLY_RELEVANT",
+        "explanation": "The generated answer mentions criticisms related to user experience and technical issues in 'God of War: Ragnarok', which could be indirectly linked to broader themes of consumer dissatisfaction and corporate practices. However, it does not specifically address whether the game includes controversial ideologies or themes that might impact creativity, which is the core of the question. Therefore, it is partially relevant but lacks a direct answer."
+    },
+    {
+        "index": 120,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answers consist largely of reviews that do not address the appropriateness of 'Watch Dogs: Legion' for children, particularly in relation to its mature themes. Instead, the reviews focus on gameplay aspects, personal opinions about the series, and comparisons to other games, none of which evaluate the game's content in a way that answers the question about suitability for children.\"\n}",
+        "appid": "2239550",
+        "question": "Is Watch Dogs: Legion appropriate for children given its mature themes?",
+        "relevance": "NON_RELEVANT",
+        "explanation": "The generated answer fails to address the specific question regarding the appropriateness of 'Watch Dogs: Legion' for children in relation to its mature themes. It focuses on gameplay and personal opinions, which do not provide any insight into content suitability for a younger audience."
+    },
+    {
+        "index": 121,
+        "answer": "{\n  \"relevance\": \"PARTLY_RELEVANT\",\n  \"explanation\": \"The generated answers include several reviews that express criticism regarding 'Watch Dogs: Legion', although most of them lack specific details about the aspects being criticized. Some reviews mention dissatisfaction with the game or suggest playing earlier titles instead, which indicates criticism, but they do not explicitly enumerate specific aspects of the game that are criticized.\"\n}",
+        "appid": "2239550",
+        "question": "What specific aspects of Watch Dogs: Legion are criticized in the reviews?",
+        "relevance": "PARTLY_RELEVANT",
+        "explanation": "The generated answer acknowledges that there are criticisms in reviews of 'Watch Dogs: Legion', but it does not clearly specify which aspects are being criticized. While it notes some general dissatisfaction and comparisons to earlier titles, it fails to delineate particular elements of the game identified by reviewers as problematic, thereby making it partially relevant to the question."
+    },
+    {
+        "index": 122,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answer contains multiple user reviews of 'Watch Dogs: Legion,' but none of the reviews specifically mention any references to violence or gore. Instead, they focus on general opinions about the game and comparisons to previous titles in the series, which does not address the question asked.\"\n}",
+        "appid": "2239550",
+        "question": "Are there any references to violence or gore in Watch Dogs: Legion?",
+        "relevance": "NON_RELEVANT",
+        "explanation": "The generated answer does not address the specific request for references to violence or gore in 'Watch Dogs: Legion.' Instead, it only presents user reviews that discuss general opinions and comparisons about the game, failing to provide any relevant information regarding the presence of violent or gory content."
+    },
+    {
+        "index": 123,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answers are reviews of the game 'Watch Dogs: Legion' but do not address the specific question about whether the game features sexual content or profanity. None of the reviews provide relevant information related to the question asked.\"\n}",
+        "appid": "2239550",
+        "question": "Does Watch Dogs: Legion feature any sexual content or profanity?",
+        "relevance": "NON_RELEVANT",
+        "explanation": "The generated answer does not directly address the question regarding sexual content or profanity in 'Watch Dogs: Legion'. Instead, it discusses general reviews of the game, which do not contain specific information about the presence of sexual content or profanity, making it irrelevant to the inquiry."
+    },
+    {
+        "index": 124,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answer does not address the question about how the gameplay in Watch Dogs: Legion compares to its predecessor games. Instead, it consists of reviews that express personal opinions about the game without providing a comparative analysis of gameplay mechanics or features between Watch Dogs: Legion and its predecessors.\"\n}",
+        "appid": "2239550",
+        "question": "How does the gameplay in Watch Dogs: Legion compare to its predecessor games?",
+        "relevance": "NON_RELEVANT",
+        "explanation": "The generated answer fails to directly compare the gameplay mechanics or features of Watch Dogs: Legion with its predecessors. Instead, it focuses on personal opinions, which do not provide the necessary comparative context the question requires."
+    },
+    {
+        "index": 125,
+        "answer": "{\n  \"relevance\": \"PARTLY_RELEVANT\",\n  \"explanation\": \"The generated answers mostly discuss the PSN login requirement for 'God of War: Ragnarok', which can be seen as a form of in-game monetization by requiring an account to access the game. However, the reviews lack a comprehensive discussion about other in-game monetization practices that might be more prevalent or relevant to parents, such as microtransactions or loot boxes.\"\n}",
+        "appid": "2239550",
+        "question": "Are there any in-game monetization practices that parents should be aware of?",
+        "relevance": "PARTLY_RELEVANT",
+        "explanation": "The generated answer touches on a specific aspect of in-game monetization related to account requirements for 'God of War: Ragnarok'. While this is a valid point, it does not address broader in-game monetization practices like microtransactions or loot boxes that are more significant concerns for parents. Thus, it provides some relevant information but lacks depth and comprehensiveness."
+    },
+    {
+        "index": 126,
+        "answer": "{\n  \"relevance\": \"PARTLY_RELEVANT\",\n  \"explanation\": \"The reviews showcase various opinions on the game 'FOR HONOR', with some mentioning negative experiences that could hint at addictive qualities and frustrations. However, none of the reviews explicitly state that the game contains harmful addiction mechanisms for kids, which is the focus of the original question. Therefore, while there are comments that suggest strong engagement and frustration with the game, they do not directly address how these might be harmful specifically to children.\"\n}",
+        "appid": "2239550",
+        "question": "Does the game contain any addiction mechanisms that could be harmful for kids?",
+        "relevance": "PARTLY_RELEVANT",
+        "explanation": "The answer discusses opinions from reviews about the game 'FOR HONOR', indicating some negative experiences that might suggest addictive qualities. However, it does not specifically address whether these qualities are harmful to kids, which is the primary concern of the question. Therefore, while there is some relevant information regarding engagement and frustration, it does not fully satisfy the question's requirement about the potential harm to children."
+    },
+    {
+        "index": 127,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answers consist mainly of user reviews that express opinions on the game 'Watch Dogs: Legion' but do not address the question about promoting discrimination. None of the reviews provide any analysis or mention of discrimination in the game's content.\"\n}",
+        "appid": "2239550",
+        "question": "Is there any content in Watch Dogs: Legion that promotes discrimination?",
+        "relevance": "NON_RELEVANT",
+        "explanation": "The generated answer does not directly address the question regarding promotion of discrimination in 'Watch Dogs: Legion.' It focuses on user reviews without providing relevant information or analysis about the game's content related to discrimination."
+    },
+    {
+        "index": 128,
+        "answer": "{\n  \"relevance\": \"RELEVANT\",\n  \"explanation\": \"The generated answer includes multiple reviews that specifically discuss the storyline of 'Watch Dogs: Legion,' providing insights into players' opinions and sentiments about the game's narrative and comparing it to other games in the series.\"\n}",
+        "appid": "2239550",
+        "question": "What do reviews say about the storyline of Watch Dogs: Legion?",
+        "relevance": "RELEVANT",
+        "explanation": "The generated answer directly addresses the question by citing multiple reviews that focus on the storyline of 'Watch Dogs: Legion.' It provides specific insights into players' opinions and comparisons, which aligns perfectly with the inquiry about the storyline."
+    },
+    {
+        "index": 129,
+        "answer": "{\n  \"relevance\": \"RELEVANT\",\n  \"explanation\": \"The generated answer includes several user reviews recommending earlier titles in the Watch Dogs series as alternatives to Watch Dogs: Legion. Specifically, it suggests that players consider playing Watch Dogs 1 or Watch Dogs 2 instead, which directly addresses the question about safer gaming alternatives.\"\n}",
+        "appid": "2239550",
+        "question": "Would you recommend alternatives to Watch Dogs: Legion for a safer gaming experience?",
+        "relevance": "RELEVANT",
+        "explanation": "The generated answer directly addresses the question by recommending earlier titles in the Watch Dogs series as safer alternatives to Watch Dogs: Legion, aligning well with the request for alternative games for a safer gaming experience."
+    },
+    {
+        "index": 130,
+        "answer": "{\n  \"relevance\": \"PARTLY_RELEVANT\",\n  \"explanation\": \"The generated answer includes player reviews that provide subjective opinions on the game 'Gotham Knights', but it lacks a concise summary or overall rating from these reviews that clearly indicates the overall value based on player feedback. While the reviews contain varying opinions on the game's strengths and weaknesses, they do not directly aggregate this information into an overall value score or consensus that answers the question.\"\n}",
+        "appid": "1496790",
+        "question": "What is the overall value of the game Gotham Knights based on player reviews?",
+        "relevance": "PARTLY_RELEVANT",
+        "explanation": "The generated answer touches on player reviews, which are relevant to determining the game's overall value. However, it fails to provide a clear summary or metric that encapsulates this value, such as an average score or consensus from those reviews. Therefore, while it provides useful context, it does not fully answer the question regarding the overall value."
+    },
+    {
+        "index": 131,
+        "answer": "{\n  \"relevance\": \"RELEVANT\",\n  \"explanation\": \"The generated answers provide various perspectives on the engaging experience of 'Gotham Knights,' illustrating both positive and negative aspects of gameplay. They discuss enjoyment levels, critiques of gameplay mechanics, comparison to previous titles, and thoughts on character dynamics, addressing the core of the question about whether the game offers an engaging experience or is perceived as a waste of time.\"\n}",
+        "appid": "1496790",
+        "question": "Does Gotham Knights provide an engaging experience for players, or is it seen as a waste of time?",
+        "relevance": "RELEVANT",
+        "explanation": "The generated answer effectively addresses the question by highlighting both positive and negative aspects of 'Gotham Knights' in terms of player engagement. It succinctly summarizes the varying opinions about the game's enjoyment, mechanics, and character interactions, directly relating to the inquiry about its value to players and its perceived entertainment level."
+    },
+    {
+        "index": 132,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answer does not address the original question about violence or graphic depictions in 'Gotham Knights.' Instead, it focuses on game mechanics, gameplay experiences, and overall impressions without mentioning content that would raise concerns regarding violence or graphic imagery.\"\n}",
+        "appid": "1496790",
+        "question": "Is there any significant content in Gotham Knights that would raise concerns regarding violence or graphic depictions?",
+        "relevance": "NON_RELEVANT",
+        "explanation": "The generated answer fails to directly address the question about concerns related to violence or graphic depictions in 'Gotham Knights.' Instead, it centers on unrelated game mechanics and experiences, which does not provide any relevant information regarding the content in question."
+    },
+    {
+        "index": 133,
+        "answer": "{\n  \"relevance\": \"PARTLY_RELEVANT\",\n  \"explanation\": \"The generated answer discusses the gameplay and design aspects of 'Gotham Knights' but does not explicitly address whether there are elements that are addictive or promote excessive play. While some reviewers mention enjoying the game and finding it fun, indicating potential for addictive qualities, the answer lacks a direct assessment of what specific elements contribute to addiction or excessive play.\"\n}",
+        "appid": "1496790",
+        "question": "Are there elements in Gotham Knights that could be considered addictive or promote excessive play?",
+        "relevance": "PARTLY_RELEVANT",
+        "explanation": "The generated answer touches on the enjoyment and fun aspects of gameplay in 'Gotham Knights', which may hint at potential addictive qualities. However, it does not specifically identify or analyze elements that explicitly promote excessive play or addiction, leading to a classification of partly relevant rather than fully relevant."
+    },
+    {
+        "index": 134,
+        "answer": "{\n  \"relevance\": \"RELEVANT\",\n  \"explanation\": \"The generated answer provides an in-depth analysis of gameplay experience in Gotham Knights, specifically discussing character roles, combat mechanics, traversal methods, and overall enjoyment, which are directly related to what a child can expect in terms of gameplay. It addresses the game's appeal, its co-op aspect, and specific character experiences, making it highly relevant to the question.\"\n}",
+        "appid": "1496790",
+        "question": "What sort of gameplay experience can a child expect from Gotham Knights?",
+        "relevance": "RELEVANT",
+        "explanation": "The generated answer effectively summarizes the gameplay experience a child can expect from Gotham Knights by detailing character roles, combat mechanics, and co-op play, which are pertinent elements for understanding the gameplay dynamics suitable for children."
+    },
+    {
+        "index": 135,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answer provides extensive reviews about the gameplay, graphics, and experiences of players in 'Gotham Knights', but it does not address the content suitability for children as asked in the question. There is no mention of specific content ratings, themes, violence, or any factors that could determine if the game is suitable for children.\"\n}",
+        "appid": "1496790",
+        "question": "Can Gotham Knights be classified as a game suitable for children in terms of content?",
+        "relevance": "NON_RELEVANT",
+        "explanation": "The generated answer fails to address the specific question about the game's suitability for children regarding its content. It focuses on gameplay and player experiences, which do not directly relate to content ratings or themes that influence whether it is appropriate for a younger audience."
+    },
+    {
+        "index": 136,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answers do not address the question regarding the presence of strong language or profanity in 'Gotham Knights.' Instead, they provide general reviews about the gameplay, graphics, and overall impressions of the game without mentioning any specific instances of strong language or inappropriate content.\"\n}",
+        "appid": "1496790",
+        "question": "Does Gotham Knights feature any strong language or profanity that may be inappropriate?",
+        "relevance": "NON_RELEVANT",
+        "explanation": "The generated answer fails to address the specific inquiry about strong language or profanity in 'Gotham Knights.' It focuses on general aspects of the game such as gameplay and graphics, which do not provide the necessary information regarding inappropriate content."
+    },
+    {
+        "index": 137,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answers do not address the question regarding portrayals of substance abuse or other harmful activities in the game. They mainly focus on gameplay mechanics, graphics, and personal enjoyment, without mentioning any themes of substance abuse or harmful activities.\"\n}",
+        "appid": "1496790",
+        "question": "Are there portrayals of substance abuse or other harmful activities in the game?",
+        "relevance": "NON_RELEVANT",
+        "explanation": "The generated answer does not address the specific query about portrayals of substance abuse or other harmful activities in the game. It focuses on unrelated aspects such as gameplay mechanics and graphics, failing to provide any information relevant to the question asked."
+    },
+    {
+        "index": 138,
+        "answer": "{\n  \"relevance\": \"RELEVANT\",\n  \"explanation\": \"The generated answer discusses the presence of DEI (Diversity, Equity, and Inclusion) elements and mentions specific instances, such as the portrayal of female criminals and pride flags, relating directly to the question of discriminatory content or harmful ideologies in 'Gotham Knights.' This indicates a direct engagement with the question posed.\"\n}",
+        "appid": "1496790",
+        "question": "Is there any content in Gotham Knights that could be perceived as discriminatory or promoting harmful ideologies?",
+        "relevance": "RELEVANT",
+        "explanation": "The generated answer directly addresses the question by mentioning specific elements related to discrimination and harmful ideologies, such as DEI aspects and representation of female criminals. This clearly ties into the inquiry about potentially discriminatory content in 'Gotham Knights,' demonstrating a relevant connection between the answer and the question."
+    },
+    {
+        "index": 139,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answer consists of a series of reviews for 'Gotham Knights' but does not provide a direct recommendation or address the specific concerns of a conservative father seeking safe gaming options for children. The reviews focus on gameplay quality, design, and personal experiences, failing to discuss content appropriateness or suitability for a younger audience.\"\n}",
+        "appid": "1496790",
+        "question": "Given the review, would you recommend Gotham Knights to a conservative father looking for safe gaming options for children?",
+        "relevance": "NON_RELEVANT",
+        "explanation": "The generated answer fails to address the specific question regarding the suitability of 'Gotham Knights' for children from a conservative father's perspective. It provides general reviews which do not consider content appropriateness or safety for younger audiences, making it irrelevant to the query."
+    },
+    {
+        "index": 140,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answers are primarily reviews expressing opinions about the overall gaming experience and enjoyment of Baldur's Gate 3, but they do not address the specific concern about excessive or graphic depictions of violence in the game. Therefore, they are not relevant to the question asked.\"\n}",
+        "appid": "1086940",
+        "question": "Does Baldur's Gate 3 have any excessive or graphic depictions of violence that I should be concerned about?",
+        "relevance": "NON_RELEVANT",
+        "explanation": "The generated answer does not directly address the question about excessive or graphic depictions of violence in Baldur's Gate 3. Instead, it focuses on reviews of the overall gaming experience, which is not pertinent to the specific concern raised in the question."
+    },
+    {
+        "index": 141,
+        "answer": "{\n  \"relevance\": \"PARTLY_RELEVANT\",\n  \"explanation\": \"The generated answer touches upon the presence of blood and violence, particularly in the last review where it states, 'If you no like blood and guts then don't buy.' However, the majority of the reviews focus on gameplay, mechanics, and overall enjoyment, without specifically addressing whether the content is appropriate for children. Thus, while there is some mention of gore, it is not discussed in a detailed manner relevant to the question about child suitability.\"\n}",
+        "appid": "1086940",
+        "question": "Are there any instances of gore or blood in Baldur's Gate 3 that could be inappropriate for my children?",
+        "relevance": "PARTLY_RELEVANT",
+        "explanation": "The response mentions the presence of blood and violence in Baldur's Gate 3, which is relevant to the question about gore and the potential impact on children. However, it fails to provide a comprehensive evaluation of the game's content regarding its appropriateness for children, focusing instead on gameplay aspects in many reviews. This lack of detailed analysis means it is only partly relevant to the specific concern raised by the question."
+    },
+    {
+        "index": 142,
+        "answer": "{\n  \"relevance\": \"RELEVANT\",\n  \"explanation\": \"The generated answer specifically addresses the presence of adult content in Baldur's Gate 3. It mentions that the game is unapologetically for adults, indicates there is actual adult content, and acknowledges that this is not a marketing ploy. This directly answers the user's question regarding the presence of explicit or suggestive sexual content in the game.\"\n}",
+        "appid": "1086940",
+        "question": "Is there explicit or suggestive sexual content in Baldur's Gate 3 that I need to be aware of?",
+        "relevance": "RELEVANT",
+        "explanation": "The generated answer thoroughly addresses the user's inquiry about explicit or suggestive sexual content in Baldur's Gate 3. It explicitly states the presence of adult content, clarifying that the game is intended for an adult audience, which directly responds to the question posed."
+    },
+    {
+        "index": 143,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answer does not address the question about the amount of profanity used in Baldur's Gate 3 or its suitability for a younger audience. Instead, it contains general reviews of the game without any specific mention of profanity or age ratings.\"\n}",
+        "appid": "1086940",
+        "question": "How much profanity is used in Baldur's Gate 3, and is it suitable for a younger audience?",
+        "relevance": "NON_RELEVANT",
+        "explanation": "The generated answer fails to address the specific aspects of the question regarding the use of profanity in Baldur's Gate 3 and its suitability for a younger audience. It focuses on general game reviews without providing any pertinent information related to the query."
+    },
+    {
+        "index": 144,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answers do not address the question regarding the portrayal of substance abuse in Baldur's Gate 3. Instead, they provide reviews that focus on the enjoyment of the game, its mechanics, and various aspects of gameplay without mentioning substance abuse or its potential influence on children.\"\n}",
+        "appid": "1086940",
+        "question": "Does Baldur's Gate 3 portray substance abuse, such as drugs or alcohol, in any way that could influence my children negatively?",
+        "relevance": "NON_RELEVANT",
+        "explanation": "The generated answer fails to directly address the concern regarding substance abuse in Baldur's Gate 3 and its potential negative influence on children. Instead, it focuses on gameplay aspects and player enjoyment, which do not relate to the specific question about substance use portrayal."
+    },
+    {
+        "index": 145,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answers focus entirely on reviews and experiences related to gameplay, mechanics, and overall enjoyment of Baldur's Gate 3. None of the responses address the question regarding discrimination, racist, or sexist content within the game.\"\n}",
+        "appid": "1086940",
+        "question": "Are there any elements of discrimination, like racist or sexist content, present in Baldur's Gate 3?",
+        "relevance": "NON_RELEVANT",
+        "explanation": "The generated answer does not address the question about elements of discrimination in Baldur's Gate 3. It focuses solely on gameplay and enjoyment rather than any discriminatory content, making it irrelevant to the inquiry."
+    },
+    {
+        "index": 146,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answers consist of reviews and opinions about Baldur's Gate 3, but none of them address the question regarding gambling features, loot boxes, or gambling mechanics in the game. Therefore, they do not provide relevant information in response to the question.\"\n}",
+        "appid": "1086940",
+        "question": "Does Baldur's Gate 3 include any gambling features, such as loot boxes, that mimic gambling mechanics?",
+        "relevance": "NON_RELEVANT",
+        "explanation": "The generated answer discusses reviews and opinions but fails to address whether Baldur's Gate 3 includes gambling features or loot boxes. Since the response does not contain any relevant information regarding the specific mechanics mentioned in the question, it is classified as non-relevant."
+    },
+    {
+        "index": 147,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answers provide a variety of reviews about Baldur's Gate 3, discussing gameplay, storytelling, graphics, and player experiences. However, none of the reviews specifically address the horror or disturbing imagery present in the game, nor do they provide any insight into the intensity of such elements. Therefore, they do not answer the question.\"\n}",
+        "appid": "1086940",
+        "question": "What kind of horror or disturbing imagery can I expect in Baldur's Gate 3, and is it intense?",
+        "relevance": "NON_RELEVANT",
+        "explanation": "The generated answer does not address the specific question about horror or disturbing imagery in Baldur's Gate 3, nor does it discuss the intensity of such elements. Instead, it focuses on general reviews, gameplay mechanics, and player experiences, which are not related to the inquiry about horror content."
+    },
+    {
+        "index": 148,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answers focus solely on personal experiences and opinions regarding the gameplay and quality of Baldur's Gate 3, without addressing the question about mechanics that could encourage excessive play, such as microtransactions or time-gated rewards. None of the responses mention features related to monetization or time constraints, making them irrelevant to the query.\"\n}",
+        "appid": "1086940",
+        "question": "Are there any mechanics in Baldur's Gate 3 that could encourage my children to play excessively, like microtransactions or time-gated rewards?",
+        "relevance": "NON_RELEVANT",
+        "explanation": "The generated answer does not address the question regarding mechanics that could encourage excessive gameplay, such as microtransactions or time-gated rewards. Instead, it only discusses personal experiences and opinions about the gameplay and quality of Baldur's Gate 3, which are not pertinent to the query posed."
+    },
+    {
+        "index": 149,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answers provided do not address the question about corporate DEI policies or agendas in relation to 'Baldur's Gate 3'. Instead, they overwhelmingly focus on the gaming experience, storytelling, and mechanics of the game, without any mention of DEI or its potential impact on creativity or quality.\"\n}",
+        "appid": "1086940",
+        "question": "Does Baldur's Gate 3 have any corporate DEI policies or agendas that might negatively impact the creativity or quality of the game?",
+        "relevance": "NON_RELEVANT",
+        "explanation": "The generated answer does not address the specific inquiry regarding corporate DEI policies or agendas related to Baldur's Gate 3. It instead focuses on aspects of the game such as gameplay and storytelling, which are unrelated to the question about the potential negative impacts of DEI initiatives on creativity or quality."
+    },
+    {
+        "index": 150,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answer does not address the question about the appropriateness of Forspoken for children. It includes various user reviews that primarily focus on gameplay experiences and opinions on the game's mechanics, graphics, and storyline, without discussing content suitability for children.\"\n}",
+        "appid": "1680880",
+        "question": "Is Forspoken appropriate for my children considering its content?",
+        "relevance": "NON_RELEVANT",
+        "explanation": "The generated answer does not provide any information about the content of Forspoken or its appropriateness for children. Instead, it focuses on user reviews that are unrelated to content suitability, thereby failing to address the original question."
+    },
+    {
+        "index": 151,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answers provide various opinions and reviews about the game 'Forspoken' but do not address the original question about the presence of graphic depictions of violence in the game. None of the reviews contain relevant information regarding violence, making them irrelevant to the question.\"\n}",
+        "appid": "1680880",
+        "question": "Are there any graphic depictions of violence in Forspoken?",
+        "relevance": "NON_RELEVANT",
+        "explanation": "The generated answer fails to address the specific inquiry about graphic depictions of violence in 'Forspoken.' Instead, it discusses opinions and reviews related to the game without providing any information on the presence or absence of violence, thus being entirely irrelevant to the question asked."
+    },
+    {
+        "index": 152,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answers are reviews of the game Forspoken but do not address the specific question about gory imagery or whether the game might be disturbing for kids. There is no mention of content that is gory or potentially inappropriate for children in any of the provided reviews.\"\n}",
+        "appid": "1680880",
+        "question": "Does Forspoken contain any gory imagery that might be disturbing for kids?",
+        "relevance": "NON_RELEVANT",
+        "explanation": "The generated answer discusses reviews of the game Forspoken but fails to address the specific concern about gory imagery or its potential impact on children. It does not provide any relevant information regarding the content that might be disturbing for kids."
+    },
+    {
+        "index": 153,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answer does not address the presence of sexual content in 'Forspoken' at all. Instead, it consists of various player reviews that focus on gameplay, graphics, and storyline without mentioning any sexual themes or content.\"\n}",
+        "appid": "1680880",
+        "question": "Is there any sexual content present in Forspoken?",
+        "relevance": "NON_RELEVANT",
+        "explanation": "The generated answer does not provide any information regarding the presence of sexual content in 'Forspoken'. It focuses solely on gameplay, graphics, and storyline, failing to directly address the question about sexual themes, thus making it completely irrelevant to the inquiry."
+    },
+    {
+        "index": 154,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answers do not address the question regarding profanity or strong language in 'The Crew Motorfest.' Instead, they focus on gameplay, graphics, and overall impressions of the game without any mention of language content.\"\n}",
+        "appid": "1680880",
+        "question": "Does the game include any profanity or strong language?",
+        "relevance": "NON_RELEVANT",
+        "explanation": "The generated answer completely fails to address the specific question about profanity or strong language in the game. It discusses aspects like gameplay and graphics, which are unrelated to the inquiry about language content."
+    },
+    {
+        "index": 155,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answers consist of Steam reviews for the game 'Forspoken,' none of which address mentions of substance abuse. The answers focus on gameplay, graphics, and character development, which are unrelated to the question about substance abuse.\"\n}",
+        "appid": "1680880",
+        "question": "Are there mentions of substance abuse in Forspoken?",
+        "relevance": "NON_RELEVANT",
+        "explanation": "The generated answer does not address the question about substance abuse in 'Forspoken' at all. Instead, it describes unrelated aspects of the game such as gameplay, graphics, and character development, making it irrelevant to the inquiry."
+    },
+    {
+        "index": 156,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answers consist of reviews detailing gameplay experiences, graphics, character development, and technical issues, none of which address how Forspoken handles discrimination or any offensive themes. There is no discussion of themes related to discrimination or offensiveness in the context of the game's story or character interactions.\"\n}",
+        "appid": "1680880",
+        "question": "How does Forspoken handle discrimination or any offensive themes?",
+        "relevance": "NON_RELEVANT",
+        "explanation": "The generated answer does not address the question about how Forspoken deals with discrimination or offensive themes. Instead, it focuses on unrelated aspects such as gameplay and technical issues, failing to provide any insights into the themes of discrimination or offensiveness in the game."
+    },
+    {
+        "index": 157,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answers are reviews of the game 'Forspoken' and do not address the specific question about in-game gambling mechanics or loot boxes. None of the reviews mention anything related to gambling or loot box features.\"\n}",
+        "appid": "1680880",
+        "question": "Does Forspoken have in-game gambling mechanics or loot boxes?",
+        "relevance": "NON_RELEVANT",
+        "explanation": "The generated answer indicates that the content consists of game reviews which do not address the specific inquiry about in-game gambling mechanics or loot boxes in 'Forspoken'. Since there is no mention of those features, the response is not relevant to the question asked."
+    },
+    {
+        "index": 158,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answers focus solely on the gameplay, graphics, mechanics, and user experiences of 'The Crew Motorfest' without any mention of horror aspects or disturbing imagery, which is the specific focus of the question.\"\n}",
+        "appid": "1680880",
+        "question": "Are there any horror aspects or disturbing imagery in the game?",
+        "relevance": "NON_RELEVANT",
+        "explanation": "The generated answer does not address the question about horror aspects or disturbing imagery in the game. It focuses on gameplay and graphic mechanics, which are unrelated to the query, thus rendering it completely irrelevant."
+    },
+    {
+        "index": 159,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answer does not address the question regarding features that may encourage excessive gaming or addiction. Instead, it consists of various game reviews discussing gameplay, graphics, and personal enjoyment without any mention of addiction or excessive gaming behaviors.\"\n}",
+        "appid": "1680880",
+        "question": "Does Forspoken have features that might encourage excessive gaming or addiction?",
+        "relevance": "NON_RELEVANT",
+        "explanation": "The generated answer does not directly address the question about features of Forspoken that may lead to excessive gaming or addiction. It focuses on general reviews and aspects of the game which are unrelated to potential addictive qualities or gaming behaviors."
+    },
+    {
+        "index": 160,
+        "answer": "{\n  \"relevance\": \"PARTLY_RELEVANT\",\n  \"explanation\": \"The generated answers provide insights about the gameplay and characters of 'Shadow Gambit: The Cursed Crew,' which contributes to understanding its storyline. However, they do not directly address whether the game is suitable for children, which is a critical part of the original question.\"\n}",
+        "appid": "1545560",
+        "question": "What is the story line of Shadow Gambit: The Cursed Crew, and is it suitable for children?",
+        "relevance": "PARTLY_RELEVANT",
+        "explanation": "The generated answer touches on aspects of the storyline by discussing gameplay and characters in 'Shadow Gambit: The Cursed Crew.' However, it fails to address the suitability of the game for children, which is an essential component of the user's question. Thus, it is informative but not fully relevant."
+    },
+    {
+        "index": 161,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answer does not address the question regarding elements of violence or graphic content within the game. Instead, it primarily discusses gameplay mechanics, combat systems, and personal experiences without mentioning any violent or graphic elements.\"\n}",
+        "appid": "1545560",
+        "question": "Are there any elements of violence or graphic content within the game?",
+        "relevance": "NON_RELEVANT",
+        "explanation": "The generated answer fails to address the question about violence or graphic content within the game, as it focuses solely on gameplay mechanics and personal experiences, which are unrelated to the inquiry at hand."
+    },
+    {
+        "index": 162,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answer does not address the question about whether the game includes gore or blood imagery disturbing for kids. Instead, it contains lengthy reviews discussing the game's mechanics, multiplayer experience, and the author's opinions on gameplay, without mentioning any violent or graphic content.\"\n}",
+        "appid": "1545560",
+        "question": "Does the game include any gore or blood imagery that might be disturbing for kids?",
+        "relevance": "NON_RELEVANT",
+        "explanation": "The generated answer fails to address the specific concern regarding gore or blood imagery in the game, focusing instead on unrelated gameplay aspects. This indicates a complete lack of relevance to the question posed."
+    },
+    {
+        "index": 163,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answers do not address the question about sexual content or suggestive themes in 'Shadow Gambit: The Cursed Crew.' Instead, the reviews focus on gameplay mechanics, character design, and overall impressions of the game, with no mention of any sexual or suggestive themes.\"\n}",
+        "appid": "1545560",
+        "question": "Is there any sexual content or suggestive themes presented in Shadow Gambit: The Cursed Crew?",
+        "relevance": "NON_RELEVANT",
+        "explanation": "The generated answer does not address the specific question about the presence of sexual content or suggestive themes in 'Shadow Gambit: The Cursed Crew.' Instead, it discusses unrelated aspects such as gameplay mechanics and character design, failing to provide any information relevant to the inquiry."
+    },
+    {
+        "index": 164,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answer consists of player reviews that discuss various aspects of the game, including gameplay experience, graphics, and PSN account requirements, but it does not address the question about instances of profanity or offensive language in the game.\"\n}",
+        "appid": "1545560",
+        "question": "Does this game have any instances of profanity or offensive language?",
+        "relevance": "NON_RELEVANT",
+        "explanation": "The generated answer does not contain any information regarding instances of profanity or offensive language. Instead, it focuses solely on player reviews about gameplay, graphics, and PSN account requirements, which are unrelated to the question asked."
+    },
+    {
+        "index": 165,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answer contains detailed reviews about the game 'Flintlock: The Siege of Dawn', discussing gameplay mechanics, graphics, and personal experiences. However, it does not address the question about depictions of drug use, alcohol, or smoking in the game at all.\"\n}",
+        "appid": "1545560",
+        "question": "Are there any depictions of drug use, alcohol, or smoking in the game?",
+        "relevance": "NON_RELEVANT",
+        "explanation": "The generated answer does not address the specific question regarding depictions of drug use, alcohol, or smoking in the game. Instead, it focuses on unrelated aspects such as gameplay mechanics and personal experiences, making it completely irrelevant to the inquiry."
+    },
+    {
+        "index": 166,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answers primarily focus on the gameplay, mechanics, and experience of The Crew Motorfest without addressing the question regarding discriminatory content or themes. None of the reviews explicitly mention any discriminatory elements, themes, or alignment with family values, rendering them irrelevant to the query.\"\n}",
+        "appid": "1545560",
+        "question": "Does the game contain any discriminatory content or themes that may not align with my family's values?",
+        "relevance": "NON_RELEVANT",
+        "explanation": "The generated answer does not address the specific question about discriminatory content or themes in the game. It focuses on gameplay and mechanics instead, leaving the query about alignment with family values unanswered."
+    },
+    {
+        "index": 167,
+        "answer": "{\n  \"relevance\": \"PARTLY_RELEVANT\",\n  \"explanation\": \"The generated answer predominantly discusses the presence of loot boxes and gambling mechanics in the game 'Far Cry 5', which is relevant to the concern about in-game gambling affecting children negatively. However, it does not provide concrete evidence or broader discussion about how these mechanics might affect children specifically, which limits the depth of relevance.\"\n}",
+        "appid": "1545560",
+        "question": "Is there any in-game gambling or loot box mechanics that could affect children negatively?",
+        "relevance": "PARTLY_RELEVANT",
+        "explanation": "The generated answer addresses the presence of loot boxes and gambling mechanics in a specific game, which connects to the broader issue of how such features could impact children. However, it lacks a comprehensive examination of the effects of these mechanics on children, which diminishes its overall relevance to the question."
+    },
+    {
+        "index": 168,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answers do not address the presence of horror or disturbing imagery in 'Shadow Gambit: The Cursed Crew'. Instead, they focus on gameplay mechanics, characters, and comparisons to previous games, which is irrelevant to the specific question asked.\"\n}",
+        "appid": "1545560",
+        "question": "Are there elements of horror or disturbing imagery present in Shadow Gambit: The Cursed Crew?",
+        "relevance": "NON_RELEVANT",
+        "explanation": "The generated answer does not provide any information regarding horror or disturbing imagery in 'Shadow Gambit: The Cursed Crew'. Instead, it focuses on unrelated aspects like gameplay mechanics and character comparisons, failing to address the specific elements of horror or disturbing imagery that the question inquired about."
+    },
+    {
+        "index": 169,
+        "answer": "{\n  \"relevance\": \"PARTLY_RELEVANT\",\n  \"explanation\": \"The generated answers mostly focus on gameplay experiences, graphics, and car mechanics. While a few reviews briefly mention microtransactions, they do not directly address the specific mechanics related to addiction, such as time-restricted rewards or how microtransactions influence player engagement and potential addiction. Thus, the relevance is partly there but not fully addressed.\"\n}",
+        "appid": "1545560",
+        "question": "Does the game incorporate any mechanics that could encourage addiction, such as microtransactions or time-restricted rewards?",
+        "relevance": "PARTLY_RELEVANT",
+        "explanation": "The generated answer touches on some aspects of the question by mentioning microtransactions, but it lacks a comprehensive discussion of how these mechanics could lead to addiction. It doesn't fully explore time-restricted rewards or their potential impact on player engagement. Therefore, while it provides some relevant information, it does not completely address the question."
+    },
+    {
+        "index": 170,
+        "answer": "{\n  \"relevance\": \"PARTLY_RELEVANT\",\n  \"explanation\": \"The generated answer discusses the overall themes of 'Dustborn', touching on topics such as diversity, political commentary, and character development, but it lacks a clear assessment of the violent content of the game itself. While it alludes to violence in the context of the game's world, it does not provide specific details or a depth of analysis regarding the violent elements that may concern parents.\" \n}",
+        "appid": "721180",
+        "question": "What is the overall theme of Dustborn, and does it contain any violent content that could concern parents?",
+        "relevance": "PARTLY_RELEVANT",
+        "explanation": "The generated answer addresses the overall themes of 'Dustborn', such as diversity and political commentary, which are relevant to the question. However, it falls short in sufficiently addressing the specific concerns about violent content that parents may have, only vaguely mentioning violence without providing concrete details or examples. This makes it only partly relevant to the question."
+    },
+    {
+        "index": 171,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answers primarily focus on various reviews of the game 'Dustborn', discussing its gameplay, characters, narrative, and other aspects without addressing the specific question about graphic depictions of violence or gore. None of the reviews directly mention violence or gore in the context requested, making them irrelevant to the question.\"\n}",
+        "appid": "721180",
+        "question": "Are there any graphic depictions of violence or gore in Dustborn that I should be aware of?",
+        "relevance": "RELEVANT",
+        "explanation": "The generated answer directly addresses the question about graphic depictions of violence or gore in 'Dustborn' by clearly stating that the generated answers do not mention any violence or gore. This indicates that the inquiry about graphic content is acknowledged and specifically assessed, making it relevant to the question."
+    },
+    {
+        "index": 172,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answer does not address the question about whether Dustborn contains any sexual content or suggestive themes appropriate for children. Instead, it provides an extensive review covering various gameplay mechanics, narrative elements, and character development without mentioning sexual content or suitability for children.\"\n}",
+        "appid": "721180",
+        "question": "Does Dustborn include any sexual content or suggestive themes that might not be suitable for children?",
+        "relevance": "NON_RELEVANT",
+        "explanation": "The generated answer completely misses the focus of the question regarding the presence of sexual content or suggestive themes in Dustborn. Instead, it discusses unrelated aspects of gameplay and narrative, failing to provide any information related to the suitability for children."
+    },
+    {
+        "index": 173,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answer does not address the question regarding the presence and strength of profanity in the dialogue or text of 'Dustborn.' Instead, it provides extensive feedback on the game's mechanics, story elements, and various critiques but fails to specifically mention any profanity or analyze the language used in that context.\"\n}",
+        "appid": "721180",
+        "question": "Is profanity present in the dialogue or text of Dustborn, and how strong is the language used?",
+        "relevance": "NON_RELEVANT",
+        "explanation": "The generated answer does not address the specific inquiry about the presence or strength of profanity in 'Dustborn.' Instead, it diverges into unrelated topics such as game mechanics and story critiques, making it irrelevant to the original question."
+    },
+    {
+        "index": 174,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answer does not address the question regarding depictions of substance abuse in 'Dustborn.' Instead, it provides a lengthy review filled with gameplay mechanics, character analysis, narrative structure, and personal opinions without mentioning drugs or alcohol at all.\"\n}",
+        "appid": "721180",
+        "question": "Are there any depictions of substance abuse, such as drugs or alcohol, in Dustborn that I should be mindful of?",
+        "relevance": "NON_RELEVANT",
+        "explanation": "The generated answer does not respond to the specific inquiry about depictions of substance abuse in 'Dustborn.' Instead, it focuses on unrelated aspects such as gameplay mechanics and character analysis, failing to address the presence of drugs or alcohol."
+    },
+    {
+        "index": 175,
+        "answer": "{\n  \"relevance\": \"RELEVANT\",\n  \"explanation\": \"The generated answer addresses the question directly by discussing the themes of bigotry, hatred, and the depiction of cultural issues in the game 'Dustborn.' It provides insights into how these themes could be perceived as discriminatory and potentially inappropriate for younger players. The review explicitly mentions the creators' intention to tackle serious societal issues, which aligns with the concerns about whether the content may be inappropriate for younger audiences.\"\n}",
+        "appid": "721180",
+        "question": "Does Dustborn incorporate any discriminatory themes or content that could be inappropriate for younger players?",
+        "relevance": "RELEVANT",
+        "explanation": "The generated answer directly addresses the question about discriminatory themes and content in 'Dustborn' by discussing the presence of bigotry, hatred, and cultural issues. It articulates how these themes may be deemed inappropriate for younger players, thereby providing a comprehensive response to the inquiry."
+    },
+    {
+        "index": 176,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answer does not address the question about gambling mechanics or loot boxes in 'Dustborn' and does not mention any risks posed to children. Instead, it provides extensive reviews about the game's narrative, mechanics, and character development, but fails to touch on the specific topic of gambling mechanics or loot boxes.\"\n}",
+        "appid": "721180",
+        "question": "Are there any gambling mechanics or loot boxes in Dustborn that could pose a risk for children?",
+        "relevance": "NON_RELEVANT",
+        "explanation": "The generated answer completely misses the focus of the question regarding gambling mechanics or loot boxes in 'Dustborn'. It does not contain any information related to these gambling elements or their potential risks for children, making it unhelpful in answering the specific query posed."
+    },
+    {
+        "index": 177,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answers focus entirely on gameplay mechanics, graphics, and personal opinions about the game 'The Crew Motorfest.' None of the responses address whether the game contains horror elements or disturbing imagery that could frighten or disturb younger audiences, making them completely irrelevant to the question asked.\"\n}",
+        "appid": "721180",
+        "question": "Does the game contain horror elements or disturbing imagery that might frighten or disturb a younger audience?",
+        "relevance": "NON_RELEVANT",
+        "explanation": "The generated answer does not address the presence of horror elements or disturbing imagery in the game. Instead, it discusses gameplay mechanics and personal opinions, which do not relate to the concern about how the game might affect younger audiences, rendering it irrelevant to the question asked."
+    },
+    {
+        "index": 178,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answer does not address the question regarding features in Dustborn that could encourage excessive play or addiction. Instead, it focuses on the game's narrative, mechanics, and character interactions without mentioning factors related to addiction or excessive play.\"\n}",
+        "appid": "721180",
+        "question": "Are there any features in Dustborn that could encourage excessive play or addiction to the game?",
+        "relevance": "NON_RELEVANT",
+        "explanation": "The generated answer does not respond to the specific inquiry about features in Dustborn that could lead to excessive play or addiction. Instead, it diverges into a discussion of the game's narrative and mechanics, failing to address the core concern of the question."
+    },
+    {
+        "index": 179,
+        "answer": "{\n  \"relevance\": \"RELEVANT\",\n  \"explanation\": \"The generated answer discusses various themes present in the game Dustborn, specifically mentioning issues related to bigotry, hatred, DEI ideology, and cultural representation. It elaborates on how the game's narrative ties into societal issues, making it pertinent to the concern expressed in the question about DEI ideology. The reviewer specifically addresses both positive and negative reactions to these themes, suggesting that parents might have legitimate concerns regarding the content and messages conveyed in the game.\"\n}",
+        "appid": "721180",
+        "question": "Does Dustborn involve any themes related to DEI ideology that parents should be concerned about?",
+        "relevance": "RELEVANT",
+        "explanation": "The generated answer effectively addresses the themes of bigotry, hatred, and DEI ideology present in Dustborn, which are directly related to parental concerns mentioned in the question. It explains how the game's narrative connects to societal issues, thereby providing insight into why these themes may be of concern to parents. The discussion of varied reactions also underscores the significance of the content in relation to DEI ideology, making the answer clearly relevant to the question."
+    },
+    {
+        "index": 180,
+        "answer": "{\n  \"relevance\": \"RELEVANT\",\n  \"explanation\": \"The generated answers provide detailed insights about the content and themes featured in the game 'Neo Cab,' including its narrative, gameplay mechanics, social critiques, and visual style. The responses collectively inform the user about the unique aspects of the game that they should be aware of, aligning closely with the question asked.\"\n}",
+        "appid": "794540",
+        "question": "What kind of content is featured in Neo Cab that I should be aware of?",
+        "relevance": "RELEVANT",
+        "explanation": "The generated answer directly addresses the question by providing insights into the content and themes of the game 'Neo Cab.' It covers various aspects such as narrative, gameplay mechanics, social critiques, and visual style, which are essential for understanding what to be aware of regarding the game's content."
+    },
+    {
+        "index": 181,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answer does not address the question regarding the presence of violent or graphic scenes in \\\"Neo Cab.\\\" Instead, it focuses on gameplay mechanics, narrative insights, and player experiences without mentioning any potentially harmful content for children.\"\n}",
+        "appid": "794540",
+        "question": "Are there any violent or graphic scenes in Neo Cab that could be harmful for my child?",
+        "relevance": "NON_RELEVANT",
+        "explanation": "The generated answer fails to address the specific concern about violent or graphic content in 'Neo Cab,' instead providing information unrelated to the question. Therefore, it does not fulfill the request for evaluating potential harm to a child."
+    },
+    {
+        "index": 182,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answer does not address the question regarding strong language or profanity in Neo Cab. It focuses on the game's narrative, mechanics, and other gameplay aspects without mentioning any specific language usage or profanity concerns.\"\n}",
+        "appid": "794540",
+        "question": "Does Neo Cab include any strong language or profanity that I should be concerned about?",
+        "relevance": "NON_RELEVANT",
+        "explanation": "The generated answer completely misses addressing the concern about strong language or profanity in Neo Cab. Instead, it shifts focus to other aspects of the game, which does not fulfill the requirement of the question."
+    },
+    {
+        "index": 183,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answers focus on gameplay mechanics, narrative, and character descriptions in 'Neo Cab' without addressing the presence of sexual content or suggestive themes. There is no discussion of any explicit sexual content or suggestive themes in any of the reviews provided.\"\n}",
+        "appid": "794540",
+        "question": "Is there any sexual content or suggestive themes present in Neo Cab?",
+        "relevance": "NON_RELEVANT",
+        "explanation": "The generated answer does not address the question regarding the presence of sexual content or suggestive themes in 'Neo Cab'. Instead, it discusses gameplay mechanics and narrative aspects, failing to provide any information related to the question's focus on sexual content."
+    },
+    {
+        "index": 184,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answers discuss various aspects of 'Neo Cab', including gameplay, narrative, and character interactions, but none of them mention substance abuse or references to drugs and alcohol. Therefore, they do not address the specific question asked.\"\n}",
+        "appid": "794540",
+        "question": "Does Neo Cab depict any substance abuse or references to drugs and alcohol?",
+        "relevance": "NON_RELEVANT",
+        "explanation": "The generated answer does not address the specific question about substance abuse or references to drugs and alcohol in 'Neo Cab'. Instead, it refers to unrelated aspects of the game, failing to provide any relevant information regarding the inquiry."
+    },
+    {
+        "index": 185,
+        "answer": "{\n  \"relevance\": \"PARTLY_RELEVANT\",\n  \"explanation\": \"The generated answers discuss elements of the game Neo Cab, including its storyline and character interactions, but they do not explicitly address discrimination or bias. While players mention social critiques and character interactions that reflect societal issues, they do not directly analyze discrimination or bias in the context of these interactions.\"\n}",
+        "appid": "794540",
+        "question": "Are there elements of discrimination or bias in the storyline or character interactions of Neo Cab?",
+        "relevance": "PARTLY_RELEVANT",
+        "explanation": "The generated answer touches upon the storyline and character interactions in Neo Cab but fails to directly address the elements of discrimination or bias as specifically requested in the question. While it hints at social critiques, it does not provide a focused analysis on discrimination or bias, leading to a classification of partly relevant."
+    },
+    {
+        "index": 186,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answers provide detailed reviews of the game 'Neo Cab' but do not address the specific question about the presence of gambling mechanics or loot boxes in the game. None of the content pertains to gambling elements or concerns related to them.\"\n}",
+        "appid": "794540",
+        "question": "Does Neo Cab include any gambling mechanics or loot boxes that I need to worry about?",
+        "relevance": "NON_RELEVANT",
+        "explanation": "The generated answer does not address the specific concerns about gambling mechanics or loot boxes in 'Neo Cab'. It focuses on detailed reviews, which are irrelevant to the question asked."
+    },
+    {
+        "index": 187,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answer does not address the question regarding the overall tone of 'Neo Cab' in terms of horror or disturbing imagery. Instead, it provides a detailed review of the game's narrative, mechanics, and visuals without touching upon any elements of horror or disturbing content.\"\n}",
+        "appid": "794540",
+        "question": "What is the overall tone of Neo Cab in terms of horror or disturbing imagery?",
+        "relevance": "NON_RELEVANT",
+        "explanation": "The generated answer fails to address the specific inquiry about the overall tone of 'Neo Cab' in relation to horror or disturbing imagery. It instead focuses on aspects of the game that are not pertinent to the question asked, thus providing no relevant information regarding the tone in question."
+    },
+    {
+        "index": 188,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answer does not address the question about microtransactions or features that may encourage excessive play in Neo Cab. Instead, it contains reviews that focus on the game's narrative, gameplay mechanics, and visual style without mentioning any specific elements related to microtransactions or incentives for excessive play.\"\n}",
+        "appid": "794540",
+        "question": "Are there any microtransactions or features that could encourage excessive play in Neo Cab?",
+        "relevance": "NON_RELEVANT",
+        "explanation": "The generated answer fails to address the specific aspects of microtransactions or features that might encourage excessive play in Neo Cab. Instead, it focuses on the game's narrative and gameplay mechanics, which are unrelated to the question posed."
+    },
+    {
+        "index": 189,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answers focus primarily on gameplay mechanics, personal experiences, and visual aspects of 'Neo Cab' without addressing the themes of Diversity, Equity, and Inclusion (DEI) or discussing how these themes might impact the gameplay experience for children. The reviews provide detailed insights into the game but do not relate to the specific concerns of DEI raised in the question.\"\n}",
+        "appid": "794540",
+        "question": "How does Neo Cab approach themes of DEI, and could this impact the gameplay experience for my child?",
+        "relevance": "NON_RELEVANT",
+        "explanation": "The generated answer fails to address the question about how 'Neo Cab' approaches themes of Diversity, Equity, and Inclusion (DEI), and their potential impact on a child's gameplay experience. Instead, it focuses on unrelated aspects like gameplay mechanics and visual elements, which do not satisfy the query's focus on DEI themes."
+    },
+    {
+        "index": 190,
+        "answer": "{\n  \"relevance\": \"RELEVANT\",\n  \"explanation\": \"The generated answer provides detailed insights into the content of 'Assassin's Creed Origins,' discussing its setting, gameplay mechanics, character development, and storytelling elements. It addresses the question directly by informing the user about the game's themes and features that they should be aware of, including graphics, historical context, and gameplay changes.\"\n}",
+        "appid": "582160",
+        "question": "What type of content is present in Assassin's Creed Origin that I should be aware of?",
+        "relevance": "RELEVANT",
+        "explanation": "The generated answer comprehensively addresses the question by detailing various aspects of 'Assassin's Creed Origins' that a user should be aware of, including its setting, gameplay mechanics, and themes. This provides a holistic understanding of the game's content."
+    },
+    {
+        "index": 191,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answers are reviews of various games that do not address the specific question about excessive violence or graphic depictions in the games. Instead, the reviews focus on graphics, gameplay, and overall impressions without mentioning violence or graphic content.\"\n}",
+        "appid": "582160",
+        "question": "Is there any excessive violence or graphic depictions in this game?",
+        "relevance": "NON_RELEVANT",
+        "explanation": "The generated answer does not address the specific question regarding excessive violence or graphic depictions in the game. It focuses instead on other aspects such as graphics and gameplay, failing to provide any relevant information about violence or graphic content."
+    },
+    {
+        "index": 192,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answers primarily focus on gameplay, graphics, and stories related to 'Assassin's Creed Origins', without addressing the presence of gore or blood in the game. None of the reviews provide any specific information regarding violent content or mentions of blood and gore, which is essential to answer the question.\"\n}",
+        "appid": "582160",
+        "question": "Are there any scenes in Assassin's Creed Origin that involve gore or blood?",
+        "relevance": "RELEVANT",
+        "explanation": "The generated answer assesses the relevance of the sources consulted about 'Assassin's Creed Origins', indicating that they do not address the presence of gore or blood. This is directly related to the question asked, which seeks information about whether the game contains such scenes. The answer effectively highlights the lack of relevant information, making it pertinent to the question."
+    },
+    {
+        "index": 193,
+        "answer": "{\n  \"relevance\": \"RELEVANT\",\n  \"explanation\": \"The generated answer discusses Baldur's Gate 3 specifically mentioning that it contains adult content and actual sexual themes. This directly addresses the question regarding the presence of sexual content or suggestive themes in the game.\"\n}",
+        "appid": "582160",
+        "question": "Does this game contain any sexual content or suggestive themes?",
+        "relevance": "RELEVANT",
+        "explanation": "The generated answer directly answers the question by confirming that Baldur's Gate 3 contains sexual content and suggestive themes, thereby providing the relevant information requested."
+    },
+    {
+        "index": 194,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answer does not address the question about the level of profanity in Assassin's Creed Origin at all. Instead, it provides a collection of user reviews discussing various aspects of the game such as graphics, gameplay, and story, without mentioning profanity or offensive language.\"\n}",
+        "appid": "582160",
+        "question": "Can you tell me about the level of profanity in Assassin's Creed Origin?",
+        "relevance": "NON_RELEVANT",
+        "explanation": "The generated answer does not provide any information about the level of profanity in Assassin's Creed Origin. Instead, it focuses on unrelated aspects of the game, completely bypassing the question regarding offensive language."
+    },
+    {
+        "index": 195,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answer does not address the question about depictions of substance abuse in 'God of War: Ragnarok'. It consists solely of reviews that focus on gameplay, story, and other aspects of the game without mentioning any substance abuse or related themes.\"\n}",
+        "appid": "582160",
+        "question": "Are there any depictions of substance abuse, like drugs or alcohol, in this game?",
+        "relevance": "NON_RELEVANT",
+        "explanation": "The generated answer fails to mention any depictions of substance abuse, such as drugs or alcohol, in the game. It discusses other elements like gameplay and story, which do not pertain to the specific inquiry about substance abuse."
+    },
+    {
+        "index": 196,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answers do not address the question about discriminatory content or themes in Assassin's Creed Origins. Instead, they focus on gameplay, graphics, and personal opinions about the game's experience without mentioning any themes or content related to discrimination.\"\n}",
+        "appid": "582160",
+        "question": "Does Assassin's Creed Origin include any discriminatory content or themes?",
+        "relevance": "NON_RELEVANT",
+        "explanation": "The generated answer does not address the specific inquiry regarding discriminatory content or themes in Assassin's Creed Origins, focusing instead on aspects like gameplay and graphics. This lack of focus on the question means the answer is irrelevant to the posed question."
+    },
+    {
+        "index": 197,
+        "answer": "{\n  \"relevance\": \"RELEVANT\",\n  \"explanation\": \"The generated answer discusses the presence of loot boxes and gambling mechanics in the game 'Far Cry 5', directly addressing the question about gambling mechanics in the game. The author's review explicitly mentions the frustration with loot boxes and pay-to-win elements, making it highly relevant.\"\n}",
+        "appid": "582160",
+        "question": "Are there gambling mechanics, such as loot boxes, in this game?",
+        "relevance": "RELEVANT",
+        "explanation": "The generated answer directly addresses the question about gambling mechanics in the game by mentioning 'loot boxes' and other associated elements. It provides specific information on the game's mechanics, making it fully relevant to the query regarding gambling elements."
+    },
+    {
+        "index": 198,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answer does not address the question about whether the game has horror elements or disturbing imagery. Instead, it provides reviews about gameplay, graphics, and vehicle handling without mentioning any horror aspects or disturbing content.\"\n}",
+        "appid": "582160",
+        "question": "Does the game have any horror elements or disturbing imagery that might be concerning?",
+        "relevance": "NON_RELEVANT",
+        "explanation": "The generated answer does not address the specific inquiry about horror elements or disturbing imagery in the game, focusing instead on unrelated aspects such as gameplay and graphics."
+    },
+    {
+        "index": 199,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answers are predominantly reviews of the game 'Assassin's Creed Origins' that focus on its graphics, gameplay mechanics, and overall enjoyment. None of the reviews address the specific question about addictive features or elements that might encourage excessive play, making them irrelevant to the question asked.\"\n}",
+        "appid": "582160",
+        "question": "Are there any addictive features in Assassin's Creed Origin that encourage excessive play?",
+        "relevance": "NON_RELEVANT",
+        "explanation": "The generated answer does not address the specific question about addictive features in 'Assassin's Creed Origins.' Instead, it focuses on general reviews related to graphics and gameplay enjoyment, which are not pertinent to determining whether the game includes elements that encourage excessive play."
+    },
+    {
+        "index": 200,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answers do not address the specific question regarding excessive or graphic depictions of violence in 'Flintlock: The Siege of Dawn'. Instead, they focus on gameplay mechanics, visuals, and personal experiences without discussing any elements that would pertain to violence or its suitability for children.\"\n}",
+        "appid": "1832040",
+        "question": "Does Flintlock: The Siege of Dawn contain any excessive or graphic depictions of violence that might disturb my children?",
+        "relevance": "NON_RELEVANT",
+        "explanation": "The generated answer does not answer the question about excessive or graphic depictions of violence in 'Flintlock: The Siege of Dawn'. It instead discusses unrelated aspects such as gameplay mechanics and visuals, failing to provide any information on the potential disturbability of the content for children."
+    },
+    {
+        "index": 201,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answers do not address the specific concern about the presence of gore or blood elements in 'Flintlock: The Siege of Dawn'. They focus on gameplay mechanics, graphics, and personal opinions about the game, failing to provide any information regarding content that would be relevant for parents considering the game's suitability for children.\"\n}",
+        "appid": "1832040",
+        "question": "Are there any gore or blood elements in Flintlock: The Siege of Dawn that I should be aware of before allowing my children to play?",
+        "relevance": "NON_RELEVANT",
+        "explanation": "The generated answer does not address the specific inquiry regarding the presence of gore or blood elements in 'Flintlock: The Siege of Dawn'. Instead, it diverts to discussing gameplay mechanics, graphics, and personal opinions, which do not inform the question about content suitability for children."
+    },
+    {
+        "index": 202,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answer does not address the question about the presence of sexual content or suggestive themes in 'Flintlock: The Siege of Dawn.' Instead, it focuses on gameplay mechanics and general impressions of the game without discussing its suitability for younger audiences or any potentially inappropriate content.\"\n}",
+        "appid": "1832040",
+        "question": "Is there any sexual content or suggestive themes presented in Flintlock: The Siege of Dawn that could be inappropriate for younger audiences?",
+        "relevance": "NON_RELEVANT",
+        "explanation": "The generated answer does not provide any information regarding sexual content or suggestive themes in 'Flintlock: The Siege of Dawn,' which is the focus of the question. Instead, it discusses gameplay mechanics and general impressions, making it irrelevant to the concern about appropriateness for younger audiences."
+    },
+    {
+        "index": 203,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answers do not address the question about profanity or offensive language in 'Flintlock: The Siege of Dawn.' Instead, they focus on gameplay mechanics, graphics, and overall impressions, failing to provide any information about language suitability for children.\"\n}",
+        "appid": "1832040",
+        "question": "Does Flintlock: The Siege of Dawn feature profanity or offensive language that may not be suitable for children?",
+        "relevance": "NON_RELEVANT",
+        "explanation": "The generated answer does not address the specific question about the presence of profanity or offensive language in 'Flintlock: The Siege of Dawn.' Instead, it discusses unrelated aspects such as gameplay and graphics, which do not provide any relevant information regarding language suitability for children."
+    },
+    {
+        "index": 204,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answer does not address the question of substance abuse representations such as drugs or alcohol in 'Flintlock: The Siege of Dawn.' Instead, it focuses on various aspects of gameplay, mechanics, and personal opinions, which are not related to the concern raised in the question.\"\n}",
+        "appid": "1832040",
+        "question": "Are there any representations of substance abuse, such as drugs or alcohol, in Flintlock: The Siege of Dawn that could concern me?",
+        "relevance": "NON_RELEVANT",
+        "explanation": "The generated answer completely fails to address the specific concerns about representations of substance abuse in 'Flintlock: The Siege of Dawn.' Instead, it diverts to unrelated topics, providing no information on drugs or alcohol in the game, thus making it irrelevant to the question asked."
+    },
+    {
+        "index": 205,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answer focuses solely on gameplay mechanics and the overall experience of the game 'Flintlock: The Siege of Dawn.' It does not address the presence of discrimination or any discriminatory content, which is the specific concern raised in the question. Therefore, it does not provide relevant information to help determine if the game is suitable for children in this context.\"\n}",
+        "appid": "1832040",
+        "question": "Is there any discrimination or discriminatory content present in Flintlock: The Siege of Dawn that I should consider before allowing my children to play?",
+        "relevance": "NON_RELEVANT",
+        "explanation": "The generated answer does not address the specific concern about discrimination or discriminatory content in 'Flintlock: The Siege of Dawn.' It only discusses gameplay mechanics and overall experience, which are not pertinent to the question regarding suitability for children considering potential discriminatory themes."
+    },
+    {
+        "index": 206,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answer does not address the question regarding gambling elements or loot boxes in 'Flintlock: The Siege of Dawn'. Instead, it provides reviews focusing on gameplay, mechanics, and graphics without mentioning any gambling mechanics or related features.\"\n}",
+        "appid": "1832040",
+        "question": "Does Flintlock: The Siege of Dawn include any gambling elements or loot boxes that mimic gambling mechanics?",
+        "relevance": "NON_RELEVANT",
+        "explanation": "The generated answer fails to address the specific inquiry about gambling elements or loot boxes in 'Flintlock: The Siege of Dawn'. It diverts to general reviews that do not mention the relevant features of interest."
+    },
+    {
+        "index": 207,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answers focus on gameplay mechanics, graphics, and overall experience of 'Flintlock: The Siege of Dawn' but do not address any horror or disturbing imagery aspects that might be frightening for younger players. None of the reviews mention such elements, making them irrelevant to the question.\"\n}",
+        "appid": "1832040",
+        "question": "Are there any horror or disturbing imagery aspects in Flintlock: The Siege of Dawn that might be frightening for younger players?",
+        "relevance": "NON_RELEVANT",
+        "explanation": "The generated answer does not address the specific concern about horror or disturbing imagery in 'Flintlock: The Siege of Dawn' that may be frightening for younger players. Instead, it talks about gameplay mechanics and graphics, failing to provide relevant information regarding the question's focus on frightening elements."
+    },
+    {
+        "index": 208,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answers do not address the specific question about features that encourage excessive play or addiction in 'Flintlock: The Siege of Dawn', such as microtransactions or time-gated rewards. Instead, the reviews focus on gameplay mechanics, combat styles, and overall impressions of the game without discussing any aspects related to addiction or monetization.\"\n}",
+        "appid": "1832040",
+        "question": "Does Flintlock: The Siege of Dawn have any features that encourage excessive play or addiction, such as microtransactions or time-gated rewards?",
+        "relevance": "NON_RELEVANT",
+        "explanation": "The generated answer does not address the question about features in 'Flintlock: The Siege of Dawn' that may lead to excessive play or addiction. It fails to mention any specific elements such as microtransactions or time-gated rewards, focusing instead on unrelated aspects like gameplay mechanics and overall impressions."
+    },
+    {
+        "index": 209,
+        "answer": "{\n  \"relevance\": \"NON_RELEVANT\",\n  \"explanation\": \"The generated answers primarily focus on gameplay mechanics, graphics, and personal enjoyment of the game 'Flintlock: The Siege of Dawn'. None of the responses explicitly address the influence of DEI ideology in storytelling or character designs, nor do they discuss the potential impact on gameplay quality related to such ideological considerations.\"\n}",
+        "appid": "1832040",
+        "question": "Is Flintlock: The Siege of Dawn influenced by DEI ideology in its storytelling or character designs, and might that affect gameplay quality?",
+        "relevance": "NON_RELEVANT",
+        "explanation": "The generated answer does not address the main elements of the question, which pertains to the influence of DEI ideology on storytelling and character designs in 'Flintlock: The Siege of Dawn'. Instead, it discusses unrelated aspects such as gameplay mechanics, graphics, and personal enjoyment, failing to provide any insight into DEI influence or its potential impact on gameplay quality."
+    }
+]

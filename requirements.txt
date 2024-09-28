@@ -1,0 +1,11 @@
+pandas
+scikit-learn
+flask
+psycopg2-binary
+python-dotenv
+gunicorn
+openai
+sentence-transformers
+jupyter
+tqdm
+elasticsearch
