@@ -110,7 +110,5 @@ docker run -it \
     docker.elastic.co/elasticsearch/elasticsearch:8.9.0
 
 
-http://127.0.0.1:8888/lab
-
-
+./docker_clean.sh
 docker-compose up --build

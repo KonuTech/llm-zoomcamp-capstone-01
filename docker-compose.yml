@@ -1,5 +1,3 @@
-version: '3.8'
-
 services:
   elasticsearch:
     image: docker.elastic.co/elasticsearch/elasticsearch:8.9.0
@@ -26,6 +24,4 @@ services:
     volumes:
       - ./notebooks:/home/jovyan/notebooks
       - ./reviews-assistant:/home/jovyan/reviews-assistant
-    environment:
-      - OPENAI_API_KEY=${OPENAI_API_KEY}  # Load environment variables from .env file
     restart: unless-stopped
