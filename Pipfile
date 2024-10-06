@@ -13,6 +13,7 @@ gunicorn = "*"
 openai = "*"
 sentence-transformers = "*"
 elasticsearch = "==8.9.0"
+questionary = "*"
 
 [dev-packages]
 jupyter = "*"
