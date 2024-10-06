@@ -14,6 +14,8 @@ openai = "*"
 sentence-transformers = "*"
 elasticsearch = "==8.9.0"
 questionary = "*"
+pgcli = "*"
+numpy = "*"
 
 [dev-packages]
 jupyter = "*"
