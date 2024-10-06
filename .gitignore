@@ -161,3 +161,7 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 /.envrc
+reviews-assistant/data/ground_truth/_ground_truth_retrieval.json
+reviews-assistant/data/ground_truth/_ground_truth_evaluation.json
+reviews-assistant/data/backup/ground_truth_retrieval.json
+reviews-assistant/data/backup/ground_truth_evaluation.json
