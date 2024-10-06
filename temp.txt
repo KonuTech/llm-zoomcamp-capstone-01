@@ -112,3 +112,8 @@ docker run -it \
 
 ./docker_clean.sh
 docker-compose up --build
+
+
+docker compose --file docker-compose.dev.yml down
+docker compose --file docker-compose.dev.yml build
+docker compose --file docker-compose.dev.yml up
