@@ -124,6 +124,8 @@ docker compose --file docker-compose.yml down
 docker compose --file docker-compose.yml build
 docker compose --file docker-compose.yml up
 
+source .venv/bin/activate
 export POSTGRES_HOST=localhost
 export ELASTIC_URL=http://localhost:9200
 python backend/app/prep.py 
+python backend/app/test_index_mapping.py 

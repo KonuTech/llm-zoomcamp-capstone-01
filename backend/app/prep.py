@@ -1,154 +1,195 @@
 import os
 import json
-from elasticsearch import Elasticsearch
-from elasticsearch.exceptions import NotFoundError, ConnectionError
+from elasticsearch import Elasticsearch, NotFoundError, ConnectionError
 from dotenv import load_dotenv
 from ingest import ingest_documents  # Keep this import as it triggers the ingest.py script
 from db import init_db
+from tqdm import tqdm
+from sentence_transformers import SentenceTransformer
+import numpy as np
 
 load_dotenv()
 
-ELASTIC_URL = os.getenv("ELASTIC_URL", "http://elasticsearch:9200")
+ELASTIC_URL = os.getenv("ELASTIC_URL", "http://localhost:9200")  # Changed to localhost for local testing
 INDEX_NAME = os.getenv("INDEX_NAME", "reviews-steam")
 
-def check_elasticsearch_connection(es_client):
-    """Check if the Elasticsearch server is available."""
-    try:
-        if es_client.ping():
-            print("Connected to Elasticsearch")
-            return True
-        else:
-            print("Could not connect to Elasticsearch")
-            return False
-    except ConnectionError as e:
-        print(f"Connection error: {e}")
-        return False
-
-def setup_elasticsearch():
-    """Setup Elasticsearch index with the specified settings and mappings."""
-    print("Setting up Elasticsearch...")
-    es_client = Elasticsearch(ELASTIC_URL)
-
-    # Check Elasticsearch connection
-    if not check_elasticsearch_connection(es_client):
-        print("Exiting: Elasticsearch is not available.")
-        return None  # Indicate that the setup failed
-
-    index_settings = {
-        "settings": {
-            "number_of_shards": 1,
-            "number_of_replicas": 0
-        },
-        "mappings": {
-            "properties": {
-                "appid": {"type": "keyword"},
-                "timestamp_query": {"type": "integer"},
-                "title": {"type": "keyword"},
-                "author.steamid": {"type": "keyword"},
-                "author.playtimeforever": {"type": "integer"},
-                "author.playtime_last_two_weeks": {"type": "integer"},
-                "author.playtime_at_review": {"type": "integer"},
-                "author.last_played": {"type": "integer"},
-                "language": {"type": "keyword"},
-                "review": {"type": "text"},
-                "voted_up": {"type": "boolean"},
-                "votes_up": {"type": "integer"},
-                "timestamp_created": {"type": "integer"},
-                "timestamp_updated": {"type": "integer"},
-                "question": {"type": "text"},
-                "answer": {"type": "text"},
-                "section": {"type": "keyword"},
-                "question_vector": {
-                    "type": "dense_vector",
-                    "dims": 384,
-                    "index": True,
-                    "similarity": "cosine"
-                },
-                "answer_vector": {
-                    "type": "dense_vector",
-                    "dims": 384,
-                    "index": True,
-                    "similarity": "cosine"
-                },
-                "question_answer_vector": {
-                    "type": "dense_vector",
-                    "dims": 384,
-                    "index": True,
-                    "similarity": "cosine"
-                },
+class ReviewIndexer:
+    def __init__(self, es_host=ELASTIC_URL, index_name=INDEX_NAME, model=None):
+        print("Initializing ReviewIndexer...")
+        self.es = Elasticsearch([es_host])
+        self.index_name = index_name
+        self.model = model  # Expecting a SentenceTransformer model to encode text
+        
+        # Check the connection upon initialization
+        self.check_connection()
+        
+        self.index_settings = {
+            "settings": {
+                "number_of_shards": 1,
+                "number_of_replicas": 0
+            },
+            "mappings": {
+                "properties": {
+                    "appid": {"type": "keyword"},
+                    "timestamp_query": {"type": "integer"},
+                    "title": {"type": "keyword"},
+                    "author.steamid": {"type": "keyword"},
+                    "author.playtimeforever": {"type": "integer"},
+                    "author.playtime_last_two_weeks": {"type": "integer"},
+                    "author.playtime_at_review": {"type": "integer"},
+                    "author.last_played": {"type": "integer"},
+                    "language": {"type": "keyword"},
+                    "review": {"type": "text"},
+                    "voted_up": {"type": "boolean"},
+                    "votes_up": {"type": "integer"},
+                    "timestamp_created": {"type": "integer"},
+                    "timestamp_updated": {"type": "integer"},
+                    "question": {"type": "text"},
+                    "answer": {"type": "text"},
+                    "section": {"type": "keyword"},
+                    "question_vector": {
+                        "type": "dense_vector",
+                        "dims": 384,
+                        "index": True,
+                        "similarity": "cosine"
+                    },
+                    "answer_vector": {
+                        "type": "dense_vector",
+                        "dims": 384,
+                        "index": True,
+                        "similarity": "cosine"
+                    },
+                    "question_answer_vector": {
+                        "type": "dense_vector",
+                        "dims": 384,
+                        "index": True,
+                        "similarity": "cosine"
+                    },
+                }
             }
         }
-    }
 
-    # Delete existing index if it exists
-    try:
-        es_client.indices.delete(index=INDEX_NAME, ignore_unavailable=True)
-        print(f"Deleted index: {INDEX_NAME}")
-    except NotFoundError:
-        print(f"Index {INDEX_NAME} not found, nothing to delete")
+        # Drop the index if it exists and create a new one
+        self.drop_and_create_index()
 
-    # Create new index
-    es_client.indices.create(index=INDEX_NAME, settings=index_settings['settings'], mappings=index_settings['mappings'])
-    print(f"Created index: {INDEX_NAME}")
+    def check_connection(self):
+        """Check if Elasticsearch connection is established."""
+        try:
+            print("Checking connection to Elasticsearch...")
+            self.es.ping()
+            print("Connected to Elasticsearch!")
+        except ConnectionError:
+            print("Failed to connect to Elasticsearch.")
 
-    return es_client
+    def drop_and_create_index(self):
+        """Delete the existing index if it exists and create a new one."""
+        try:
+            print(f"Checking if index '{self.index_name}' exists...")
+            if self.es.indices.exists(index=self.index_name):
+                print(f"Index '{self.index_name}' exists. Deleting it...")
+                self.es.indices.delete(index=self.index_name)
+                print(f"Index '{self.index_name}' deleted.")
+            print(f"Creating index '{self.index_name}'...")
+            self.es.indices.create(index=self.index_name, body=self.index_settings)  # Update to `body` since the settings are not expected to change.
+            print(f"Index '{self.index_name}' created.")
+        except Exception as e:
+            print(f"Error creating index: {e}")
 
-def load_documents(file_path):
-    """Load documents from the specified JSON file."""
-    with open(file_path, 'r', encoding='utf-8') as jsonfile:
-        documents = json.load(jsonfile)
-    return documents
+    def encode_vectors(self, question, answer):
+        """Generate vectors for question, answer, and a combined question + answer."""
+        print("Encoding vectors for question and answer...")
+        # Use float64 to avoid np.float_ deprecation
+        question_vector = self.model.encode(question, convert_to_numpy=True).astype(np.float64) if question else np.zeros(384, dtype=np.float64)
+        answer_vector = self.model.encode(answer, convert_to_numpy=True).astype(np.float64) if answer else np.zeros(384, dtype=np.float64)
+        combined_text = f"{question} {answer}" if question and answer else ""
+        question_answer_vector = self.model.encode(combined_text, convert_to_numpy=True).astype(np.float64) if combined_text else np.zeros(384, dtype=np.float64)
+        print("Vector encoding complete.")
+        return question_vector.tolist(), answer_vector.tolist(), question_answer_vector.tolist()
 
-def index_documents(es_client, documents):
-    """Index documents into Elasticsearch."""
-    print("Indexing documents...")
-    for doc in documents:
-        es_client.index(index=INDEX_NAME, document=doc)
-    print(f"Indexed {len(documents)} documents")
+    def prepare_document(self, review):
+        """Prepare the document to be indexed."""
+        print(f"Preparing document for appid {review['appid']}...")
+        question_vector, answer_vector, question_answer_vector = self.encode_vectors(review["question"], review["answer"])
+        
+        return {
+            "appid": review["appid"],
+            "timestamp_query": review["review"]["timestamp_query"],
+            "title": review["review"]["title"],
+            "author.steamid": review["review"]["author.steamid"],
+            "author.playtimeforever": review["review"]["author.playtimeforever"],
+            "author.playtime_last_two_weeks": review["review"]["author.playtime_last_two_weeks"],
+            "author.playtime_at_review": review["review"]["author.playtime_at_review"],
+            "author.last_played": review["review"]["author.last_played"],
+            "language": review["review"]["language"],
+            "review": review["review"]["review"],
+            "voted_up": review["review"]["voted_up"],
+            "votes_up": review["review"]["votes_up"],
+            "timestamp_created": review["review"]["timestamp_created"],
+            "timestamp_updated": review["review"]["timestamp_updated"],
+            "question": review["question"],
+            "answer": review["answer"],
+            "section": review["section"],
+            "question_vector": question_vector,
+            "answer_vector": answer_vector,
+            "question_answer_vector": question_answer_vector
+        }
 
-    # Refresh the index to make the documents available for search
-    es_client.indices.refresh(index=INDEX_NAME)
-    print("Index refreshed")
+    def index_reviews(self, reviews):
+        """Index the provided reviews into Elasticsearch."""
+        print(f"Starting indexing of {len(reviews)} reviews...")
+        for review in tqdm(reviews):
+            # Prepare the document
+            doc = self.prepare_document(review)
 
-def main():
-    print("Starting the indexing process...")
+            # Index the document
+            try:
+                print(f"Indexing document for appid {review['appid']}...")
+                self.es.index(index=self.index_name, document=doc)  # Change here from body to document
+                print(f"Document for appid {review['appid']} indexed successfully.")
+            except Exception as e:
+                print(f"Error indexing document with appid {review['appid']}: {e}")
 
-    # Path to the ground-truth-retrieval.json file
+    def load_reviews_from_file(self, file_path):
+        """Load reviews from a JSON file."""
+        print(f"Loading reviews from file: {file_path}")
+        try:
+            with open(file_path, 'r') as file:
+                reviews = json.load(file)
+                print(f"Loaded {len(reviews)} reviews.")
+                return reviews
+        except Exception as e:
+            print(f"Error loading reviews from file: {e}")
+            return []
+
+# Example usage
+if __name__ == "__main__":
+    # Define the data directory and output file path
+    data_dir = os.path.abspath('../reviews-assistant/data/ground_truth')
+    output_file = os.path.join(data_dir, "ground_truth_retrieval.json")
+
+    # Initialize the model
+    print("Initializing SentenceTransformer model...")
+    model_name = 'multi-qa-MiniLM-L6-cos-v1'
+    model = SentenceTransformer(model_name)
+    print(f"Model '{model_name}' initialized.")
+
+    # Load reviews from the specified JSON file
+    indexer = ReviewIndexer(model=model)
+
+    # Initialize paths
     json_file_path = os.path.abspath('../llm-zoomcamp-capstone-01/backend/app/data/ground_truth_retrieval.json')
 
-    # Check if the ground_truth_retrieval.json file exists and is not empty
+    # Check if the file exists and print its size
     if os.path.exists(json_file_path):
         file_size = os.path.getsize(json_file_path)
+        print(f"Found existing data in {json_file_path} (size: {file_size} bytes).")
         if file_size > 0:
-            print(f"Found existing data in {json_file_path} (size: {file_size} bytes). Skipping ingesting documents.")
+            print("Loading reviews from existing file...")
+            reviews = indexer.load_reviews_from_file(json_file_path)
+            if reviews:
+                indexer.index_reviews(reviews)
+            else:
+                print("No reviews found to index.")
         else:
             print(f"Found existing empty data in {json_file_path}. Running ingest_documents...")
-            data_directory = os.path.abspath('../llm-zoomcamp-capstone-01/backend/app/data/reviews')
-            ingest_documents(data_directory)
-    else:
-        print(f"No data found in {json_file_path}. Running ingest_documents...")
-        data_directory = os.path.abspath('../llm-zoomcamp-capstone-01/backend/app/data/reviews')
-        ingest_documents(data_directory)
-
-    if not os.path.exists(json_file_path):
-        print(f"Error: ground_truth_retrieval.json not found at {json_file_path}")
-        return
-
-    print(f"Loading documents from {json_file_path}...")
-    documents = load_documents(json_file_path)
-    print(f"Total documents loaded: {len(documents)}")
-
-    es_client = setup_elasticsearch()
-    if es_client is None:
-        print("Failed to set up Elasticsearch. Exiting.")
-        return
-
-    index_documents(es_client, documents)
-
-    print("Initializing database...")
-    init_db()
-
-    print("Indexing process completed successfully!")
-
-if __name__ == "__main__":
-    main()
+            data_directory
