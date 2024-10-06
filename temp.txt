@@ -117,3 +117,13 @@ docker-compose up --build
 docker compose --file docker-compose.dev.yml down
 docker compose --file docker-compose.dev.yml build
 docker compose --file docker-compose.dev.yml up
+
+###################################################################
+
+docker compose --file docker-compose.yml down
+docker compose --file docker-compose.yml build
+docker compose --file docker-compose.yml up
+
+export POSTGRES_HOST=localhost
+export ELASTIC_URL=http://localhost:9200
+python backend/app/prep.py 

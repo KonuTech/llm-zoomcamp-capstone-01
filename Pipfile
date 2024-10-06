@@ -12,6 +12,7 @@ python-dotenv = "*"
 gunicorn = "*"
 openai = "*"
 sentence-transformers = "*"
+elasticsearch = "==8.9.0"
 
 [dev-packages]
 jupyter = "*"
