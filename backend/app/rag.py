@@ -100,14 +100,6 @@ and provide your evaluation in parsable JSON without using code blocks:
 }}
 """.strip()
 
-# entry_template = """
-# _id: {id}
-# review_text: {review_text}
-# review_score: {review_score}
-# user: {user}
-# timestamp: {timestamp}
-# """.strip()
-
 # Function to evaluate the relevance of the LLM-generated answer
 def evaluate_relevance(question, answer):
     prompt = evaluation_prompt_template.format(question=question, answer=answer)

@@ -145,8 +145,3 @@ def ingest_documents(directory_path):
     save_results(processed_documents, output_file_path)
     
     return processed_documents
-
-
-# if __name__ == "__main__":
-#     directory_path = os.path.abspath('../llm-zoomcamp-capstone-01/backend/app/data/reviews')
-#     ingest_documents(directory_path)

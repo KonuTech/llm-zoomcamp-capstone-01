@@ -193,3 +193,6 @@ if __name__ == "__main__":
         else:
             print(f"Found existing empty data in {json_file_path}. Running ingest_documents...")
             data_directory
+
+    print("Initializing PostgreSQL database...")
+    init_db()
