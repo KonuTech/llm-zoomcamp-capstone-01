@@ -43,7 +43,33 @@ The architectural overview of the project is depicted in the diagram below, prov
 
 To ensure reproducibility and set up your project environment, follow these guidelines:
 
-1. **Virtual Environment Setup**:
+
+0. **Clone the Repository**:
+
+To clone the repository, run the following command:
+
+```bash
+git clone https://github.com/dimzachar/Parthenon-RAG-Game.git
+cd Parthenon-RAG-Game
+```
+1. **Clone the Repository**:
+To configure the environment, execute:
+
+```bash
+cp .env.example .env
+```
+Alternatively, you can rename `.env.example` in the root directory to `.env`.
+
+Key Environment Variables:
+
+- **ELASTIC_URL**: Elasticsearch connection URL
+- **POSTGRES_DB**, **POSTGRES_USER**, **POSTGRES_PASSWORD**: PostgreSQL connection details
+- **OPENAI_API_KEY**: Your OpenAI API key for LLM interactions
+- **INDEX_NAME**: Name of the Elasticsearch index for the knowledge base
+
+Make sure to replace `YOUR_KEY` with your OpenAI API key.
+
+2. **Virtual Environment Setup**:
    - Create a virtual environment named `.venv` using Python's built-in `venv` module:
      ```
      python3 -m venv .venv
@@ -58,13 +84,13 @@ To ensure reproducibility and set up your project environment, follow these guid
        source .venv/bin/activate
        ```
 
-2. **Upgrade Pip**:
+3. **Upgrade Pip**:
    - Ensure you have the latest version of pip installed within the virtual environment:
      ```
      python -m pip install --upgrade pip
      ```
 
-3. **Install Project Dependencies with Pipenv**:
+4. **Install Project Dependencies with Pipenv**:
    - First, ensure that **Pipenv** is installed. If you haven't installed it yet, you can do so by running the following command:
      ```
      pip install pipenv
@@ -78,8 +104,8 @@ To ensure reproducibility and set up your project environment, follow these guid
      pipenv install
      ```
 
-4. **Docker Setup**:
-   - Next, build containerized apps: Flask, Elasticsearch, PostgreSQL, and Grafa by running:
+5. **Docker Setup**:
+   - Next, build the containerized apps, namely: Flask, Elasticsearch, PostgreSQL, and Grafana by running below command (yes, this will also take a while).
      ```
      docker-compose build
      ```
@@ -87,12 +113,13 @@ To ensure reproducibility and set up your project environment, follow these guid
      ```
      docker-compose up
      ```
-5. **Inexing Steam reviews**:
+6. **Inexing Steam reviews**:
 We can now start indexing the pre-downloaded Steam reviews with Elasticsearch:
      ```
      python3 backend/app/prep.py
      ```
-6. **Grafana**:
+If you would like to see how the reviews were downloaded, please check the [notebook](https://github.com/KonuTech/llm-zoomcamp-capstone-01/blob/main/notebooks/001_rag_test_002.ipynb). There, you will find the `SteamReviewFetcher` class.
+7. **Grafana**:
     - For monitoring purposes, we can import a pre-built Grafana dashboard by running a script located at `./grafana/init.py`. First, ensure the `POSTGRES_HOST` environment variable is set to `postgres`:
       ```
       export POSTGRES_HOST=postgres
