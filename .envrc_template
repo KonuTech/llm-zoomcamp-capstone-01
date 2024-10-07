@@ -5,7 +5,7 @@ OPENAI_API_KEY="YOUR_KEY"
 
 # Elasticsearch Configuration
 ELASTIC_URL_LOCAL=http://localhost:9200
-ELASTIC_URL=http://elasticsearch:9200
+ELASTIC_URL=http://localhost:9200
 ELASTIC_PORT=9200
 
 # PostgreSQL Configuration
