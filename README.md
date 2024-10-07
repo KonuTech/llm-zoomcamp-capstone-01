@@ -118,7 +118,7 @@ We can now start indexing the pre-downloaded Steam reviews with Elasticsearch:
      ```
      python3 backend/app/prep.py
      ```
-Again, this process will take a while. From my experience, reindexing documents takes significantly less time than the initial indexing. As feedback, you will encounter a lot of output being printed to your terminal.
+Again, this process will take a while. As feedback, you will encounter a lot of output log being printed to your terminal.
 
 
 If you would like to see how the reviews were downloaded, please check the [notebook](https://github.com/KonuTech/llm-zoomcamp-capstone-01/blob/main/notebooks/001_rag_test_002.ipynb). There, you will find the `SteamReviewFetcher` class.
@@ -127,12 +127,15 @@ If you would like to see how the reviews were downloaded, please check the [note
 7. **Grafana**:
     - For monitoring purposes, we can import a pre-built Grafana dashboard by running a script located at `./grafana/init.py`. First, ensure the `POSTGRES_HOST` environment variable is set to `postgres`:
       ```
+      echo $POSTGRES_HOST
       export POSTGRES_HOST=postgres
       cd grafana
       python init.py
       ```
     - Start Grafana at `http://localhost:3000/` and skip creation of a user.
-    
+    The initial view of Grafana dashboard after initialization looks like on below screen shot:
+
+<img src="images/01.png" width="60%"/>
 
 
 ### Check if everything works as intended: 
