@@ -8,6 +8,7 @@ from tqdm import tqdm
 from sentence_transformers import SentenceTransformer
 import numpy as np
 
+
 load_dotenv()
 
 ELASTIC_URL = os.getenv("ELASTIC_URL", "http://localhost:9200")  # Changed to localhost for local testing

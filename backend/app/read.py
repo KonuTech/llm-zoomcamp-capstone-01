@@ -10,7 +10,6 @@ load_dotenv()
 ELASTIC_URL = os.getenv("ELASTIC_URL", "http://localhost:9200")  # Changed to localhost for local testing
 INDEX_NAME = os.getenv("INDEX_NAME", "reviews-steam")
 
-
 class ReviewReader:
     def __init__(self, es_host=ELASTIC_URL, index_name=INDEX_NAME, model=None):
         self.es = Elasticsearch([es_host])

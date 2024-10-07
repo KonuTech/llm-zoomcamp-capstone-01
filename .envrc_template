@@ -9,7 +9,7 @@ ELASTIC_URL=http://localhost:9200
 ELASTIC_PORT=9200
 
 # PostgreSQL Configuration
-POSTGRES_HOST=postgres
+POSTGRES_HOST=localhost
 POSTGRES_DB=reviews
 POSTGRES_USER=your_username
 POSTGRES_PASSWORD=your_password
