@@ -172,7 +172,7 @@ The inputs from my example are:
 ? Enter game title: God of War: Ragnarok
 ```
 
-The view of the Grafana dashboard after a few Q&A sessions might look like the screenshot below:
+An exemplary view of the Grafana dashboard after few Q&A sessions is shown below:
 <img src="images/04.jpg" width="60%"/>
 
 The Elasticsearch database stores reviews for about 22 computer games. At the moment, the addition of a game not on the list from the notebook mentioned above is not automated. Please feel free to pull reviews for different games and try to index them to K.B. by yourself. Currently, the logic responsible for pulling the reviews, stored as JSON documents, is implemented in a [notebook](https://github.com/KonuTech/llm-zoomcamp-capstone-01/blob/main/notebooks/001_rag_test_002.ipynb). Add the game title to the list and download the reviews. Continue with the steps from another notebook stored under ```./notebooks.``` The names of notebooks are implying order of execution. If you are feeling adventurous, you can start the DEV environment along with Jupyter Lab by running ```docker compose --file docker-compose.dev.yml up```. Once you manage to go through the notebooks, move or copy reviews and ```ground_truth_retrieval.json``` to ```./backend/app/data/``` or ```./backend/app/data/reviews```, and reindex the Knowledge Base with ```python3 backend/app/prep.py```.
