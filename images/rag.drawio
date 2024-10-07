@@ -1,0 +1,91 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.17">
+  <diagram name="Strona-1" id="BRqJcOdC3hm6dS2eJiEw">
+    <mxGraphModel dx="1197" dy="1940" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="alzlcoUCltknUSo9MDlO-3" value="Elasticsearch with semantic search based on:&lt;br&gt;question + answer; filtered by game title" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="13" y="-141.5" width="117" height="138" as="geometry" />
+        </mxCell>
+        <mxCell id="alzlcoUCltknUSo9MDlO-4" value="Code" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-391" y="164" width="169" height="169" as="geometry" />
+        </mxCell>
+        <mxCell id="alzlcoUCltknUSo9MDlO-7" value="" style="endArrow=classic;html=1;rounded=0;flowAnimation=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-342" y="163" as="sourcePoint" />
+            <mxPoint x="8" y="-51" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="alzlcoUCltknUSo9MDlO-8" value="LLM&lt;br&gt;(Open AI)" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="13.5" y="210" width="116.5" height="116.5" as="geometry" />
+        </mxCell>
+        <mxCell id="alzlcoUCltknUSo9MDlO-11" value="Prompt" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-285" y="164" width="63" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="alzlcoUCltknUSo9MDlO-13" value="Steam&lt;br&gt;PC games reviews" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-341" y="-145" width="128" height="128" as="geometry" />
+        </mxCell>
+        <mxCell id="alzlcoUCltknUSo9MDlO-14" value="LLM&lt;br&gt;generates 5 possible questions related to each pulled review&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="3" y="-357" width="147" height="147" as="geometry" />
+        </mxCell>
+        <mxCell id="alzlcoUCltknUSo9MDlO-15" value="" style="endArrow=classic;html=1;rounded=0;flowAnimation=1;entryX=0.008;entryY=0.6;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.637;exitY=0.004;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="alzlcoUCltknUSo9MDlO-13" target="alzlcoUCltknUSo9MDlO-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-280" y="-166" as="sourcePoint" />
+            <mxPoint x="-35" y="-333" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="alzlcoUCltknUSo9MDlO-16" value="Ground Truth dataset:&lt;br&gt;JSON documents from Steam" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-386" y="-404" width="177" height="177" as="geometry" />
+        </mxCell>
+        <mxCell id="alzlcoUCltknUSo9MDlO-17" value="" style="endArrow=classic;html=1;rounded=0;flowAnimation=1;exitX=0.084;exitY=0.259;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="alzlcoUCltknUSo9MDlO-14" target="alzlcoUCltknUSo9MDlO-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-62" y="-132" as="sourcePoint" />
+            <mxPoint x="201" y="-308" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="alzlcoUCltknUSo9MDlO-18" value="" style="endArrow=classic;html=1;rounded=0;flowAnimation=1;entryX=0.006;entryY=0.553;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.864;exitY=-0.006;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" target="alzlcoUCltknUSo9MDlO-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-217" y="-60" as="sourcePoint" />
+            <mxPoint x="46" y="-236" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="alzlcoUCltknUSo9MDlO-19" value="Elasticsearch KNN query" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-179" y="-14" width="77" height="77" as="geometry" />
+        </mxCell>
+        <mxCell id="alzlcoUCltknUSo9MDlO-20" value="Top 5 documents based on question + answer vector" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-22" y="49" width="77" height="77" as="geometry" />
+        </mxCell>
+        <mxCell id="alzlcoUCltknUSo9MDlO-21" value="" style="endArrow=classic;html=1;rounded=0;flowAnimation=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="alzlcoUCltknUSo9MDlO-3" target="alzlcoUCltknUSo9MDlO-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-190" y="276" as="sourcePoint" />
+            <mxPoint x="-228" y="456" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="alzlcoUCltknUSo9MDlO-22" value="Prompt with Context of Top 5 documents based on question + answer vector" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-127" y="166" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="alzlcoUCltknUSo9MDlO-23" value="" style="endArrow=classic;html=1;rounded=0;flowAnimation=1;entryX=0.221;entryY=0.04;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="alzlcoUCltknUSo9MDlO-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-222" y="210.5" as="sourcePoint" />
+            <mxPoint x="198" y="173" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="alzlcoUCltknUSo9MDlO-24" value="Generated answer: LLM + KB" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-132" y="283" width="93" height="93" as="geometry" />
+        </mxCell>
+        <mxCell id="alzlcoUCltknUSo9MDlO-25" value="" style="endArrow=classic;html=1;rounded=0;flowAnimation=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="alzlcoUCltknUSo9MDlO-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="72" y="106" as="sourcePoint" />
+            <mxPoint x="-222" y="305" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="alzlcoUCltknUSo9MDlO-27" value="" style="endArrow=classic;html=1;rounded=0;flowAnimation=1;exitX=0.164;exitY=0.983;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.205;entryY=0.012;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="alzlcoUCltknUSo9MDlO-16" target="alzlcoUCltknUSo9MDlO-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-408" y="15" as="sourcePoint" />
+            <mxPoint x="-357" y="-160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

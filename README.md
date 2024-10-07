@@ -1,7 +1,19 @@
-# llm-zoomcamp-capstone-01
+# Hello there, Traveler. Take a seat and ask about the game you'd like to buy and play..
+## Objective
+
+This repository contains the final project for the [LLM Zoomcamp](https://github.com/DataTalksClub/llm-zoomcamp) course provided by [DataTalks.Club](https://datatalks.club/).
+
+The primary objective of this project is to apply the knowledge and skills acquired throughout the course. The focus is on constructing a Retrieval-Augmented Generation (RAG) application. In essence, a RAG application enhances the capabilities of pre-trained, widely available language models (LLMs) by incorporating a Knowledge Base (KB). This Knowledge Base acts as a repository of information that the LLM can access whenever a query is made. Essentially, when a query is sent to the LLM, the response is strengthened by the locally maintained Knowledge Base, creating a symbiotic relationship that any organization can cultivate within its own environment.
+
+To build a RAG (Retrieval-Augmented Generation) application, [Elastisearch](https://airflow.apache.org/docs/apache-airflow/stable/index.html) is utilized as the Knowledge Base, providing powerful indexing and search capabilities. For operationalizing the application's usage, a combination of [Flask](https://kafka-python.readthedocs.io/en/master/), [Grafana](https://spark.apache.org/docs/latest/api/python/index.html), and [PostgreSQL](https://www.postgresql.org/) is employed. Flask serves as the backend framework, handling the API endpoints and routing requests, while Grafana is used for monitoring and visualizing system metrics, ensuring smooth performance and quick identification of issues. PostgreSQL functions as the database solution for storing and managing user activities, including feedback on whether the answers provided by the RAG application were meaningful. This enables reliable and efficient data persistence, ensuring that all interactions and feedback are recorded and easily accessible for future analysis. The integrated stack ensures that the application remains maintainable, delivering a comprehensive solution for handling RAG-based queries.
+
+ 
+The architectural overview of the project is depicted in the diagram below, providing a high-level perspective of the system's design and interactions.
+
+![Architecture Diagram](images/rag.svg)
 
 
-## Evaluation Criteria
+## Peer review criterias - a self assassment:
 
 * Problem description
     * 0 points: The problem is not described
