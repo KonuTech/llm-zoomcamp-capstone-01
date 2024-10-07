@@ -56,9 +56,9 @@ cd Parthenon-RAG-Game
 To configure the environment, execute:
 
 ```bash
-cp .env.example .env
+cp .envrc_template .env
 ```
-Alternatively, you can rename `.env.example` in the root directory to `.env`.
+Alternatively, you can rename `.envrc_template` in the root directory to `.env`.
 
 Key Environment Variables:
 

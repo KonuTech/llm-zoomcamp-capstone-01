@@ -1,5 +1,6 @@
 # Backend settings
 BACKEND_PORT=5000
+INDEX_NAME=reviews-steam
 OPENAI_API_KEY="YOUR_KEY"
 
 # Elasticsearch Configuration
