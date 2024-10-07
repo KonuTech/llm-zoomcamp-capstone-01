@@ -1,16 +1,17 @@
 import os
+from dotenv import load_dotenv
 import psycopg2
 from psycopg2.extras import DictCursor
 from datetime import datetime
 from zoneinfo import ZoneInfo
 
 
+load_dotenv()
+
 RUN_TIMEZONE_CHECK = os.getenv('RUN_TIMEZONE_CHECK', '1') == '1'
 
 TZ_INFO = os.getenv("TZ", "Europe/Warsaw")
 tz = ZoneInfo(TZ_INFO)
-
-
 
 
 def get_db_connection():
