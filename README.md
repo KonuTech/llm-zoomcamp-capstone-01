@@ -235,6 +235,15 @@ Answer: In "Baldur's Gate 3," players have expressed frustration with certain as
 ? How would you rate this response? +1 (Positive)
 Feedback sent. Status code: 200
 ```
+```
+? Enter your question: What is not liked about Forspoken?
+? Enter game title: Forspoken
+
+Answer: Forspoken has received criticism for its dialogue, which some reviewers found cringe-worthy and lacking depth. Additionally, the game has been noted for its lack of character development, leading to 
+a disconnect with the protagonist. Gameplay mechanics, including combat and parkour, have also been described as inconsistent, which detracts from the overall experience. Lastly, the open world has been criticized for feeling empty and not immersive enough.
+? How would you rate this response? +1 (Positive)
+Feedback sent. Status code: 200
+```
 
 If we decide to turn off the Elasticsearch database serving as the Knowledge Base, the answers to queries will be less comprehensive. You will also likely receive an indication about the missing reviews database, as well as information about the missing ```context```. Try it for yourself!
 
