@@ -5,6 +5,7 @@ from dotenv import load_dotenv
 from tqdm.auto import tqdm
 from openai import OpenAI
 
+
 load_dotenv()
 
 ELASTIC_URL = os.getenv("ELASTIC_URL", "http://localhost:9200")

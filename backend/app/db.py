@@ -13,7 +13,6 @@ RUN_TIMEZONE_CHECK = os.getenv('RUN_TIMEZONE_CHECK', '1') == '1'
 TZ_INFO = os.getenv("TZ", "Europe/Warsaw")
 tz = ZoneInfo(TZ_INFO)
 
-
 def get_db_connection():
     host=os.getenv("POSTGRES_HOST", "postgres")
     database = os.getenv("POSTGRES_DB", "reviews")

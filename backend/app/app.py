@@ -6,7 +6,6 @@ import db
 
 app = Flask(__name__)
 
-
 @app.route("/question", methods=["POST"])
 def handle_question():
     data = request.json
