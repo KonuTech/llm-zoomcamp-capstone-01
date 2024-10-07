@@ -8,7 +8,7 @@ The primary objective of this project is to apply the knowledge and skills acqui
 ## The Landscape
 In essence, a RAG application enhances the capabilities of pre-trained, widely available language models (LLMs) by incorporating a Knowledge Base (KB). This Knowledge Base acts as a repository of information that the LLM can access whenever a query is made. Essentially, when a query is sent to the LLM, the response is strengthened by the locally maintained Knowledge Base, creating a symbiotic relationship that any organization can cultivate within its own environment.
 
-To build a RAG (Retrieval-Augmented Generation) application, [Elastisearch](https://airflow.apache.org/docs/apache-airflow/stable/index.html) is utilized as the Knowledge Base, providing powerful indexing and search capabilities. For operationalizing the application's usage, a combination of [Flask](https://kafka-python.readthedocs.io/en/master/), [Grafana](https://spark.apache.org/docs/latest/api/python/index.html), and [PostgreSQL](https://www.postgresql.org/) is employed. Flask serves as the backend framework, handling the API endpoints and routing requests, while Grafana is used for monitoring and visualizing system metrics, ensuring smooth performance and quick identification of issues. PostgreSQL functions as the database solution for storing and managing user activities, including feedback on whether the answers provided by the RAG application were meaningful. This enables reliable and efficient data persistence, ensuring that all interactions and feedback are recorded and easily accessible for future analysis. The integrated stack ensures that the application remains maintainable, delivering a comprehensive solution for handling RAG-based queries.
+To build a RAG (Retrieval-Augmented Generation) application, [Elastisearch](https://www.elastic.co/docs) is utilized as the Knowledge Base, providing powerful indexing and search capabilities. For operationalizing the application's usage, a combination of [Flask](https://flask.palletsprojects.com/en/3.0.x/), [Grafana](https://grafana.com/docs/grafana/latest/), and [PostgreSQL](https://www.postgresql.org/) is employed. Flask serves as the backend framework, handling the API endpoints and routing requests, while Grafana is used for monitoring and visualizing system metrics, ensuring smooth performance and quick identification of issues. PostgreSQL functions as the database solution for storing and managing user activities, including feedback on whether the answers provided by the RAG application were meaningful. This enables reliable and efficient data persistence, ensuring that all interactions and feedback are recorded and easily accessible for future analysis. The integrated stack ensures that the application remains maintainable, delivering a comprehensive solution for handling RAG-based queries.
 
 ## The Lore
 The architectural overview of the project is depicted in the diagram below, providing a high-level perspective of the system's design and interactions.
@@ -73,53 +73,39 @@ To ensure reproducibility and set up your project environment, follow these guid
      ```
      pipenv shell
      ```
-   - Finally, install the project dependencies listed in the `Pipfile` by executing:
+   - Finally, install the project dependencies listed in the `Pipfile` by executing (yes, it takes a while):
      ```
      pipenv install
      ```
 
 4. **Docker Setup**:
+   - Next, build containerized apps: Flask, Elasticsearch, PostgreSQL, and Grafa by running:
+     ```
+     docker-compose build
+     ```
    - Start Dockerized apps:
      ```
      docker-compose up
      ```
-
-5. **PostgreSQL**
-   - Remember to create a table in PostgreSQL using the schema stored under scripts/earthquakes.sql.
-
+5. **Inexing Steam reviews**:
+We can now start indexing the pre-downloaded Steam reviews with Elasticsearch:
+     ```
+     python3 backend/app/prep.py
+     ```
 6. **Grafana**:
-    - Execute the Streamlit dashboard script located at `./scripts/dashboard.py`:
+    - For monitoring purposes, we can import a pre-built Grafana dashboard by running a script located at `./grafana/init.py`. First, ensure the `POSTGRES_HOST` environment variable is set to `postgres`:
       ```
-      streamlit run ./scripts/dashboard.py
+      export POSTGRES_HOST=postgres
+      cd grafana
+      python init.py
       ```
+    - Start Grafana at `http://localhost:3000/` and skip creation of a user.
 
-
-If above steps will fail try to use setup.sh script:
-   - Ensure the setup script `setup.sh` is executable:
-     ```
-     chmod +x setup.sh
-     ```
-   - Run the setup script to perform any additional setup tasks:
-     ```
-     ./setup.sh
-     ```
-To shutdown all Docker images use shutdown.sh script:
-   - Ensure the setup script `shutdown.sh` is executable:
-     ```
-     chmod +x shutdown.sh
-     ```
-   - Run the setup script to perform any additional setup tasks:
-     ```
-     ./shutdown.sh
-     ```
-
-Following these steps will help you establish a reproducible environment and set up your project for development or deployment.
 
 ### Check if everything works as intended: 
 
 Please use the screenshots below to visually validate if all of the steps/processes are working fine.
 
-Once the Kafka and Airflow images are up and running, the Docker Desktop view of a container should look as shown in the screenshot below.
 
 <img src="static/docker_01.jpg" width="60%"/>
 
