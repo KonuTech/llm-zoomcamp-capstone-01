@@ -1,4 +1,6 @@
 # Hello there, Traveler. Take a seat and ask about the game you'd like..
+<p align="center"><img src="images/06.jpg" width="60%"/></p>
+
 ## The Quest
 
 This repository contains the final project for the [LLM Zoomcamp](https://github.com/DataTalksClub/llm-zoomcamp) course provided by [DataTalks.Club](https://datatalks.club/).
@@ -140,7 +142,7 @@ If you would like to see how the reviews were downloaded, please check the [note
     - Start Grafana at `http://localhost:3000/` and skip creation of a user.
     The initial view of Grafana dashboard after initialization looks like on below screen shot:
 
-<img src="images/01.jpg" width="60%"/>
+<p align="center"><img src="images/01.jpg" width="60%"/></p>
 
 7. **App**:
 From the root, we can launch the CLI of our Q&A app:
@@ -153,7 +155,7 @@ Please, use the screenshots below to visually validate if all of the steps/proce
 
 If, for some reason, you do not have access to the indexed Knowledge Base, which now serves as Context for our future queries, you might see a similar answer to the one shown in the screenshot below:
 
-<img src="images/02.jpg" width="60%"/>
+<p align="center"><img src="images/02.jpg" width="60%"/></p>
 
 In that case try again:
 ```
@@ -177,7 +179,7 @@ Enter game title: God of War: Ragnarok
 ```
 
 An exemplary view of the Grafana dashboard after few Q&A sessions is shown below:
-<img src="images/04.jpg" width="60%"/>
+<p align="center"><img src="images/04.jpg" width="60%"/></p>
 
 The Elasticsearch database currently stores reviews for approximately 22 computer games. However, adding a game not on this list is not yet automated. You are welcome to pull reviews for additional games and manually index them into the Knowledge Base (K.B.).
 
@@ -265,3 +267,4 @@ Thank you for testing my RAG app. Cheers, and happy experimenting!
 * Best practices
     * 1 point: Hybrid search: combining both text and vector search (at least evaluating it)
     * 1 point: Document re-ranking
+<p align="center"><img src="images/05.jpg" width="60%"/></p>
