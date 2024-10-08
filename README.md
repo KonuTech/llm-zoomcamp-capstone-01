@@ -191,14 +191,23 @@ Regardless of the above, here are a few samples of my Q&A sessions:
 ? Enter your question: Is the game worth the price if it's performance in considered?
 ? Enter game title: God of War: Ragnarok
 
-Answer: God of War: Ragnarok delivers a captivating narrative and stunning visuals, contributing to an immersive gameplay experience. Most reviews highlight that while the performance is generally strong, there are occasional frame drops, especially during intense sequences. However, the overall quality of the game, including its engaging story and character development, suggests that it remains worth the price for many players, despite these minor performance issues.
+Answer: God of War: Ragnarok delivers a captivating narrative and stunning visuals,
+contributing to an immersive gameplay experience.
+Most reviews highlight that while the performance is generally strong,
+there are occasional frame drops, especially during intense sequences.
+However, the overall quality of the game,
+including its engaging story and character development,
+suggests that it remains worth the price for many players,
+despite these minor performance issues.
 ? How would you rate this response? +1 (Positive)
 ```
 ```
 ? Enter your question: Is God of War launching with controller?
 ? Enter game title: God of War: Ragnarok
 
-Answer: The provided context does not contain information regarding whether "God of War: Ragnarok" is launchinagnarok" is launching with a controller. Therefore, I cannot determine if it is launching  contrlely on the av
+Answer: The provided context does not contain information regarding whether
+"God of War: Ragnarok" is launchinagnarok" is launching with a controller.
+Therefore, I cannot determine if it is launching  contrlely on the av
 with a controller based solely on the available facts.
 ? How would you rate this response? -1 (Negative)
 ```
@@ -206,7 +215,9 @@ with a controller based solely on the available facts.
 ? Enter your question: Is this game open world with outpost capture mechanics?
 ? Enter game title: Far Cry 5
 
-Answer: Yes, "Far Cry 5" is an open world game that includes outpost capture mechanics. Players can explore a ayers can explore a large open environment and engage in taking over enemy outposts as parhe gamt of the gameplay.
+Answer: Yes, "Far Cry 5" is an open world game that includes outpost capture mechanics.
+Players can explore a ayers can explore a large open environment
+and engage in taking over enemy outposts as parhe gamt of the gameplay.
 ? How would you rate this response? +1 (Positive)
 ```
 ```
@@ -220,23 +231,30 @@ Answer: Based on the context from our reviews database, "God of War: Ragnarok" i
 ? Enter your question: How are reviewed fighting mechanics?
 ? Enter game title: Baldur's Gate 3
 
-Answer: The fighting mechanics in "Baldur's Gate 3" have been positively reviewed. They incorporate turn-based combat that is strategic and engaging, allowing players to utilize various character abilities and environmental elements effectively. The mechanics encourage 
-thoughtful planning and tactical decision-making, making each battle feel impactful and rewarding.
+Answer: The fighting mechanics in "Baldur's Gate 3" have been positively reviewed.
+They incorporate turn-based combat that is strategic and engaging, allowing players
+to utilize various character abilities and environmental elements effectively.
+The mechanics encourage 
+thoughtful planning and tactical decision-making,making each battle feel impactful and rewarding.
 ? How would you rate this response? +1 (Positive)
 ```
 ```
 ? Enter your question: What is not liked by players?
 ? Enter game title: Baldur's Gate 3
 
-Answer: In "Baldur's Gate 3," players have expressed frustration with certain aspects, specifically the length of the game and its pacing. Some find that it can drag on in parts, leading to feelings of fatigue. Additionally, there are concerns regarding bugs and technical issues, which have detracted from the overall experience for some players.
+Answer: In "Baldur's Gate 3," players have expressed frustration with certain aspects,
+specifically the length of the game and its pacing. Some find that it can drag on in parts, leading to feelings of fatigue.
+Additionally, there are concerns regarding bugs and technical issues, which have detracted from the overall experience for some players.
 ? How would you rate this response? +1 (Positive)
 ```
 ```
 ? Enter your question: What is not liked about Forspoken?
 ? Enter game title: Forspoken
 
-Answer: Forspoken has received criticism for its dialogue, which some reviewers found cringe-worthy and lacking depth. Additionally, the game has been noted for its lack of character development, leading to 
-a disconnect with the protagonist. Gameplay mechanics, including combat and parkour, have also been described as inconsistent, which detracts from the overall experience. Lastly, the open world has been criticized for feeling empty and not immersive enough.
+Answer: Forspoken has received criticism for its dialogue, which some reviewers found cringe-worthy and lacking depth.
+Additionally, the game has been noted for its lack of character development, leading to 
+a disconnect with the protagonist. Gameplay mechanics, including combat and parkour, have also been described as inconsistent,
+which detracts from the overall experience. Lastly, the open world has been criticized for feeling empty and not immersive enough.
 ? How would you rate this response? +1 (Positive)
 ```
 
