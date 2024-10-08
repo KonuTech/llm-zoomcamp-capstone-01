@@ -3,12 +3,16 @@
 
 This repository contains the final project for the [LLM Zoomcamp](https://github.com/DataTalksClub/llm-zoomcamp) course provided by [DataTalks.Club](https://datatalks.club/).
 
-The primary objective of this project is to apply the knowledge and skills acquired throughout the course. The focus is on constructing a Retrieval-Augmented Generation (RAG) application, which will enhance the generative capabilities of a selected LLM in providing answers to user queries about computer games. For example, if a new game like God of War: Ragnarok has just been released, a user might ask our RAG application for opinions about the game's general state. Based on the responses, the user could decide whether to buy the game immediately or wait until the price drops or bugs from the initial release are fixed.
+The primary objective of this project is to apply the knowledge and skills acquired throughout the course. The focus is on constructing a Retrieval-Augmented Generation (RAG) application, which will enhance the generative capabilities of a selected LLM in providing answers to user queries about computer games. For example, if a new game like God of War: Ragnarok has just been released, a user might ask RAG application for opinions about the game's general state. Based on the responses, the user could decide whether to buy the game immediately or wait until the price drops or bugs from the initial release are fixed.
 
 ## The Landscape
 In essence, a RAG application enhances the capabilities of pre-trained, widely available language models (LLMs) by incorporating a Knowledge Base (KB). This Knowledge Base acts as a repository of information that the LLM can access whenever a query is made. Essentially, when a query is sent to the LLM, the response is strengthened by the locally maintained Knowledge Base, creating a symbiotic relationship that any organization can cultivate within its own environment.
 
-To build a RAG (Retrieval-Augmented Generation) application, [Elastisearch](https://www.elastic.co/docs) is utilized as the Knowledge Base, providing powerful indexing and search capabilities. For operationalizing the application's usage, a combination of [Flask](https://flask.palletsprojects.com/en/3.0.x/), [Grafana](https://grafana.com/docs/grafana/latest/), and [PostgreSQL](https://www.postgresql.org/) is employed. Flask serves as the backend framework, handling the API endpoints and routing requests, while Grafana is used for monitoring and visualizing system metrics, ensuring smooth performance and quick identification of issues. PostgreSQL functions as the database solution for storing and managing user activities, including feedback on whether the answers provided by the RAG application were meaningful. This enables reliable and efficient data persistence, ensuring that all interactions and feedback are recorded and easily accessible for future analysis. The integrated stack ensures that the application remains maintainable, delivering a comprehensive solution for handling RAG-based queries.
+To build a RAG (Retrieval-Augmented Generation) application, [Elastisearch](https://www.elastic.co/docs) is utilized as the Knowledge Base, providing powerful indexing and search capabilities. For operationalizing the application's usage, a combination of [Flask](https://flask.palletsprojects.com/en/3.0.x/), [Grafana](https://grafana.com/docs/grafana/latest/), and [PostgreSQL](https://www.postgresql.org/) is employed.
+
+Flask serves as the backend framework, handling the API endpoints and routing requests, while Grafana is used for monitoring and visualizing system metrics, ensuring smooth performance and quick identification of issues. 
+
+PostgreSQL functions as the database solution for storing and managing user activities, including feedback on whether the answers provided by the RAG application were meaningful. This enables reliable and efficient data persistence, ensuring that all interactions and feedback are recorded and easily accessible for future analysis. The integrated stack ensures that the application remains maintainable, delivering a comprehensive solution for handling RAG-based queries.
 
 ## The Lore
 The architectural overview of the project is depicted in the diagram below, providing a high-level perspective of the system's design and interactions.
@@ -32,13 +36,13 @@ The architectural overview of the project is depicted in the diagram below, prov
 
 
 
-## How to kill a dragon each time the same way
+## How to kill a dragon?
 ### Pre-requisties
 
 * Python 3.10 or above
 * Docker Desktop
 * allowed virtualization in BIOS
-* OpanAI API KEY
+* OpenAI API key
 
 ### Project Setup Guidelines
 
@@ -50,10 +54,10 @@ To ensure reproducibility and set up your project environment, follow these guid
 To clone the repository, run the following command:
 
 ```bash
-git clone https://github.com/dimzachar/Parthenon-RAG-Game.git
-cd Parthenon-RAG-Game
+git clone https://github.com/KonuTech/llm-zoomcamp-capstone-01.git
+cd llm-zoomcamp-capstone-01
 ```
-1. **Clone the Repository**:
+1. **Set enviroment variables**:
 To configure the environment, execute:
 
 ```bash
@@ -65,10 +69,10 @@ Key Environment Variables:
 
 - **ELASTIC_URL**: Elasticsearch connection URL
 - **POSTGRES_DB**, **POSTGRES_USER**, **POSTGRES_PASSWORD**: PostgreSQL connection details
-- **OPENAI_API_KEY**: Your OpenAI API key for LLM interactions
-- **INDEX_NAME**: Name of the Elasticsearch index for the knowledge base
+- **OPENAI_API_KEY**: your OpenAI API key for LLM interactions
+- **INDEX_NAME**: name of the Elasticsearch index for the knowledge base
 
-Make sure to replace `YOUR_KEY` with your OpenAI API key.
+Replace `YOUR_KEY` with your OpenAI API key.
 
 2. **Virtual Environment Setup**:
    - Create a virtual environment named `.venv` using Python's built-in `venv` module:
@@ -106,7 +110,7 @@ Make sure to replace `YOUR_KEY` with your OpenAI API key.
      ```
 
 5. **Docker Setup**:
-   - Next, build the containerized apps, namely: Flask, Elasticsearch, PostgreSQL, and Grafana by running below command (yes, this will also take a while).
+   - Next, build up the containerized apps, namely: Flask, Elasticsearch, PostgreSQL, and Grafana by running below command (yes, this one takes a while as well).
      ```
      docker-compose build
      ```
@@ -115,11 +119,11 @@ Make sure to replace `YOUR_KEY` with your OpenAI API key.
      docker-compose up -d
      ```
 6. **Inexing Steam reviews**:
-We can now start indexing the pre-downloaded Steam reviews with Elasticsearch:
+Now, we can begin indexing the pre-downloaded Steam reviews for approximately twenty computer games, stored as the [Ground Truth](https://github.com/KonuTech/llm-zoomcamp-capstone-01/blob/main/backend/app/data/ground_truth_retrieval.json) dataset, into Elasticsearch:
      ```
      python3 backend/app/prep.py
      ```
-Again, this process will take a while. As feedback, you will encounter a lot of output log being printed to your terminal.
+Again, this process will take a while. As feedback, you will encounter a lot of output logs being printed to your terminal.
 
 
 If you would like to see how the reviews were downloaded, please check the [notebook](https://github.com/KonuTech/llm-zoomcamp-capstone-01/blob/main/notebooks/001_rag_test_002.ipynb). There, you will find the `SteamReviewFetcher` class.
@@ -139,19 +143,19 @@ If you would like to see how the reviews were downloaded, please check the [note
 <img src="images/01.jpg" width="60%"/>
 
 7. **App**:
-From the root, start the app with:
+From the root, we can launch the CLI of our Q&A app:
 ```
 pipenv run python cli.py
 ```
 ### Check if everything works as intended: 
 
-Please use the screenshots below to visually validate if all of the steps/processes are working fine.
+Please, use the screenshots below to visually validate if all of the steps/processes are working fine.
 
-If for some reason you will not have an access to indexed Knowgladge Base you might see similar answer as on below screen shot:
+If, for some reason, you do not have access to the indexed Knowledge Base, which now serves as Context for our future queries, you might see a similar answer to the one shown in the screenshot below:
 
 <img src="images/02.jpg" width="60%"/>
 
-In that case try:
+In that case try again:
 ```
 docker-compose down
 ```
@@ -166,18 +170,20 @@ docker-compose up -d
 On my end, after restarting the app, I was able to retrieve meaningful answers generated by the LLM, with each answer reinforced by the Knowledge Base stored as an Elasticsearch vector database.
 <img src="images/03.jpg" width="60%"/>
 
-The inputs from my example are:
+The inputs from above example are:
 ```
-? Enter your question: Is the game worth the price if it's performance in considered?
-? Enter game title: God of War: Ragnarok
+Enter your question: Is the game worth the price if it's performance in considered?
+Enter game title: God of War: Ragnarok
 ```
 
 An exemplary view of the Grafana dashboard after few Q&A sessions is shown below:
 <img src="images/04.jpg" width="60%"/>
 
-The Elasticsearch database stores reviews for about 22 computer games. At the moment, the addition of a game not on the list from the notebook mentioned above is not automated. Please feel free to pull reviews for different games and try to index them to K.B. by yourself. Currently, the logic responsible for pulling the reviews, stored as JSON documents, is implemented in a [notebook](https://github.com/KonuTech/llm-zoomcamp-capstone-01/blob/main/notebooks/001_rag_test_002.ipynb). Add the game title to the list and download the reviews. Continue with the steps from another notebook stored under ```./notebooks.``` The names of notebooks are implying order of execution. If you are feeling adventurous, you can start the DEV environment along with Jupyter Lab by running ```docker compose --file docker-compose.dev.yml up```. Once you manage to go through the notebooks, move or copy reviews and ```ground_truth_retrieval.json``` to ```./backend/app/data/``` or ```./backend/app/data/reviews```, and reindex the Knowledge Base with ```python3 backend/app/prep.py```.
+The Elasticsearch database currently stores reviews for approximately 22 computer games. However, adding a game not on this list is not yet automated. You are welcome to pull reviews for additional games and manually index them into the Knowledge Base (K.B.).
 
-Regardless of the above, here are a few samples of my Q&A prompts:
+At present, the logic for pulling reviews, which are stored as JSON documents, is implemented in a [notebook](https://github.com/KonuTech/llm-zoomcamp-capstone-01/blob/main/notebooks/001_rag_test_002.ipynb). Add the game title to the list and download the reviews. Continue with the steps from another notebook stored under ```./notebooks.``` The names of notebooks are implying order of execution. If you are feeling adventurous, you can start the DEV environment along with Jupyter Lab by running ```docker compose --file docker-compose.dev.yml up```. Once you manage to go through the notebooks, move or copy reviews to```./backend/app/data/reviews```and ```ground_truth_retrieval.json``` to and ```./backend/app/data/```. Reindex the Knowledge Base with ```python3 backend/app/prep.py```.
+
+Regardless of the above, here are a few samples of my Q&A sessions:
 
 ```
 ? Enter your question: Is the game worth the price if it's performance in considered?
@@ -185,10 +191,7 @@ Regardless of the above, here are a few samples of my Q&A prompts:
 
 Answer: God of War: Ragnarok delivers a captivating narrative and stunning visuals, contributing to an immersive gameplay experience. Most reviews highlight that while the performance is generally strong, there are occasional frame drops, especially during intense sequences. However, the overall quality of the game, including its engaging story and character development, suggests that it remains worth the price for many players, despite these minor performance issues.
 ? How would you rate this response? +1 (Positive)
-Feedback sent. Status code: 200
-? Do you want to continue? Yes
 ```
-
 ```
 ? Enter your question: Is God of War launching with controller?
 ? Enter game title: God of War: Ragnarok
@@ -196,8 +199,6 @@ Feedback sent. Status code: 200
 Answer: The provided context does not contain information regarding whether "God of War: Ragnarok" is launchinagnarok" is launching with a controller. Therefore, I cannot determine if it is launching  contrlely on the av
 with a controller based solely on the available facts.
 ? How would you rate this response? -1 (Negative)
-Feedback sent. Status code: 200
-? Do you want to continue? Yes
 ```
 ```
 ? Enter your question: Is this game open world with outpost capture mechanics?
@@ -205,8 +206,6 @@ Feedback sent. Status code: 200
 
 Answer: Yes, "Far Cry 5" is an open world game that includes outpost capture mechanics. Players can explore a ayers can explore a large open environment and engage in taking over enemy outposts as parhe gamt of the gameplay.
 ? How would you rate this response? +1 (Positive)
-Feedback sent. Status code: 200
-? Do you want to continue? Yes
 ```
 ```
 ? Enter your question: Is God of War a game for kids?
@@ -214,8 +213,6 @@ Feedback sent. Status code: 200
 
 Answer: Based on the context from our reviews database, "God of War: Ragnarok" is not typically not be suitablcally considered a game for kids. The game features mature themes, intense violence, and slanguatrong language, which may not be suitable for a younger audience. It is generally rated fos and r older teens and adults.
 ? How would you rate this response? +1 (Positive)
-Feedback sent. Status code: 200
-? Do you want to continue? Yes
 ```
 ```
 ? Enter your question: How are reviewed fighting mechanics?
@@ -224,8 +221,6 @@ Feedback sent. Status code: 200
 Answer: The fighting mechanics in "Baldur's Gate 3" have been positively reviewed. They incorporate turn-based combat that is strategic and engaging, allowing players to utilize various character abilities and environmental elements effectively. The mechanics encourage 
 thoughtful planning and tactical decision-making, making each battle feel impactful and rewarding.
 ? How would you rate this response? +1 (Positive)
-Feedback sent. Status code: 200
-? Do you want to continue? Yes
 ```
 ```
 ? Enter your question: What is not liked by players?
@@ -233,7 +228,6 @@ Feedback sent. Status code: 200
 
 Answer: In "Baldur's Gate 3," players have expressed frustration with certain aspects, specifically the length of the game and its pacing. Some find that it can drag on in parts, leading to feelings of fatigue. Additionally, there are concerns regarding bugs and technical issues, which have detracted from the overall experience for some players.
 ? How would you rate this response? +1 (Positive)
-Feedback sent. Status code: 200
 ```
 ```
 ? Enter your question: What is not liked about Forspoken?
@@ -242,12 +236,11 @@ Feedback sent. Status code: 200
 Answer: Forspoken has received criticism for its dialogue, which some reviewers found cringe-worthy and lacking depth. Additionally, the game has been noted for its lack of character development, leading to 
 a disconnect with the protagonist. Gameplay mechanics, including combat and parkour, have also been described as inconsistent, which detracts from the overall experience. Lastly, the open world has been criticized for feeling empty and not immersive enough.
 ? How would you rate this response? +1 (Positive)
-Feedback sent. Status code: 200
 ```
 
-If we decide to turn off the Elasticsearch database serving as the Knowledge Base, the answers to queries will be less comprehensive. You will also likely receive an indication about the missing reviews database, as well as information about the missing ```context```. Try it for yourself!
+If we decide to turn off the Elasticsearch database serving as the Knowledge Base, the answers to queries will be less comprehensive. You will also likely receive an indication about the missing reviews database, as well as information about the missing ```context```. Feel free to check that as well.
 
-Cheers, and happy experimenting!
+Thank you for testing my RAG app. Cheers, and happy experimenting!
 
 ## Peer review criterias - a self assassment:
 
