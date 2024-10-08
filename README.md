@@ -224,7 +224,9 @@ and engage in taking over enemy outposts as parhe gamt of the gameplay.
 ? Enter your question: Is God of War a game for kids?
 ? Enter game title: God of War: Ragnarok
 
-Answer: Based on the context from our reviews database, "God of War: Ragnarok" is not typically not be suitablcally considered a game for kids. The game features mature themes, intense violence, and slanguatrong language, which may not be suitable for a younger audience. It is generally rated fos and r older teens and adults.
+Answer: Based on the context from our reviews database, "God of War: Ragnarok" is not typically not be
+suitablcally considered a game for kids. The game features mature themes, intense violence, and slanguatrong language,
+which may not be suitable for a younger audience. It is generally rated fos and r older teens and adults.
 ? How would you rate this response? +1 (Positive)
 ```
 ```
@@ -244,7 +246,8 @@ thoughtful planning and tactical decision-making,making each battle feel impactf
 
 Answer: In "Baldur's Gate 3," players have expressed frustration with certain aspects,
 specifically the length of the game and its pacing. Some find that it can drag on in parts, leading to feelings of fatigue.
-Additionally, there are concerns regarding bugs and technical issues, which have detracted from the overall experience for some players.
+Additionally, there are concerns regarding bugs and technical issues,
+which have detracted from the overall experience for some players.
 ? How would you rate this response? +1 (Positive)
 ```
 ```
@@ -254,7 +257,8 @@ Additionally, there are concerns regarding bugs and technical issues, which have
 Answer: Forspoken has received criticism for its dialogue, which some reviewers found cringe-worthy and lacking depth.
 Additionally, the game has been noted for its lack of character development, leading to 
 a disconnect with the protagonist. Gameplay mechanics, including combat and parkour, have also been described as inconsistent,
-which detracts from the overall experience. Lastly, the open world has been criticized for feeling empty and not immersive enough.
+which detracts from the overall experience. Lastly, the open world has been criticized for feeling empty
+and not immersive enough.
 ? How would you rate this response? +1 (Positive)
 ```
 
